@@ -1,7 +1,3 @@
-// ============================================================
-// File: frontend-web/src/pages/Login.jsx
-// ============================================================
-
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext.jsx'
@@ -28,11 +24,17 @@ export default function Login() {
 
   return (
     <div style={styles.wrap}>
-      <div style={styles.card}>
+      <div className="card" style={styles.card}>
         <div style={styles.top}>
-          <span style={styles.logoMark}>◈</span>
-          <h2 style={{ margin: '12px 0 4px' }}>Welcome back</h2>
-          <p className="text-muted" style={{ fontSize: '14px' }}>Sign in to your CAP counseling account</p>
+          <div style={styles.logoMark}>
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5z" />
+              <path d="M2 17l10 5 10-5" />
+              <path d="M2 12l10 5 10-5" />
+            </svg>
+          </div>
+          <h2 style={{ fontSize: '28px', margin: '16px 0 8px' }}>Welcome back</h2>
+          <p className="text-muted" style={{ fontSize: '15px' }}>Sign in to your CAP counseling portal</p>
         </div>
 
         {error && <div className="alert alert-error">{error}</div>}
@@ -48,26 +50,29 @@ export default function Login() {
             <input name="password" type="password" value={form.password}
               onChange={handle} placeholder="••••••••" required />
           </div>
+          <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '8px' }}>
+             <span style={{ fontSize: '13px', color: 'var(--gray-500)', cursor: 'pointer' }}>Forgot password?</span>
+          </div>
           <button type="submit" className="btn btn-primary btn-full btn-lg"
             disabled={loading}>
-            {loading ? 'Signing in…' : 'Sign in →'}
+            {loading ? 'Authenticating...' : 'Sign In'}
           </button>
         </form>
 
-        <p style={styles.foot}>
-          Don't have an account?{' '}
-          <Link to="/register" style={{ color: 'var(--amber)' }}>Create one free</Link>
-        </p>
+        <div style={styles.foot}>
+          <span className="text-muted">Don't have an account?</span>{' '}
+          <Link to="/register" style={{ color: 'var(--navy)', fontWeight: '600' }}>Create free account</Link>
+        </div>
       </div>
     </div>
   )
 }
 
 const styles = {
-  wrap: { display:'flex', alignItems:'center', justifyContent:'center', minHeight:'80vh', padding:'24px' },
-  card: { background:'var(--navy-card)', border:'1px solid rgba(255,255,255,0.08)', borderRadius:'var(--radius-lg)', padding:'40px', width:'100%', maxWidth:'400px' },
-  top:  { textAlign:'center', marginBottom:'28px' },
-  logoMark: { fontSize:'32px', color:'var(--amber)' },
-  form: { display:'flex', flexDirection:'column', gap:'16px', marginBottom:'20px' },
-  foot: { textAlign:'center', fontSize:'14px', color:'var(--gray-2)' },
+  wrap: { display:'flex', alignItems:'center', justifyContent:'center', minHeight:'calc(100vh - 200px)', padding:'40px 24px' },
+  card: { padding:'48px', width:'100%', maxWidth:'440px', boxShadow: 'var(--shadow-lg)' },
+  top:  { textAlign:'center', marginBottom:'32px' },
+  logoMark: { display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: '64px', height: '64px', background: 'var(--gray-100)', color: 'var(--navy)', borderRadius: '16px' },
+  form: { display:'flex', flexDirection:'column', gap:'12px', marginBottom:'32px' },
+  foot: { textAlign:'center', fontSize:'14px', paddingTop: '24px', borderTop: '1px solid var(--gray-200)' },
 }

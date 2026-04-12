@@ -12,6 +12,12 @@
 - The backend supports Replit PostgreSQL environment variables (`DATABASE_URL` or `PG*` variables).
 - Development database was initialized from `database/schema.sql` and `database/seed.sql`.
 - For production, the backend can serve the built frontend when `SERVE_FRONTEND=true` or `NODE_ENV=production`.
+- Backend CORS allows all origins in development so the Replit preview proxy can call local APIs; production remains controlled by `ALLOWED_ORIGINS`.
+
+## Frontend design
+- The React frontend now uses a professional navy/amber admissions-focused design system in `frontend-web/src/assets/styles/index.css`.
+- Primary UI surfaces updated: landing page, navigation, auth screens, dashboard, profile/input form, results, documents, mentorship, feedback, college cards, and chatbot widget.
+- UI is still React component-based; no separate static HTML/CSS frontend was introduced.
 
 ## Commands
 - Frontend dependencies: `frontend-web/package.json`

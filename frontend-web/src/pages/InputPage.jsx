@@ -1,7 +1,3 @@
-// ============================================================
-// File: frontend-web/src/pages/InputPage.jsx
-// ============================================================
-
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import api from '../services/api'
@@ -34,57 +30,60 @@ export default function InputPage() {
     e.preventDefault(); setError(''); setLoading(true)
     try {
       await api.post('/student/', { ...form, percentile: parseFloat(form.percentile), budget_max: form.budget_max ? parseInt(form.budget_max) : null })
-      setSuccess('Profile saved! Redirecting to dashboard…')
+      setSuccess('Profile updated successfully. Routing to analytics...')
       setTimeout(() => navigate('/dashboard'), 1500)
     } catch (err) {
       if (err.response?.status === 409) {
-        // Already exists — update instead
         try {
           await api.put('/student/profile', { ...form, percentile: parseFloat(form.percentile), budget_max: form.budget_max ? parseInt(form.budget_max) : null })
-          setSuccess('Profile updated! Redirecting…')
+          setSuccess('Profile modifications saved. Routing to analytics...')
           setTimeout(() => navigate('/dashboard'), 1500)
-        } catch (e2) { setError(e2.response?.data?.message || 'Update failed') }
+        } catch (e2) { setError(e2.response?.data?.message || 'Transaction failed.') }
       } else {
-        setError(err.response?.data?.message || 'Save failed')
+        setError(err.response?.data?.message || 'Transaction failed.')
       }
     } finally { setLoading(false) }
   }
 
   return (
     <div className="page">
-      <div className="container" style={{ maxWidth:'700px' }}>
-        <h1 style={{ marginBottom:'8px' }}>Your Academic Profile</h1>
-        <p className="text-muted" style={{ marginBottom:'32px' }}>This information drives your AI predictions and CAP list.</p>
+      <div className="container" style={{ maxWidth:'760px' }}>
+        <div style={{ marginBottom: '40px' }}>
+          <h1 style={{ fontSize: '32px', marginBottom:'12px' }}>Academic Input Form</h1>
+          <p className="text-muted" style={{ fontSize: '16px' }}>Provide precise academic metrics and strategic constraints to optimize your CAP allocation.</p>
+        </div>
 
         {error   && <div className="alert alert-error">{error}</div>}
         {success && <div className="alert alert-success">{success}</div>}
 
-        <form onSubmit={submit} style={{ display:'flex', flexDirection:'column', gap:'20px' }}>
+        <form onSubmit={submit} style={{ display:'flex', flexDirection:'column', gap:'32px' }}>
           <div className="card">
-            <h3 style={{ marginBottom:'18px' }}>Exam Details</h3>
+            <h3 style={{ fontSize: '18px', fontFamily: 'var(--font-sans)', fontWeight: '700', marginBottom:'24px', paddingBottom: '16px', borderBottom: '1px solid var(--gray-200)' }}>
+              Core Credentials
+            </h3>
             <div className="grid-2">
               <div className="form-group">
-                <label>Percentile *</label>
+                <label>Percentile Indicator *</label>
                 <input type="number" min="0" max="100" step="0.01"
                   value={form.percentile} onChange={e => set('percentile', e.target.value)}
-                  placeholder="e.g. 94.5" required />
+                  placeholder="e.g. 94.50" required />
               </div>
               <div className="form-group">
-                <label>Exam Type *</label>
+                <label>Examination Framework *</label>
                 <select value={form.exam_type} onChange={e => set('exam_type', e.target.value)}>
                   <option>CET</option><option>JEE</option>
                 </select>
               </div>
               <div className="form-group">
-                <label>Category *</label>
+                <label>Reservation Category *</label>
                 <select value={form.category} onChange={e => set('category', e.target.value)}>
                   {CATEGORIES.map(c => <option key={c}>{c}</option>)}
                 </select>
               </div>
               <div className="form-group">
-                <label>Gender</label>
+                <label>Gender Code</label>
                 <select value={form.gender} onChange={e => set('gender', e.target.value)}>
-                  <option value="">Select…</option>
+                  <option value="">Unspecified</option>
                   <option>Male</option><option>Female</option><option>Other</option>
                 </select>
               </div>
@@ -92,53 +91,58 @@ export default function InputPage() {
           </div>
 
           <div className="card">
-            <h3 style={{ marginBottom:'18px' }}>Branch Preferences</h3>
-            <p className="text-muted" style={{ fontSize:'13px', marginBottom:'14px' }}>Select in order of preference (first = top priority)</p>
-            <div style={{ display:'flex', flexWrap:'wrap', gap:'8px' }}>
+            <h3 style={{ fontSize: '18px', fontFamily: 'var(--font-sans)', fontWeight: '700', marginBottom:'8px' }}>Discipline Routing</h3>
+            <p className="text-muted" style={{ fontSize:'14px', marginBottom:'24px' }}>Toggle and sequence target engineering disciplines. Priority flows left-to-right.</p>
+            <div style={{ display:'flex', flexWrap:'wrap', gap:'12px' }}>
               {BRANCHES.map(b => (
                 <button type="button" key={b}
                   onClick={() => toggleArr('branch_preferences', b)}
                   style={{
-                    padding:'6px 14px', borderRadius:'99px', fontSize:'13px', cursor:'pointer', border:'1px solid',
-                    borderColor: form.branch_preferences.includes(b) ? 'var(--amber)' : 'rgba(255,255,255,0.15)',
-                    background:  form.branch_preferences.includes(b) ? 'rgba(245,166,35,0.15)' : 'transparent',
-                    color:       form.branch_preferences.includes(b) ? 'var(--amber)' : 'var(--gray-2)',
+                    padding:'8px 16px', borderRadius:'var(--radius-full)', fontSize:'14px', fontWeight: '500', cursor:'pointer', border:'2px solid',
+                    borderColor: form.branch_preferences.includes(b) ? 'var(--navy)' : 'var(--gray-300)',
+                    background:  form.branch_preferences.includes(b) ? 'var(--navy)' : 'var(--white)',
+                    color:       form.branch_preferences.includes(b) ? 'var(--white)' : 'var(--gray-600)',
+                    transition:  'var(--transition)'
                   }}>
-                  {form.branch_preferences.includes(b) && `${form.branch_preferences.indexOf(b)+1}. `}{b}
+                  {form.branch_preferences.includes(b) && <span style={{ opacity: 0.7, marginRight: '6px' }}>{form.branch_preferences.indexOf(b)+1}.</span>}
+                  {b}
                 </button>
               ))}
             </div>
           </div>
 
           <div className="card">
-            <h3 style={{ marginBottom:'18px' }}>Preferences</h3>
+            <h3 style={{ fontSize: '18px', fontFamily: 'var(--font-sans)', fontWeight: '700', marginBottom:'24px', paddingBottom: '16px', borderBottom: '1px solid var(--gray-200)' }}>
+              Operational Constraints
+            </h3>
             <div className="grid-2">
               <div className="form-group">
-                <label>Location preference</label>
-                <div style={{ display:'flex', flexWrap:'wrap', gap:'6px', marginTop:'4px' }}>
+                <label>Geographic Thresholds</label>
+                <div style={{ display:'flex', flexWrap:'wrap', gap:'8px', marginTop:'8px' }}>
                   {LOCATIONS.map(l => (
                     <button type="button" key={l}
                       onClick={() => toggleArr('location_preferences', l)}
                       style={{
-                        padding:'4px 12px', borderRadius:'99px', fontSize:'12px', cursor:'pointer', border:'1px solid',
-                        borderColor: form.location_preferences.includes(l) ? 'var(--amber)' : 'rgba(255,255,255,0.15)',
-                        background:  form.location_preferences.includes(l) ? 'rgba(245,166,35,0.15)' : 'transparent',
-                        color:       form.location_preferences.includes(l) ? 'var(--amber)' : 'var(--gray-2)',
+                        padding:'6px 14px', borderRadius:'var(--radius-full)', fontSize:'13px', fontWeight: '500', cursor:'pointer', border:'1px solid',
+                        borderColor: form.location_preferences.includes(l) ? 'var(--amber-dark)' : 'var(--gray-300)',
+                        background:  form.location_preferences.includes(l) ? 'var(--amber)' : 'var(--white)',
+                        color:       form.location_preferences.includes(l) ? 'var(--navy)' : 'var(--gray-600)',
+                        transition:  'var(--transition)'
                       }}>
                       {l}
                     </button>
                   ))}
                 </div>
               </div>
-              <div style={{ display:'flex', flexDirection:'column', gap:'12px' }}>
+              <div style={{ display:'flex', flexDirection:'column', gap:'16px' }}>
                 <div className="form-group">
-                  <label>College type</label>
+                  <label>Institutional Architecture</label>
                   <select value={form.college_type} onChange={e => set('college_type', e.target.value)}>
                     {['Any','Government','Aided','Unaided','Autonomous'].map(t => <option key={t}>{t}</option>)}
                   </select>
                 </div>
                 <div className="form-group">
-                  <label>Max annual fees (₹)</label>
+                  <label>Financial Limit (₹ Annual)</label>
                   <input type="number" value={form.budget_max}
                     onChange={e => set('budget_max', e.target.value)}
                     placeholder="e.g. 150000" />
@@ -147,9 +151,11 @@ export default function InputPage() {
             </div>
           </div>
 
-          <button type="submit" className="btn btn-primary btn-lg" disabled={loading}>
-            {loading ? 'Saving…' : 'Save Profile & Go to Dashboard →'}
-          </button>
+          <div style={{ display: 'flex', justifyContent: 'flex-end', paddingTop: '16px' }}>
+            <button type="submit" className="btn btn-primary btn-lg" disabled={loading} style={{ minWidth: '240px' }}>
+              {loading ? 'Committing Data...' : 'Commit Configuration'}
+            </button>
+          </div>
         </form>
       </div>
     </div>
