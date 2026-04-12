@@ -4,6 +4,8 @@
 // ============================================================
 
 const express = require('express');
+const path    = require('path');
+const fs      = require('fs');
 const { helmetConfig }    = require('./security/helmetConfig');
 const { corsConfig }      = require('./security/corsConfig');
 const { rateLimiter }     = require('./middleware/rateLimiter');
@@ -62,6 +64,23 @@ app.use('/api/recommendations', recommendationRoutes);
 app.use('/api/feedback',        feedbackRoutes);
 app.use('/api/mentorship',      mentorshipRoutes);
 app.use('/api/pdf',             pdfRoutes);
+
+if (process.env.SERVE_FRONTEND === 'true' || process.env.NODE_ENV === 'production') {
+  const frontendDist = path.resolve(__dirname, '../frontend-web/dist');
+  const indexFile = path.join(frontendDist, 'index.html');
+
+  if (fs.existsSync(indexFile)) {
+    app.use(express.static(frontendDist));
+    app.get('*', (req, res, next) => {
+      if (req.path.startsWith('/api') || req.path === '/health') {
+        return next();
+      }
+      return res.sendFile(indexFile);
+    });
+  } else {
+    logger.warn(`Frontend build not found at ${frontendDist}`);
+  }
+}
 
 // ── 404 handler ──────────────────────────────────────────────
 app.use((_req, res) => {
