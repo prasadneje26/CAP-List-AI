@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+dist/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.pycache
+venv/
+.venv/
+
+# ML models (regenerate with train scripts)
+ai-engine/**/*.pkl
+ai-engine/**/scaler_*.pkl
+ai-engine/**/le_*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Docker
+docker-compose.override.yml
+
+# Database backups
+database/backup/*.sql

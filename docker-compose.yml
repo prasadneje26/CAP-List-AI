@@ -1,0 +1,154 @@
+# ============================================================
+# AI COLLEGE CAP COUNSELING PLATFORM
+# File: docker-compose.yml
+# ============================================================
+
+version: '3.9'
+
+services:
+
+  # ── PostgreSQL Database ──────────────────────────────────────
+  postgres:
+    image: postgres:16-alpine
+    container_name: cap_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB:       ${DB_NAME:-cap_counseling}
+      POSTGRES_USER:     ${DB_USER:-postgres}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
+      - ./database/seed.sql:/docker-entrypoint-initdb.d/02_seed.sql:ro
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-postgres} -d ${DB_NAME:-cap_counseling}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - cap_network
+
+  # ── AI Engine (Python FastAPI) ───────────────────────────────
+  ai-engine:
+    build:
+      context: .
+      dockerfile: docker/ai-engine.Dockerfile
+    container_name: cap_ai_engine
+    restart: unless-stopped
+    environment:
+      LLM_PROVIDER:      ${LLM_PROVIDER:-openai}
+      OPENAI_API_KEY:    ${OPENAI_API_KEY:-}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      LLM_MODEL:         ${LLM_MODEL:-gpt-4o-mini}
+      OLLAMA_URL:        ${OLLAMA_URL:-http://ollama:11434}
+    volumes:
+      - ./data:/app/data:ro
+      - ai_models:/app/cutoff_predictor
+      - ai_models:/app/admission_predictor
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 15s
+      start_period: 40s
+      retries: 3
+    networks:
+      - cap_network
+
+  # ── Backend API (Node.js) ────────────────────────────────────
+  backend:
+    build:
+      context: .
+      dockerfile: docker/backend.Dockerfile
+    container_name: cap_backend
+    restart: unless-stopped
+    environment:
+      NODE_ENV:        production
+      PORT:            5000
+      HOST:            0.0.0.0
+      DB_HOST:         postgres
+      DB_PORT:         5432
+      DB_NAME:         ${DB_NAME:-cap_counseling}
+      DB_USER:         ${DB_USER:-postgres}
+      DB_PASSWORD:     ${DB_PASSWORD:-postgres}
+      JWT_SECRET:      ${JWT_SECRET:-change_this_secret_in_production}
+      JWT_EXPIRES_IN:  ${JWT_EXPIRES_IN:-1d}
+      AI_ENGINE_URL:   http://ai-engine:8000
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-http://localhost,http://localhost:3000}
+      LOG_LEVEL:       ${LOG_LEVEL:-info}
+    depends_on:
+      postgres:
+        condition: service_healthy
+      ai-engine:
+        condition: service_healthy
+    ports:
+      - "5000:5000"
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      start_period: 20s
+      retries: 3
+    networks:
+      - cap_network
+
+  # ── Frontend Web (React + Vite → Nginx) ──────────────────────
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/frontend.Dockerfile
+      args:
+        VITE_API_URL: ${VITE_API_URL:-http://localhost/api}
+    container_name: cap_frontend
+    restart: unless-stopped
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "3000:80"
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:80"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    networks:
+      - cap_network
+
+  # ── Nginx Reverse Proxy ──────────────────────────────────────
+  nginx:
+    image: nginx:alpine
+    container_name: cap_nginx
+    restart: unless-stopped
+    volumes:
+      - ./docker/nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+      - frontend
+      - ai-engine
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:80/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    networks:
+      - cap_network
+
+# ── Volumes ───────────────────────────────────────────────────
+volumes:
+  postgres_data:
+    driver: local
+  ai_models:
+    driver: local
+
+# ── Network ───────────────────────────────────────────────────
+networks:
+  cap_network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
