@@ -23,6 +23,14 @@ const User = {
     return result.rows[0] || null;
   },
 
+  create: async ({ name, email, passwordHash, role = 'student' }) => {
+    const result = await query(
+      'INSERT INTO users (name, email, password_hash, role) VALUES ($1, $2, $3, $4) RETURNING id, name, email, role, is_verified, created_at',
+      [name, email.toLowerCase(), passwordHash, role]
+    );
+    return result.rows[0];
+  },
+
   findAll: async (limit = 20, offset = 0) => {
     const result = await query(
       'SELECT id, name, email, role, is_verified, created_at FROM users ORDER BY created_at DESC LIMIT $1 OFFSET $2',
