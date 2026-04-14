@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:dartz/dartz.dart';
-import '../../../core/errors/failures.dart';
+import '../../../../core/errors/failures.dart';
 import '../../domain/usecases/generate_cap_list_usecase.dart';
 import '../bloc/cap_event.dart';
 import '../bloc/cap_state.dart';

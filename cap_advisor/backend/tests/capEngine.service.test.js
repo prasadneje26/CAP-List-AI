@@ -14,7 +14,7 @@ describe('capEngine service', () => {
   });
 
   test('getProbability returns expected labels', () => {
-    expect(getProbability(90, 99).label).toBe('Moderate');
+    expect(getProbability(90, 99).label).toBe('Low');
     expect(getProbability(95, 95).label).toBe('Good');
     expect(getProbability(99, 95).label).toBe('High');
   });

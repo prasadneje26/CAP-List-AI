@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import '../../../core/errors/failures.dart';
+import '../../../../core/errors/failures.dart';
 
 abstract class CapRepository {
   Future<Either<Failure, Map<String, dynamic>>> generateCAPList(Map<String, dynamic> payload);

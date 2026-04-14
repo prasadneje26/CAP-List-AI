@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:dartz/dartz.dart';
-import '../../../core/errors/failures.dart';
+import '../../../../core/errors/failures.dart';
 import '../../domain/usecases/get_ai_strategy_usecase.dart';
 import '../../domain/usecases/send_chat_message_usecase.dart';
 import 'ai_event.dart';

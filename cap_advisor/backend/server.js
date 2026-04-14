@@ -42,16 +42,23 @@ app.use('/api/v1/mentorship', mentorshipRoutes);
 app.use('/api/v1/feedback', feedbackRoutes);
 app.use(globalErrorHandler);
 
-const server = app.listen(env.PORT, () => {
-  logger.info(`CAP Advisor backend listening on port ${env.PORT}`);
-});
+let server;
+if (process.env.NODE_ENV !== 'test') {
+  server = app.listen(env.PORT, () => {
+    logger.info(`CAP Advisor backend listening on port ${env.PORT}`);
+  });
+}
 
 const gracefulShutdown = () => {
   logger.info('Graceful shutdown initiated');
-  server.close(() => {
-    logger.info('Server closed');
+  if (server) {
+    server.close(() => {
+      logger.info('Server closed');
+      process.exit(0);
+    });
+  } else {
     process.exit(0);
-  });
+  }
 };
 
 process.on('SIGINT', gracefulShutdown);

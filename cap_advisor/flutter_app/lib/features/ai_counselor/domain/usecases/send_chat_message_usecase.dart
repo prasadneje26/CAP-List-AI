@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import '../../../core/errors/failures.dart';
+import '../../../../core/errors/failures.dart';
 import '../../data/datasources/ai_remote_datasource.dart';
 
 class SendChatMessageUseCase {

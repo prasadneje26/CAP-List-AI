@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:dartz/dartz.dart';
-import '../../../core/errors/failures.dart';
-import '../../../core/storage/secure_storage.dart';
+import '../../../../core/errors/failures.dart';
+import '../../../../core/storage/secure_storage.dart';
 import '../../domain/usecases/login_usecase.dart';
 import '../../domain/usecases/register_usecase.dart';
 import 'auth_event.dart';
