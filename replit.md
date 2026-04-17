@@ -46,6 +46,26 @@ AI-powered Maharashtra engineering admission counseling platform with ML-based c
 - `frontend-web/src/services/api.js` — Axios with JWT interceptor + auto-refresh
 - `frontend-web/src/pages/ComparePage.jsx` — College comparison feature
 
+## UI Design System (Updated)
+- **Fonts**: Plus Jakarta Sans (sans-serif) + Playfair Display (display/headings)
+- **Palette**: Navy `#0A192F` + Amber `#FFB703` accent
+- **Radius scale**: xs(4px) sm(6px) md(12px) lg(20px) xl(32px) full(9999px)
+- **Shadow scale**: xs sm md lg xl
+- **CSS**: `frontend-web/src/assets/styles/index.css` — animations, skeleton loader, toasts, progress bars, chips, badges, stat cards, tabs, empty states, responsive helpers
+- **Libraries**: `recharts` (probability bar chart on Dashboard), `framer-motion` (installed, available)
+
+### Redesigned Pages / Components
+- **Home** — Animated hero, count-up stats, How It Works 3-steps, 6-feature grid, testimonials, dark CTA section
+- **Login / Register** — Split-screen with dark feature panel + form panel, password visibility toggle, password strength meter (Register)
+- **Dashboard** — Recharts horizontal bar chart of admission probabilities, animated stat cards, tab filter (Dream/Target/Safe), skeleton loading, college card grid
+- **CollegeCard** — SVG probability ring gauge, expandable detail panel, click-to-expand, location badge, fees/rating/placement data
+- **InputPage** — 3-step wizard with progress indicator (Academic Details → Branch Preferences → Filters)
+- **Navbar** — Scroll-blur effect, mobile hamburger menu support
+- **ChatbotWidget** — Quick-start chips, typing animation, reset button, emoji avatar
+- **MentorshipPage** — Mentor selector cards, topic chip quick-fill, status-colored session cards
+- **ResultsPage** — Ranked list with amber/navy/gray rank badges, filter bar with search, DTE strategy tip
+- **ProfilePage** — Profile completion progress bar, password show/hide on all fields, quick-link footer
+
 ## Database Seed Data
 - 20 colleges seeded with 5,760 cutoff records across 3 years
 - 3 mentor users pre-seeded
