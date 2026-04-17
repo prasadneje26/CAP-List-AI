@@ -1,0 +1,1451 @@
+college_code,branch,category,exam_type,cutoff_percentile,round_number,seats_available
+COEP,Computer Engineering,OPEN,CET,99.21,1,30
+COEP,Computer Engineering,OPEN,CET,98.45,2,120
+COEP,Computer Engineering,OBC,CET,95.29,1,120
+COEP,Computer Engineering,OBC,CET,94.55,2,30
+COEP,Computer Engineering,SC,CET,83.85,1,90
+COEP,Computer Engineering,SC,CET,83.55,2,90
+COEP,Computer Engineering,ST,CET,79.36,1,60
+COEP,Computer Engineering,ST,CET,79.05,2,30
+COEP,Computer Engineering,EWS,CET,96.39,1,90
+COEP,Computer Engineering,EWS,CET,95.99,2,60
+COEP,Computer Engineering,TFWS,CET,96.94,1,60
+COEP,Computer Engineering,TFWS,CET,96.54,2,60
+COEP,Information Technology,OPEN,CET,98.32,1,30
+COEP,Information Technology,OPEN,CET,97.69,2,60
+COEP,Information Technology,OBC,CET,94.57,1,60
+COEP,Information Technology,OBC,CET,94.09,2,90
+COEP,Information Technology,SC,CET,83.7,1,30
+COEP,Information Technology,SC,CET,82.98,2,60
+COEP,Information Technology,ST,CET,78.48,1,90
+COEP,Information Technology,ST,CET,78.16,2,60
+COEP,Information Technology,EWS,CET,95.61,1,30
+COEP,Information Technology,EWS,CET,95.27,2,60
+COEP,Information Technology,TFWS,CET,96.33,1,30
+COEP,Information Technology,TFWS,CET,95.81,2,60
+COEP,Mechanical Engineering,OPEN,CET,95.86,1,90
+COEP,Mechanical Engineering,OPEN,CET,95.12,2,60
+COEP,Mechanical Engineering,OBC,CET,92.2,1,60
+COEP,Mechanical Engineering,OBC,CET,91.42,2,120
+COEP,Mechanical Engineering,SC,CET,80.8,1,120
+COEP,Mechanical Engineering,SC,CET,80.36,2,90
+COEP,Mechanical Engineering,ST,CET,76.06,1,30
+COEP,Mechanical Engineering,ST,CET,75.66,2,90
+COEP,Mechanical Engineering,EWS,CET,92.93,1,30
+COEP,Mechanical Engineering,EWS,CET,92.19,2,30
+COEP,Mechanical Engineering,TFWS,CET,94.18,1,30
+COEP,Mechanical Engineering,TFWS,CET,93.77,2,30
+COEP,Electronics & Telecommunication,OPEN,CET,97.24,1,60
+COEP,Electronics & Telecommunication,OPEN,CET,96.91,2,60
+COEP,Electronics & Telecommunication,OBC,CET,93.22,1,60
+COEP,Electronics & Telecommunication,OBC,CET,92.8,2,30
+COEP,Electronics & Telecommunication,SC,CET,82.21,1,30
+COEP,Electronics & Telecommunication,SC,CET,81.79,2,30
+COEP,Electronics & Telecommunication,ST,CET,77.1,1,90
+COEP,Electronics & Telecommunication,ST,CET,76.67,2,60
+COEP,Electronics & Telecommunication,EWS,CET,94.4,1,120
+COEP,Electronics & Telecommunication,EWS,CET,93.67,2,60
+COEP,Electronics & Telecommunication,TFWS,CET,94.98,1,30
+COEP,Electronics & Telecommunication,TFWS,CET,94.42,2,120
+COEP,Civil Engineering,OPEN,CET,93.74,1,30
+COEP,Civil Engineering,OPEN,CET,93.07,2,90
+COEP,Civil Engineering,OBC,CET,89.98,1,90
+COEP,Civil Engineering,OBC,CET,89.67,2,30
+COEP,Civil Engineering,SC,CET,79.17,1,30
+COEP,Civil Engineering,SC,CET,78.44,2,30
+COEP,Civil Engineering,ST,CET,73.75,1,30
+COEP,Civil Engineering,ST,CET,73.41,2,60
+COEP,Civil Engineering,EWS,CET,90.99,1,120
+COEP,Civil Engineering,EWS,CET,90.3,2,90
+COEP,Civil Engineering,TFWS,CET,91.73,1,30
+COEP,Civil Engineering,TFWS,CET,91.07,2,90
+COEP,Electrical Engineering,OPEN,CET,95.39,1,90
+COEP,Electrical Engineering,OPEN,CET,94.71,2,90
+COEP,Electrical Engineering,OBC,CET,91.3,1,60
+COEP,Electrical Engineering,OBC,CET,90.7,2,120
+COEP,Electrical Engineering,SC,CET,80.37,1,30
+COEP,Electrical Engineering,SC,CET,79.99,2,90
+COEP,Electrical Engineering,ST,CET,75.5,1,90
+COEP,Electrical Engineering,ST,CET,75.01,2,30
+COEP,Electrical Engineering,EWS,CET,92.5,1,30
+COEP,Electrical Engineering,EWS,CET,91.9,2,30
+COEP,Electrical Engineering,TFWS,CET,93.6,1,120
+COEP,Electrical Engineering,TFWS,CET,93.13,2,90
+VIT,Computer Engineering,OPEN,CET,96.95,1,90
+VIT,Computer Engineering,OPEN,CET,96.38,2,120
+VIT,Computer Engineering,OBC,CET,93.13,1,120
+VIT,Computer Engineering,OBC,CET,92.76,2,90
+VIT,Computer Engineering,SC,CET,82.21,1,90
+VIT,Computer Engineering,SC,CET,81.58,2,90
+VIT,Computer Engineering,ST,CET,77.09,1,120
+VIT,Computer Engineering,ST,CET,76.43,2,30
+VIT,Computer Engineering,EWS,CET,94.28,1,60
+VIT,Computer Engineering,EWS,CET,93.86,2,120
+VIT,Computer Engineering,TFWS,CET,95.27,1,30
+VIT,Computer Engineering,TFWS,CET,94.58,2,60
+VIT,Information Technology,OPEN,CET,96.28,1,30
+VIT,Information Technology,OPEN,CET,95.52,2,120
+VIT,Information Technology,OBC,CET,92.35,1,30
+VIT,Information Technology,OBC,CET,91.92,2,90
+VIT,Information Technology,SC,CET,81.78,1,120
+VIT,Information Technology,SC,CET,81.23,2,60
+VIT,Information Technology,ST,CET,76.51,1,60
+VIT,Information Technology,ST,CET,75.95,2,30
+VIT,Information Technology,EWS,CET,93.44,1,30
+VIT,Information Technology,EWS,CET,93.07,2,120
+VIT,Information Technology,TFWS,CET,94.57,1,60
+VIT,Information Technology,TFWS,CET,94.01,2,90
+VIT,Mechanical Engineering,OPEN,CET,92.94,1,60
+VIT,Mechanical Engineering,OPEN,CET,92.2,2,60
+VIT,Mechanical Engineering,OBC,CET,88.92,1,120
+VIT,Mechanical Engineering,OBC,CET,88.51,2,90
+VIT,Mechanical Engineering,SC,CET,78.28,1,120
+VIT,Mechanical Engineering,SC,CET,77.54,2,120
+VIT,Mechanical Engineering,ST,CET,72.87,1,120
+VIT,Mechanical Engineering,ST,CET,72.49,2,90
+VIT,Mechanical Engineering,EWS,CET,90.15,1,30
+VIT,Mechanical Engineering,EWS,CET,89.76,2,60
+VIT,Mechanical Engineering,TFWS,CET,91.13,1,60
+VIT,Mechanical Engineering,TFWS,CET,90.68,2,30
+VIT,Electronics & Telecommunication,OPEN,CET,95.1,1,90
+VIT,Electronics & Telecommunication,OPEN,CET,94.59,2,90
+VIT,Electronics & Telecommunication,OBC,CET,91.22,1,30
+VIT,Electronics & Telecommunication,OBC,CET,90.53,2,30
+VIT,Electronics & Telecommunication,SC,CET,79.92,1,60
+VIT,Electronics & Telecommunication,SC,CET,79.2,2,90
+VIT,Electronics & Telecommunication,ST,CET,74.9,1,120
+VIT,Electronics & Telecommunication,ST,CET,74.29,2,30
+VIT,Electronics & Telecommunication,EWS,CET,92.1,1,90
+VIT,Electronics & Telecommunication,EWS,CET,91.46,2,30
+VIT,Electronics & Telecommunication,TFWS,CET,93.3,1,60
+VIT,Electronics & Telecommunication,TFWS,CET,92.54,2,60
+VIT,Civil Engineering,OPEN,CET,90.28,1,60
+VIT,Civil Engineering,OPEN,CET,89.57,2,90
+VIT,Civil Engineering,OBC,CET,86.05,1,30
+VIT,Civil Engineering,OBC,CET,85.55,2,60
+VIT,Civil Engineering,SC,CET,75.18,1,30
+VIT,Civil Engineering,SC,CET,74.83,2,120
+VIT,Civil Engineering,ST,CET,70.02,1,30
+VIT,Civil Engineering,ST,CET,69.45,2,60
+VIT,Civil Engineering,EWS,CET,86.84,1,60
+VIT,Civil Engineering,EWS,CET,86.29,2,60
+VIT,Civil Engineering,TFWS,CET,87.94,1,60
+VIT,Civil Engineering,TFWS,CET,87.62,2,120
+VIT,Electrical Engineering,OPEN,CET,92.21,1,30
+VIT,Electrical Engineering,OPEN,CET,91.45,2,120
+VIT,Electrical Engineering,OBC,CET,88.16,1,120
+VIT,Electrical Engineering,OBC,CET,87.81,2,120
+VIT,Electrical Engineering,SC,CET,77.17,1,30
+VIT,Electrical Engineering,SC,CET,76.86,2,60
+VIT,Electrical Engineering,ST,CET,71.83,1,30
+VIT,Electrical Engineering,ST,CET,71.24,2,90
+VIT,Electrical Engineering,EWS,CET,89.17,1,60
+VIT,Electrical Engineering,EWS,CET,88.45,2,30
+VIT,Electrical Engineering,TFWS,CET,89.85,1,120
+VIT,Electrical Engineering,TFWS,CET,89.23,2,120
+PICT,Computer Engineering,OPEN,CET,96.36,1,30
+PICT,Computer Engineering,OPEN,CET,95.58,2,120
+PICT,Computer Engineering,OBC,CET,92.75,1,60
+PICT,Computer Engineering,OBC,CET,92.25,2,90
+PICT,Computer Engineering,SC,CET,81.28,1,90
+PICT,Computer Engineering,SC,CET,80.68,2,30
+PICT,Computer Engineering,ST,CET,76.72,1,90
+PICT,Computer Engineering,ST,CET,76.37,2,90
+PICT,Computer Engineering,EWS,CET,93.34,1,120
+PICT,Computer Engineering,EWS,CET,92.87,2,30
+PICT,Computer Engineering,TFWS,CET,94.55,1,120
+PICT,Computer Engineering,TFWS,CET,94.15,2,60
+PICT,Information Technology,OPEN,CET,96.06,1,60
+PICT,Information Technology,OPEN,CET,95.72,2,120
+PICT,Information Technology,OBC,CET,91.67,1,30
+PICT,Information Technology,OBC,CET,91.32,2,30
+PICT,Information Technology,SC,CET,80.92,1,90
+PICT,Information Technology,SC,CET,80.55,2,120
+PICT,Information Technology,ST,CET,76.06,1,90
+PICT,Information Technology,ST,CET,75.44,2,90
+PICT,Information Technology,EWS,CET,92.64,1,120
+PICT,Information Technology,EWS,CET,92.12,2,30
+PICT,Information Technology,TFWS,CET,93.81,1,60
+PICT,Information Technology,TFWS,CET,93.3,2,30
+PICT,Mechanical Engineering,OPEN,CET,91.26,1,30
+PICT,Mechanical Engineering,OPEN,CET,90.7,2,60
+PICT,Mechanical Engineering,OBC,CET,86.92,1,30
+PICT,Mechanical Engineering,OBC,CET,86.21,2,30
+PICT,Mechanical Engineering,SC,CET,75.93,1,30
+PICT,Mechanical Engineering,SC,CET,75.47,2,60
+PICT,Mechanical Engineering,ST,CET,70.76,1,60
+PICT,Mechanical Engineering,ST,CET,70.33,2,90
+PICT,Mechanical Engineering,EWS,CET,87.91,1,60
+PICT,Mechanical Engineering,EWS,CET,87.39,2,30
+PICT,Mechanical Engineering,TFWS,CET,88.99,1,120
+PICT,Mechanical Engineering,TFWS,CET,88.31,2,60
+PICT,Electronics & Telecommunication,OPEN,CET,93.57,1,90
+PICT,Electronics & Telecommunication,OPEN,CET,93.12,2,30
+PICT,Electronics & Telecommunication,OBC,CET,89.27,1,30
+PICT,Electronics & Telecommunication,OBC,CET,88.57,2,120
+PICT,Electronics & Telecommunication,SC,CET,78.67,1,60
+PICT,Electronics & Telecommunication,SC,CET,78.13,2,60
+PICT,Electronics & Telecommunication,ST,CET,73.44,1,90
+PICT,Electronics & Telecommunication,ST,CET,72.83,2,30
+PICT,Electronics & Telecommunication,EWS,CET,90.23,1,120
+PICT,Electronics & Telecommunication,EWS,CET,89.58,2,30
+PICT,Electronics & Telecommunication,TFWS,CET,91.56,1,90
+PICT,Electronics & Telecommunication,TFWS,CET,90.76,2,30
+PICT,Civil Engineering,OPEN,CET,87.18,1,60
+PICT,Civil Engineering,OPEN,CET,86.41,2,120
+PICT,Civil Engineering,OBC,CET,83.3,1,60
+PICT,Civil Engineering,OBC,CET,82.8,2,120
+PICT,Civil Engineering,SC,CET,72.16,1,120
+PICT,Civil Engineering,SC,CET,71.43,2,90
+PICT,Civil Engineering,ST,CET,67.2,1,120
+PICT,Civil Engineering,ST,CET,66.86,2,90
+PICT,Civil Engineering,EWS,CET,83.79,1,120
+PICT,Civil Engineering,EWS,CET,83.17,2,60
+PICT,Civil Engineering,TFWS,CET,84.79,1,90
+PICT,Civil Engineering,TFWS,CET,84.48,2,90
+PICT,Electrical Engineering,OPEN,CET,90.04,1,60
+PICT,Electrical Engineering,OPEN,CET,89.26,2,60
+PICT,Electrical Engineering,OBC,CET,85.77,1,60
+PICT,Electrical Engineering,OBC,CET,85.32,2,60
+PICT,Electrical Engineering,SC,CET,75.17,1,30
+PICT,Electrical Engineering,SC,CET,74.67,2,30
+PICT,Electrical Engineering,ST,CET,70.29,1,120
+PICT,Electrical Engineering,ST,CET,69.67,2,120
+PICT,Electrical Engineering,EWS,CET,87.16,1,30
+PICT,Electrical Engineering,EWS,CET,86.54,2,60
+PICT,Electrical Engineering,TFWS,CET,88.15,1,60
+PICT,Electrical Engineering,TFWS,CET,87.59,2,60
+PCCOE,Computer Engineering,OPEN,CET,94.1,1,90
+PCCOE,Computer Engineering,OPEN,CET,93.47,2,60
+PCCOE,Computer Engineering,OBC,CET,90.29,1,30
+PCCOE,Computer Engineering,OBC,CET,89.57,2,90
+PCCOE,Computer Engineering,SC,CET,79.4,1,120
+PCCOE,Computer Engineering,SC,CET,78.66,2,30
+PCCOE,Computer Engineering,ST,CET,74.49,1,120
+PCCOE,Computer Engineering,ST,CET,74.02,2,60
+PCCOE,Computer Engineering,EWS,CET,91.14,1,60
+PCCOE,Computer Engineering,EWS,CET,90.62,2,90
+PCCOE,Computer Engineering,TFWS,CET,91.96,1,120
+PCCOE,Computer Engineering,TFWS,CET,91.49,2,30
+PCCOE,Information Technology,OPEN,CET,93.75,1,120
+PCCOE,Information Technology,OPEN,CET,93.05,2,30
+PCCOE,Information Technology,OBC,CET,89.6,1,60
+PCCOE,Information Technology,OBC,CET,88.92,2,90
+PCCOE,Information Technology,SC,CET,78.54,1,30
+PCCOE,Information Technology,SC,CET,78.11,2,60
+PCCOE,Information Technology,ST,CET,73.67,1,60
+PCCOE,Information Technology,ST,CET,73.25,2,90
+PCCOE,Information Technology,EWS,CET,90.71,1,30
+PCCOE,Information Technology,EWS,CET,89.98,2,60
+PCCOE,Information Technology,TFWS,CET,91.49,1,30
+PCCOE,Information Technology,TFWS,CET,90.86,2,120
+PCCOE,Mechanical Engineering,OPEN,CET,87.06,1,120
+PCCOE,Mechanical Engineering,OPEN,CET,86.73,2,30
+PCCOE,Mechanical Engineering,OBC,CET,82.77,1,120
+PCCOE,Mechanical Engineering,OBC,CET,82.22,2,30
+PCCOE,Mechanical Engineering,SC,CET,71.75,1,90
+PCCOE,Mechanical Engineering,SC,CET,71.04,2,30
+PCCOE,Mechanical Engineering,ST,CET,66.73,1,30
+PCCOE,Mechanical Engineering,ST,CET,66.12,2,90
+PCCOE,Mechanical Engineering,EWS,CET,83.75,1,30
+PCCOE,Mechanical Engineering,EWS,CET,83.02,2,90
+PCCOE,Mechanical Engineering,TFWS,CET,84.73,1,60
+PCCOE,Mechanical Engineering,TFWS,CET,84.0,2,60
+PCCOE,Electronics & Telecommunication,OPEN,CET,89.72,1,120
+PCCOE,Electronics & Telecommunication,OPEN,CET,89.11,2,30
+PCCOE,Electronics & Telecommunication,OBC,CET,85.64,1,90
+PCCOE,Electronics & Telecommunication,OBC,CET,85.2,2,120
+PCCOE,Electronics & Telecommunication,SC,CET,74.46,1,120
+PCCOE,Electronics & Telecommunication,SC,CET,74.08,2,120
+PCCOE,Electronics & Telecommunication,ST,CET,69.73,1,120
+PCCOE,Electronics & Telecommunication,ST,CET,69.09,2,60
+PCCOE,Electronics & Telecommunication,EWS,CET,86.41,1,30
+PCCOE,Electronics & Telecommunication,EWS,CET,85.74,2,120
+PCCOE,Electronics & Telecommunication,TFWS,CET,87.63,1,120
+PCCOE,Electronics & Telecommunication,TFWS,CET,86.87,2,60
+PCCOE,Civil Engineering,OPEN,CET,83.04,1,30
+PCCOE,Civil Engineering,OPEN,CET,82.36,2,90
+PCCOE,Civil Engineering,OBC,CET,78.71,1,90
+PCCOE,Civil Engineering,OBC,CET,78.38,2,60
+PCCOE,Civil Engineering,SC,CET,67.82,1,30
+PCCOE,Civil Engineering,SC,CET,67.05,2,90
+PCCOE,Civil Engineering,ST,CET,62.91,1,60
+PCCOE,Civil Engineering,ST,CET,62.44,2,120
+PCCOE,Civil Engineering,EWS,CET,79.77,1,30
+PCCOE,Civil Engineering,EWS,CET,79.24,2,60
+PCCOE,Civil Engineering,TFWS,CET,81.21,1,60
+PCCOE,Civil Engineering,TFWS,CET,80.57,2,30
+PCCOE,Electrical Engineering,OPEN,CET,86.06,1,30
+PCCOE,Electrical Engineering,OPEN,CET,85.65,2,120
+PCCOE,Electrical Engineering,OBC,CET,81.84,1,90
+PCCOE,Electrical Engineering,OBC,CET,81.47,2,120
+PCCOE,Electrical Engineering,SC,CET,71.03,1,120
+PCCOE,Electrical Engineering,SC,CET,70.67,2,60
+PCCOE,Electrical Engineering,ST,CET,65.97,1,90
+PCCOE,Electrical Engineering,ST,CET,65.52,2,30
+PCCOE,Electrical Engineering,EWS,CET,83.14,1,90
+PCCOE,Electrical Engineering,EWS,CET,82.82,2,120
+PCCOE,Electrical Engineering,TFWS,CET,83.88,1,30
+PCCOE,Electrical Engineering,TFWS,CET,83.36,2,90
+MIT,Computer Engineering,OPEN,CET,93.8,1,60
+MIT,Computer Engineering,OPEN,CET,93.16,2,30
+MIT,Computer Engineering,OBC,CET,89.44,1,60
+MIT,Computer Engineering,OBC,CET,88.69,2,120
+MIT,Computer Engineering,SC,CET,78.6,1,60
+MIT,Computer Engineering,SC,CET,78.26,2,60
+MIT,Computer Engineering,ST,CET,73.58,1,60
+MIT,Computer Engineering,ST,CET,73.23,2,60
+MIT,Computer Engineering,EWS,CET,90.36,1,120
+MIT,Computer Engineering,EWS,CET,89.97,2,90
+MIT,Computer Engineering,TFWS,CET,91.64,1,120
+MIT,Computer Engineering,TFWS,CET,91.22,2,120
+MIT,Information Technology,OPEN,CET,93.02,1,60
+MIT,Information Technology,OPEN,CET,92.28,2,60
+MIT,Information Technology,OBC,CET,88.83,1,120
+MIT,Information Technology,OBC,CET,88.52,2,60
+MIT,Information Technology,SC,CET,77.84,1,30
+MIT,Information Technology,SC,CET,77.29,2,120
+MIT,Information Technology,ST,CET,72.74,1,30
+MIT,Information Technology,ST,CET,72.21,2,30
+MIT,Information Technology,EWS,CET,89.74,1,60
+MIT,Information Technology,EWS,CET,88.99,2,60
+MIT,Information Technology,TFWS,CET,91.02,1,30
+MIT,Information Technology,TFWS,CET,90.53,2,60
+MIT,Mechanical Engineering,OPEN,CET,85.75,1,60
+MIT,Mechanical Engineering,OPEN,CET,85.34,2,90
+MIT,Mechanical Engineering,OBC,CET,81.9,1,120
+MIT,Mechanical Engineering,OBC,CET,81.26,2,90
+MIT,Mechanical Engineering,SC,CET,70.71,1,120
+MIT,Mechanical Engineering,SC,CET,69.94,2,90
+MIT,Mechanical Engineering,ST,CET,65.94,1,30
+MIT,Mechanical Engineering,ST,CET,65.38,2,60
+MIT,Mechanical Engineering,EWS,CET,82.74,1,90
+MIT,Mechanical Engineering,EWS,CET,82.16,2,120
+MIT,Mechanical Engineering,TFWS,CET,84.15,1,90
+MIT,Mechanical Engineering,TFWS,CET,83.73,2,90
+MIT,Electronics & Telecommunication,OPEN,CET,88.67,1,60
+MIT,Electronics & Telecommunication,OPEN,CET,88.31,2,30
+MIT,Electronics & Telecommunication,OBC,CET,84.71,1,60
+MIT,Electronics & Telecommunication,OBC,CET,84.08,2,120
+MIT,Electronics & Telecommunication,SC,CET,73.79,1,90
+MIT,Electronics & Telecommunication,SC,CET,73.24,2,90
+MIT,Electronics & Telecommunication,ST,CET,68.59,1,90
+MIT,Electronics & Telecommunication,ST,CET,67.87,2,30
+MIT,Electronics & Telecommunication,EWS,CET,85.59,1,120
+MIT,Electronics & Telecommunication,EWS,CET,84.98,2,120
+MIT,Electronics & Telecommunication,TFWS,CET,86.78,1,30
+MIT,Electronics & Telecommunication,TFWS,CET,86.13,2,120
+MIT,Civil Engineering,OPEN,CET,81.75,1,60
+MIT,Civil Engineering,OPEN,CET,81.0,2,120
+MIT,Civil Engineering,OBC,CET,77.97,1,60
+MIT,Civil Engineering,OBC,CET,77.66,2,120
+MIT,Civil Engineering,SC,CET,66.86,1,30
+MIT,Civil Engineering,SC,CET,66.2,2,120
+MIT,Civil Engineering,ST,CET,62.0,1,120
+MIT,Civil Engineering,ST,CET,61.43,2,120
+MIT,Civil Engineering,EWS,CET,79.0,1,60
+MIT,Civil Engineering,EWS,CET,78.28,2,60
+MIT,Civil Engineering,TFWS,CET,79.89,1,120
+MIT,Civil Engineering,TFWS,CET,79.09,2,30
+MIT,Electrical Engineering,OPEN,CET,85.17,1,30
+MIT,Electrical Engineering,OPEN,CET,84.67,2,60
+MIT,Electrical Engineering,OBC,CET,81.11,1,90
+MIT,Electrical Engineering,OBC,CET,80.78,2,90
+MIT,Electrical Engineering,SC,CET,70.23,1,90
+MIT,Electrical Engineering,SC,CET,69.55,2,120
+MIT,Electrical Engineering,ST,CET,64.93,1,120
+MIT,Electrical Engineering,ST,CET,64.35,2,30
+MIT,Electrical Engineering,EWS,CET,82.1,1,60
+MIT,Electrical Engineering,EWS,CET,81.41,2,90
+MIT,Electrical Engineering,TFWS,CET,83.21,1,60
+MIT,Electrical Engineering,TFWS,CET,82.44,2,120
+GCEA,Computer Engineering,OPEN,CET,89.98,1,60
+GCEA,Computer Engineering,OPEN,CET,89.5,2,90
+GCEA,Computer Engineering,OBC,CET,85.81,1,60
+GCEA,Computer Engineering,OBC,CET,85.17,2,90
+GCEA,Computer Engineering,SC,CET,75.17,1,60
+GCEA,Computer Engineering,SC,CET,74.44,2,60
+GCEA,Computer Engineering,ST,CET,70.03,1,30
+GCEA,Computer Engineering,ST,CET,69.56,2,60
+GCEA,Computer Engineering,EWS,CET,86.86,1,90
+GCEA,Computer Engineering,EWS,CET,86.47,2,90
+GCEA,Computer Engineering,TFWS,CET,88.13,1,60
+GCEA,Computer Engineering,TFWS,CET,87.37,2,90
+GCEA,Information Technology,OPEN,CET,88.93,1,60
+GCEA,Information Technology,OPEN,CET,88.43,2,60
+GCEA,Information Technology,OBC,CET,85.22,1,90
+GCEA,Information Technology,OBC,CET,84.87,2,30
+GCEA,Information Technology,SC,CET,74.04,1,90
+GCEA,Information Technology,SC,CET,73.73,2,120
+GCEA,Information Technology,ST,CET,69.01,1,90
+GCEA,Information Technology,ST,CET,68.7,2,90
+GCEA,Information Technology,EWS,CET,86.15,1,90
+GCEA,Information Technology,EWS,CET,85.44,2,60
+GCEA,Information Technology,TFWS,CET,86.7,1,30
+GCEA,Information Technology,TFWS,CET,85.96,2,30
+GCEA,Mechanical Engineering,OPEN,CET,80.26,1,120
+GCEA,Mechanical Engineering,OPEN,CET,79.66,2,60
+GCEA,Mechanical Engineering,OBC,CET,75.73,1,90
+GCEA,Mechanical Engineering,OBC,CET,75.14,2,90
+GCEA,Mechanical Engineering,SC,CET,65.18,1,90
+GCEA,Mechanical Engineering,SC,CET,64.77,2,90
+GCEA,Mechanical Engineering,ST,CET,59.75,1,30
+GCEA,Mechanical Engineering,ST,CET,59.29,2,90
+GCEA,Mechanical Engineering,EWS,CET,76.82,1,60
+GCEA,Mechanical Engineering,EWS,CET,76.34,2,60
+GCEA,Mechanical Engineering,TFWS,CET,78.19,1,30
+GCEA,Mechanical Engineering,TFWS,CET,77.77,2,120
+GCEA,Electronics & Telecommunication,OPEN,CET,82.47,1,30
+GCEA,Electronics & Telecommunication,OPEN,CET,81.69,2,90
+GCEA,Electronics & Telecommunication,OBC,CET,78.77,1,30
+GCEA,Electronics & Telecommunication,OBC,CET,78.33,2,30
+GCEA,Electronics & Telecommunication,SC,CET,67.22,1,120
+GCEA,Electronics & Telecommunication,SC,CET,66.73,2,30
+GCEA,Electronics & Telecommunication,ST,CET,62.62,1,30
+GCEA,Electronics & Telecommunication,ST,CET,62.02,2,60
+GCEA,Electronics & Telecommunication,EWS,CET,79.65,1,90
+GCEA,Electronics & Telecommunication,EWS,CET,79.29,2,90
+GCEA,Electronics & Telecommunication,TFWS,CET,80.44,1,90
+GCEA,Electronics & Telecommunication,TFWS,CET,79.86,2,120
+GCEA,Civil Engineering,OPEN,CET,75.95,1,120
+GCEA,Civil Engineering,OPEN,CET,75.25,2,120
+GCEA,Civil Engineering,OBC,CET,72.02,1,60
+GCEA,Civil Engineering,OBC,CET,71.65,2,90
+GCEA,Civil Engineering,SC,CET,61.01,1,90
+GCEA,Civil Engineering,SC,CET,60.44,2,90
+GCEA,Civil Engineering,ST,CET,56.14,1,90
+GCEA,Civil Engineering,ST,CET,55.44,2,90
+GCEA,Civil Engineering,EWS,CET,73.17,1,90
+GCEA,Civil Engineering,EWS,CET,72.78,2,60
+GCEA,Civil Engineering,TFWS,CET,73.88,1,30
+GCEA,Civil Engineering,TFWS,CET,73.1,2,120
+GCEA,Electrical Engineering,OPEN,CET,79.29,1,30
+GCEA,Electrical Engineering,OPEN,CET,78.55,2,30
+GCEA,Electrical Engineering,OBC,CET,74.79,1,60
+GCEA,Electrical Engineering,OBC,CET,74.2,2,60
+GCEA,Electrical Engineering,SC,CET,63.74,1,30
+GCEA,Electrical Engineering,SC,CET,63.04,2,90
+GCEA,Electrical Engineering,ST,CET,58.74,1,90
+GCEA,Electrical Engineering,ST,CET,58.2,2,60
+GCEA,Electrical Engineering,EWS,CET,76.08,1,60
+GCEA,Electrical Engineering,EWS,CET,75.44,2,90
+GCEA,Electrical Engineering,TFWS,CET,76.88,1,120
+GCEA,Electrical Engineering,TFWS,CET,76.39,2,120
+WCE,Computer Engineering,OPEN,CET,92.29,1,60
+WCE,Computer Engineering,OPEN,CET,91.78,2,120
+WCE,Computer Engineering,OBC,CET,88.63,1,120
+WCE,Computer Engineering,OBC,CET,88.26,2,30
+WCE,Computer Engineering,SC,CET,77.28,1,60
+WCE,Computer Engineering,SC,CET,76.52,2,90
+WCE,Computer Engineering,ST,CET,72.33,1,60
+WCE,Computer Engineering,ST,CET,71.63,2,60
+WCE,Computer Engineering,EWS,CET,89.62,1,30
+WCE,Computer Engineering,EWS,CET,88.95,2,60
+WCE,Computer Engineering,TFWS,CET,90.7,1,60
+WCE,Computer Engineering,TFWS,CET,89.96,2,30
+WCE,Information Technology,OPEN,CET,91.58,1,30
+WCE,Information Technology,OPEN,CET,91.09,2,30
+WCE,Information Technology,OBC,CET,87.73,1,120
+WCE,Information Technology,OBC,CET,87.3,2,60
+WCE,Information Technology,SC,CET,76.32,1,90
+WCE,Information Technology,SC,CET,76.01,2,60
+WCE,Information Technology,ST,CET,71.66,1,30
+WCE,Information Technology,ST,CET,71.03,2,60
+WCE,Information Technology,EWS,CET,88.67,1,120
+WCE,Information Technology,EWS,CET,88.14,2,90
+WCE,Information Technology,TFWS,CET,89.65,1,90
+WCE,Information Technology,TFWS,CET,89.11,2,120
+WCE,Mechanical Engineering,OPEN,CET,83.79,1,30
+WCE,Mechanical Engineering,OPEN,CET,83.33,2,30
+WCE,Mechanical Engineering,OBC,CET,80.01,1,120
+WCE,Mechanical Engineering,OBC,CET,79.52,2,60
+WCE,Mechanical Engineering,SC,CET,69.14,1,60
+WCE,Mechanical Engineering,SC,CET,68.48,2,30
+WCE,Mechanical Engineering,ST,CET,64.09,1,120
+WCE,Mechanical Engineering,ST,CET,63.45,2,60
+WCE,Mechanical Engineering,EWS,CET,80.97,1,60
+WCE,Mechanical Engineering,EWS,CET,80.21,2,60
+WCE,Mechanical Engineering,TFWS,CET,82.27,1,90
+WCE,Mechanical Engineering,TFWS,CET,81.88,2,60
+WCE,Electronics & Telecommunication,OPEN,CET,86.55,1,60
+WCE,Electronics & Telecommunication,OPEN,CET,85.88,2,60
+WCE,Electronics & Telecommunication,OBC,CET,82.77,1,90
+WCE,Electronics & Telecommunication,OBC,CET,82.14,2,30
+WCE,Electronics & Telecommunication,SC,CET,71.58,1,60
+WCE,Electronics & Telecommunication,SC,CET,71.16,2,60
+WCE,Electronics & Telecommunication,ST,CET,66.4,1,60
+WCE,Electronics & Telecommunication,ST,CET,65.71,2,60
+WCE,Electronics & Telecommunication,EWS,CET,83.39,1,90
+WCE,Electronics & Telecommunication,EWS,CET,82.88,2,120
+WCE,Electronics & Telecommunication,TFWS,CET,84.63,1,120
+WCE,Electronics & Telecommunication,TFWS,CET,84.22,2,120
+WCE,Civil Engineering,OPEN,CET,79.87,1,90
+WCE,Civil Engineering,OPEN,CET,79.44,2,90
+WCE,Civil Engineering,OBC,CET,76.05,1,120
+WCE,Civil Engineering,OBC,CET,75.44,2,30
+WCE,Civil Engineering,SC,CET,64.81,1,120
+WCE,Civil Engineering,SC,CET,64.51,2,60
+WCE,Civil Engineering,ST,CET,59.96,1,90
+WCE,Civil Engineering,ST,CET,59.54,2,120
+WCE,Civil Engineering,EWS,CET,77.16,1,30
+WCE,Civil Engineering,EWS,CET,76.75,2,90
+WCE,Civil Engineering,TFWS,CET,77.78,1,60
+WCE,Civil Engineering,TFWS,CET,77.41,2,30
+WCE,Electrical Engineering,OPEN,CET,83.19,1,30
+WCE,Electrical Engineering,OPEN,CET,82.82,2,90
+WCE,Electrical Engineering,OBC,CET,78.94,1,30
+WCE,Electrical Engineering,OBC,CET,78.37,2,60
+WCE,Electrical Engineering,SC,CET,67.72,1,120
+WCE,Electrical Engineering,SC,CET,67.12,2,120
+WCE,Electrical Engineering,ST,CET,63.01,1,120
+WCE,Electrical Engineering,ST,CET,62.54,2,60
+WCE,Electrical Engineering,EWS,CET,80.12,1,90
+WCE,Electrical Engineering,EWS,CET,79.49,2,90
+WCE,Electrical Engineering,TFWS,CET,80.81,1,120
+WCE,Electrical Engineering,TFWS,CET,80.05,2,30
+SPCE,Computer Engineering,OPEN,CET,94.82,1,90
+SPCE,Computer Engineering,OPEN,CET,94.4,2,120
+SPCE,Computer Engineering,OBC,CET,91.09,1,90
+SPCE,Computer Engineering,OBC,CET,90.74,2,30
+SPCE,Computer Engineering,SC,CET,79.91,1,60
+SPCE,Computer Engineering,SC,CET,79.17,2,30
+SPCE,Computer Engineering,ST,CET,74.71,1,60
+SPCE,Computer Engineering,ST,CET,74.02,2,90
+SPCE,Computer Engineering,EWS,CET,92.1,1,60
+SPCE,Computer Engineering,EWS,CET,91.56,2,60
+SPCE,Computer Engineering,TFWS,CET,92.73,1,30
+SPCE,Computer Engineering,TFWS,CET,92.14,2,120
+SPCE,Information Technology,OPEN,CET,93.75,1,120
+SPCE,Information Technology,OPEN,CET,93.4,2,30
+SPCE,Information Technology,OBC,CET,89.79,1,60
+SPCE,Information Technology,OBC,CET,89.12,2,30
+SPCE,Information Technology,SC,CET,78.82,1,120
+SPCE,Information Technology,SC,CET,78.31,2,60
+SPCE,Information Technology,ST,CET,73.73,1,30
+SPCE,Information Technology,ST,CET,73.37,2,120
+SPCE,Information Technology,EWS,CET,90.94,1,60
+SPCE,Information Technology,EWS,CET,90.62,2,30
+SPCE,Information Technology,TFWS,CET,91.97,1,120
+SPCE,Information Technology,TFWS,CET,91.2,2,60
+SPCE,Mechanical Engineering,OPEN,CET,88.26,1,60
+SPCE,Mechanical Engineering,OPEN,CET,87.94,2,60
+SPCE,Mechanical Engineering,OBC,CET,83.96,1,30
+SPCE,Mechanical Engineering,OBC,CET,83.33,2,120
+SPCE,Mechanical Engineering,SC,CET,73.09,1,90
+SPCE,Mechanical Engineering,SC,CET,72.4,2,30
+SPCE,Mechanical Engineering,ST,CET,67.79,1,60
+SPCE,Mechanical Engineering,ST,CET,67.44,2,90
+SPCE,Mechanical Engineering,EWS,CET,84.71,1,120
+SPCE,Mechanical Engineering,EWS,CET,84.1,2,60
+SPCE,Mechanical Engineering,TFWS,CET,86.25,1,90
+SPCE,Mechanical Engineering,TFWS,CET,85.46,2,60
+SPCE,Electronics & Telecommunication,OPEN,CET,90.56,1,30
+SPCE,Electronics & Telecommunication,OPEN,CET,89.84,2,60
+SPCE,Electronics & Telecommunication,OBC,CET,86.62,1,90
+SPCE,Electronics & Telecommunication,OBC,CET,85.96,2,30
+SPCE,Electronics & Telecommunication,SC,CET,75.69,1,30
+SPCE,Electronics & Telecommunication,SC,CET,74.99,2,60
+SPCE,Electronics & Telecommunication,ST,CET,70.63,1,90
+SPCE,Electronics & Telecommunication,ST,CET,70.27,2,120
+SPCE,Electronics & Telecommunication,EWS,CET,87.69,1,60
+SPCE,Electronics & Telecommunication,EWS,CET,86.91,2,30
+SPCE,Electronics & Telecommunication,TFWS,CET,88.29,1,90
+SPCE,Electronics & Telecommunication,TFWS,CET,87.72,2,90
+SPCE,Civil Engineering,OPEN,CET,83.93,1,60
+SPCE,Civil Engineering,OPEN,CET,83.52,2,30
+SPCE,Civil Engineering,OBC,CET,79.86,1,60
+SPCE,Civil Engineering,OBC,CET,79.55,2,120
+SPCE,Civil Engineering,SC,CET,69.26,1,90
+SPCE,Civil Engineering,SC,CET,68.65,2,120
+SPCE,Civil Engineering,ST,CET,63.84,1,30
+SPCE,Civil Engineering,ST,CET,63.46,2,30
+SPCE,Civil Engineering,EWS,CET,80.97,1,30
+SPCE,Civil Engineering,EWS,CET,80.45,2,30
+SPCE,Civil Engineering,TFWS,CET,81.95,1,90
+SPCE,Civil Engineering,TFWS,CET,81.38,2,30
+SPCE,Electrical Engineering,OPEN,CET,86.91,1,60
+SPCE,Electrical Engineering,OPEN,CET,86.2,2,30
+SPCE,Electrical Engineering,OBC,CET,82.83,1,90
+SPCE,Electrical Engineering,OBC,CET,82.51,2,30
+SPCE,Electrical Engineering,SC,CET,71.77,1,120
+SPCE,Electrical Engineering,SC,CET,70.99,2,120
+SPCE,Electrical Engineering,ST,CET,66.92,1,90
+SPCE,Electrical Engineering,ST,CET,66.31,2,90
+SPCE,Electrical Engineering,EWS,CET,83.97,1,90
+SPCE,Electrical Engineering,EWS,CET,83.48,2,120
+SPCE,Electrical Engineering,TFWS,CET,85.21,1,90
+SPCE,Electrical Engineering,TFWS,CET,84.67,2,30
+VJTI,Computer Engineering,OPEN,CET,98.28,1,120
+VJTI,Computer Engineering,OPEN,CET,97.76,2,30
+VJTI,Computer Engineering,OBC,CET,94.23,1,30
+VJTI,Computer Engineering,OBC,CET,93.53,2,30
+VJTI,Computer Engineering,SC,CET,83.22,1,120
+VJTI,Computer Engineering,SC,CET,82.64,2,30
+VJTI,Computer Engineering,ST,CET,78.47,1,30
+VJTI,Computer Engineering,ST,CET,77.93,2,120
+VJTI,Computer Engineering,EWS,CET,95.51,1,30
+VJTI,Computer Engineering,EWS,CET,94.8,2,90
+VJTI,Computer Engineering,TFWS,CET,96.47,1,30
+VJTI,Computer Engineering,TFWS,CET,95.74,2,30
+VJTI,Information Technology,OPEN,CET,98.08,1,120
+VJTI,Information Technology,OPEN,CET,97.74,2,30
+VJTI,Information Technology,OBC,CET,93.75,1,30
+VJTI,Information Technology,OBC,CET,93.22,2,60
+VJTI,Information Technology,SC,CET,82.7,1,90
+VJTI,Information Technology,SC,CET,82.22,2,90
+VJTI,Information Technology,ST,CET,77.8,1,120
+VJTI,Information Technology,ST,CET,77.41,2,60
+VJTI,Information Technology,EWS,CET,94.51,1,60
+VJTI,Information Technology,EWS,CET,94.04,2,90
+VJTI,Information Technology,TFWS,CET,95.77,1,90
+VJTI,Information Technology,TFWS,CET,95.22,2,60
+VJTI,Mechanical Engineering,OPEN,CET,95.27,1,60
+VJTI,Mechanical Engineering,OPEN,CET,94.47,2,60
+VJTI,Mechanical Engineering,OBC,CET,91.56,1,120
+VJTI,Mechanical Engineering,OBC,CET,90.8,2,120
+VJTI,Mechanical Engineering,SC,CET,80.73,1,60
+VJTI,Mechanical Engineering,SC,CET,80.39,2,30
+VJTI,Mechanical Engineering,ST,CET,75.51,1,120
+VJTI,Mechanical Engineering,ST,CET,75.2,2,30
+VJTI,Mechanical Engineering,EWS,CET,92.79,1,120
+VJTI,Mechanical Engineering,EWS,CET,92.44,2,90
+VJTI,Mechanical Engineering,TFWS,CET,93.58,1,30
+VJTI,Mechanical Engineering,TFWS,CET,92.88,2,30
+VJTI,Electronics & Telecommunication,OPEN,CET,96.77,1,120
+VJTI,Electronics & Telecommunication,OPEN,CET,96.41,2,90
+VJTI,Electronics & Telecommunication,OBC,CET,92.52,1,90
+VJTI,Electronics & Telecommunication,OBC,CET,91.93,2,30
+VJTI,Electronics & Telecommunication,SC,CET,81.99,1,90
+VJTI,Electronics & Telecommunication,SC,CET,81.4,2,90
+VJTI,Electronics & Telecommunication,ST,CET,76.65,1,30
+VJTI,Electronics & Telecommunication,ST,CET,76.19,2,60
+VJTI,Electronics & Telecommunication,EWS,CET,93.53,1,30
+VJTI,Electronics & Telecommunication,EWS,CET,92.83,2,90
+VJTI,Electronics & Telecommunication,TFWS,CET,94.89,1,120
+VJTI,Electronics & Telecommunication,TFWS,CET,94.13,2,120
+VJTI,Civil Engineering,OPEN,CET,93.17,1,120
+VJTI,Civil Engineering,OPEN,CET,92.55,2,30
+VJTI,Civil Engineering,OBC,CET,88.82,1,30
+VJTI,Civil Engineering,OBC,CET,88.11,2,120
+VJTI,Civil Engineering,SC,CET,78.06,1,30
+VJTI,Civil Engineering,SC,CET,77.55,2,120
+VJTI,Civil Engineering,ST,CET,73.27,1,120
+VJTI,Civil Engineering,ST,CET,72.83,2,30
+VJTI,Civil Engineering,EWS,CET,89.99,1,60
+VJTI,Civil Engineering,EWS,CET,89.57,2,60
+VJTI,Civil Engineering,TFWS,CET,91.16,1,60
+VJTI,Civil Engineering,TFWS,CET,90.49,2,90
+VJTI,Electrical Engineering,OPEN,CET,94.85,1,120
+VJTI,Electrical Engineering,OPEN,CET,94.15,2,30
+VJTI,Electrical Engineering,OBC,CET,90.93,1,60
+VJTI,Electrical Engineering,OBC,CET,90.19,2,60
+VJTI,Electrical Engineering,SC,CET,79.52,1,120
+VJTI,Electrical Engineering,SC,CET,78.81,2,60
+VJTI,Electrical Engineering,ST,CET,74.56,1,60
+VJTI,Electrical Engineering,ST,CET,73.93,2,30
+VJTI,Electrical Engineering,EWS,CET,91.88,1,90
+VJTI,Electrical Engineering,EWS,CET,91.53,2,30
+VJTI,Electrical Engineering,TFWS,CET,92.64,1,120
+VJTI,Electrical Engineering,TFWS,CET,91.89,2,30
+ICT,Computer Engineering,OPEN,CET,97.75,1,30
+ICT,Computer Engineering,OPEN,CET,97.08,2,90
+ICT,Computer Engineering,OBC,CET,94.26,1,30
+ICT,Computer Engineering,OBC,CET,93.47,2,120
+ICT,Computer Engineering,SC,CET,83.24,1,60
+ICT,Computer Engineering,SC,CET,82.86,2,30
+ICT,Computer Engineering,ST,CET,77.97,1,90
+ICT,Computer Engineering,ST,CET,77.41,2,60
+ICT,Computer Engineering,EWS,CET,95.04,1,90
+ICT,Computer Engineering,EWS,CET,94.52,2,30
+ICT,Computer Engineering,TFWS,CET,96.02,1,30
+ICT,Computer Engineering,TFWS,CET,95.59,2,30
+ICT,Information Technology,OPEN,CET,97.15,1,30
+ICT,Information Technology,OPEN,CET,96.44,2,60
+ICT,Information Technology,OBC,CET,93.41,1,30
+ICT,Information Technology,OBC,CET,92.96,2,120
+ICT,Information Technology,SC,CET,81.95,1,30
+ICT,Information Technology,SC,CET,81.18,2,120
+ICT,Information Technology,ST,CET,77.3,1,60
+ICT,Information Technology,ST,CET,76.7,2,120
+ICT,Information Technology,EWS,CET,94.24,1,120
+ICT,Information Technology,EWS,CET,93.58,2,120
+ICT,Information Technology,TFWS,CET,95.25,1,120
+ICT,Information Technology,TFWS,CET,94.62,2,30
+ICT,Mechanical Engineering,OPEN,CET,93.86,1,60
+ICT,Mechanical Engineering,OPEN,CET,93.2,2,90
+ICT,Mechanical Engineering,OBC,CET,90.24,1,120
+ICT,Mechanical Engineering,OBC,CET,89.88,2,120
+ICT,Mechanical Engineering,SC,CET,78.73,1,60
+ICT,Mechanical Engineering,SC,CET,78.34,2,90
+ICT,Mechanical Engineering,ST,CET,74.1,1,60
+ICT,Mechanical Engineering,ST,CET,73.63,2,120
+ICT,Mechanical Engineering,EWS,CET,90.91,1,120
+ICT,Mechanical Engineering,EWS,CET,90.32,2,120
+ICT,Mechanical Engineering,TFWS,CET,91.81,1,120
+ICT,Mechanical Engineering,TFWS,CET,91.16,2,90
+ICT,Electronics & Telecommunication,OPEN,CET,95.7,1,60
+ICT,Electronics & Telecommunication,OPEN,CET,95.04,2,120
+ICT,Electronics & Telecommunication,OBC,CET,91.22,1,90
+ICT,Electronics & Telecommunication,OBC,CET,90.84,2,120
+ICT,Electronics & Telecommunication,SC,CET,80.21,1,30
+ICT,Electronics & Telecommunication,SC,CET,79.72,2,60
+ICT,Electronics & Telecommunication,ST,CET,75.79,1,60
+ICT,Electronics & Telecommunication,ST,CET,75.08,2,120
+ICT,Electronics & Telecommunication,EWS,CET,92.37,1,30
+ICT,Electronics & Telecommunication,EWS,CET,91.82,2,60
+ICT,Electronics & Telecommunication,TFWS,CET,93.36,1,60
+ICT,Electronics & Telecommunication,TFWS,CET,92.75,2,120
+ICT,Civil Engineering,OPEN,CET,91.78,1,120
+ICT,Civil Engineering,OPEN,CET,91.4,2,120
+ICT,Civil Engineering,OBC,CET,88.06,1,30
+ICT,Civil Engineering,OBC,CET,87.45,2,30
+ICT,Civil Engineering,SC,CET,76.75,1,30
+ICT,Civil Engineering,SC,CET,76.16,2,60
+ICT,Civil Engineering,ST,CET,71.91,1,60
+ICT,Civil Engineering,ST,CET,71.11,2,60
+ICT,Civil Engineering,EWS,CET,89.13,1,60
+ICT,Civil Engineering,EWS,CET,88.59,2,120
+ICT,Civil Engineering,TFWS,CET,90.24,1,60
+ICT,Civil Engineering,TFWS,CET,89.92,2,90
+ICT,Electrical Engineering,OPEN,CET,93.39,1,120
+ICT,Electrical Engineering,OPEN,CET,92.92,2,30
+ICT,Electrical Engineering,OBC,CET,89.75,1,90
+ICT,Electrical Engineering,OBC,CET,89.07,2,120
+ICT,Electrical Engineering,SC,CET,78.29,1,30
+ICT,Electrical Engineering,SC,CET,77.78,2,30
+ICT,Electrical Engineering,ST,CET,73.72,1,90
+ICT,Electrical Engineering,ST,CET,73.41,2,120
+ICT,Electrical Engineering,EWS,CET,90.44,1,120
+ICT,Electrical Engineering,EWS,CET,89.69,2,30
+ICT,Electrical Engineering,TFWS,CET,91.66,1,90
+ICT,Electrical Engineering,TFWS,CET,91.06,2,30
+COEM,Computer Engineering,OPEN,CET,92.03,1,30
+COEM,Computer Engineering,OPEN,CET,91.3,2,120
+COEM,Computer Engineering,OBC,CET,88.2,1,90
+COEM,Computer Engineering,OBC,CET,87.86,2,90
+COEM,Computer Engineering,SC,CET,76.95,1,30
+COEM,Computer Engineering,SC,CET,76.26,2,90
+COEM,Computer Engineering,ST,CET,72.07,1,120
+COEM,Computer Engineering,ST,CET,71.3,2,120
+COEM,Computer Engineering,EWS,CET,89.07,1,60
+COEM,Computer Engineering,EWS,CET,88.42,2,120
+COEM,Computer Engineering,TFWS,CET,90.12,1,90
+COEM,Computer Engineering,TFWS,CET,89.35,2,120
+COEM,Information Technology,OPEN,CET,91.04,1,30
+COEM,Information Technology,OPEN,CET,90.58,2,90
+COEM,Information Technology,OBC,CET,87.29,1,30
+COEM,Information Technology,OBC,CET,86.93,2,60
+COEM,Information Technology,SC,CET,76.13,1,30
+COEM,Information Technology,SC,CET,75.41,2,120
+COEM,Information Technology,ST,CET,71.3,1,120
+COEM,Information Technology,ST,CET,70.56,2,30
+COEM,Information Technology,EWS,CET,87.91,1,30
+COEM,Information Technology,EWS,CET,87.4,2,30
+COEM,Information Technology,TFWS,CET,88.84,1,120
+COEM,Information Technology,TFWS,CET,88.44,2,90
+COEM,Mechanical Engineering,OPEN,CET,82.85,1,60
+COEM,Mechanical Engineering,OPEN,CET,82.5,2,90
+COEM,Mechanical Engineering,OBC,CET,78.9,1,120
+COEM,Mechanical Engineering,OBC,CET,78.36,2,30
+COEM,Mechanical Engineering,SC,CET,67.71,1,90
+COEM,Mechanical Engineering,SC,CET,67.01,2,90
+COEM,Mechanical Engineering,ST,CET,63.02,1,60
+COEM,Mechanical Engineering,ST,CET,62.7,2,120
+COEM,Mechanical Engineering,EWS,CET,80.3,1,90
+COEM,Mechanical Engineering,EWS,CET,79.61,2,120
+COEM,Mechanical Engineering,TFWS,CET,80.96,1,90
+COEM,Mechanical Engineering,TFWS,CET,80.27,2,90
+COEM,Electronics & Telecommunication,OPEN,CET,85.3,1,90
+COEM,Electronics & Telecommunication,OPEN,CET,84.84,2,90
+COEM,Electronics & Telecommunication,OBC,CET,81.49,1,30
+COEM,Electronics & Telecommunication,OBC,CET,80.9,2,90
+COEM,Electronics & Telecommunication,SC,CET,70.66,1,60
+COEM,Electronics & Telecommunication,SC,CET,69.97,2,30
+COEM,Electronics & Telecommunication,ST,CET,65.46,1,90
+COEM,Electronics & Telecommunication,ST,CET,65.03,2,120
+COEM,Electronics & Telecommunication,EWS,CET,82.73,1,60
+COEM,Electronics & Telecommunication,EWS,CET,82.04,2,90
+COEM,Electronics & Telecommunication,TFWS,CET,83.62,1,120
+COEM,Electronics & Telecommunication,TFWS,CET,83.0,2,90
+COEM,Civil Engineering,OPEN,CET,78.84,1,120
+COEM,Civil Engineering,OPEN,CET,78.46,2,60
+COEM,Civil Engineering,OBC,CET,74.77,1,60
+COEM,Civil Engineering,OBC,CET,73.99,2,120
+COEM,Civil Engineering,SC,CET,63.96,1,120
+COEM,Civil Engineering,SC,CET,63.5,2,60
+COEM,Civil Engineering,ST,CET,59.16,1,120
+COEM,Civil Engineering,ST,CET,58.85,2,30
+COEM,Civil Engineering,EWS,CET,75.81,1,30
+COEM,Civil Engineering,EWS,CET,75.46,2,90
+COEM,Civil Engineering,TFWS,CET,77.02,1,120
+COEM,Civil Engineering,TFWS,CET,76.22,2,30
+COEM,Electrical Engineering,OPEN,CET,82.16,1,30
+COEM,Electrical Engineering,OPEN,CET,81.81,2,120
+COEM,Electrical Engineering,OBC,CET,77.99,1,60
+COEM,Electrical Engineering,OBC,CET,77.59,2,30
+COEM,Electrical Engineering,SC,CET,66.8,1,90
+COEM,Electrical Engineering,SC,CET,66.28,2,30
+COEM,Electrical Engineering,ST,CET,62.26,1,60
+COEM,Electrical Engineering,ST,CET,61.46,2,120
+COEM,Electrical Engineering,EWS,CET,79.18,1,120
+COEM,Electrical Engineering,EWS,CET,78.84,2,30
+COEM,Electrical Engineering,TFWS,CET,80.25,1,90
+COEM,Electrical Engineering,TFWS,CET,79.84,2,120
+SPIT,Computer Engineering,OPEN,CET,95.91,1,120
+SPIT,Computer Engineering,OPEN,CET,95.18,2,30
+SPIT,Computer Engineering,OBC,CET,91.98,1,60
+SPIT,Computer Engineering,OBC,CET,91.5,2,90
+SPIT,Computer Engineering,SC,CET,81.27,1,60
+SPIT,Computer Engineering,SC,CET,80.91,2,60
+SPIT,Computer Engineering,ST,CET,76.0,1,90
+SPIT,Computer Engineering,ST,CET,75.3,2,90
+SPIT,Computer Engineering,EWS,CET,92.73,1,120
+SPIT,Computer Engineering,EWS,CET,92.3,2,90
+SPIT,Computer Engineering,TFWS,CET,93.87,1,60
+SPIT,Computer Engineering,TFWS,CET,93.14,2,30
+SPIT,Information Technology,OPEN,CET,94.97,1,60
+SPIT,Information Technology,OPEN,CET,94.2,2,120
+SPIT,Information Technology,OBC,CET,91.07,1,120
+SPIT,Information Technology,OBC,CET,90.43,2,30
+SPIT,Information Technology,SC,CET,80.17,1,120
+SPIT,Information Technology,SC,CET,79.49,2,60
+SPIT,Information Technology,ST,CET,75.3,1,60
+SPIT,Information Technology,ST,CET,74.76,2,30
+SPIT,Information Technology,EWS,CET,92.01,1,120
+SPIT,Information Technology,EWS,CET,91.37,2,30
+SPIT,Information Technology,TFWS,CET,93.44,1,30
+SPIT,Information Technology,TFWS,CET,92.81,2,30
+SPIT,Mechanical Engineering,OPEN,CET,90.18,1,120
+SPIT,Mechanical Engineering,OPEN,CET,89.4,2,30
+SPIT,Mechanical Engineering,OBC,CET,85.85,1,60
+SPIT,Mechanical Engineering,OBC,CET,85.53,2,60
+SPIT,Mechanical Engineering,SC,CET,74.89,1,60
+SPIT,Mechanical Engineering,SC,CET,74.46,2,60
+SPIT,Mechanical Engineering,ST,CET,69.9,1,90
+SPIT,Mechanical Engineering,ST,CET,69.59,2,30
+SPIT,Mechanical Engineering,EWS,CET,87.01,1,120
+SPIT,Mechanical Engineering,EWS,CET,86.49,2,90
+SPIT,Mechanical Engineering,TFWS,CET,88.01,1,120
+SPIT,Mechanical Engineering,TFWS,CET,87.54,2,60
+SPIT,Electronics & Telecommunication,OPEN,CET,92.37,1,90
+SPIT,Electronics & Telecommunication,OPEN,CET,91.94,2,120
+SPIT,Electronics & Telecommunication,OBC,CET,88.23,1,90
+SPIT,Electronics & Telecommunication,OBC,CET,87.59,2,120
+SPIT,Electronics & Telecommunication,SC,CET,77.56,1,30
+SPIT,Electronics & Telecommunication,SC,CET,77.25,2,90
+SPIT,Electronics & Telecommunication,ST,CET,72.34,1,60
+SPIT,Electronics & Telecommunication,ST,CET,71.77,2,90
+SPIT,Electronics & Telecommunication,EWS,CET,89.72,1,120
+SPIT,Electronics & Telecommunication,EWS,CET,88.93,2,60
+SPIT,Electronics & Telecommunication,TFWS,CET,90.73,1,30
+SPIT,Electronics & Telecommunication,TFWS,CET,90.28,2,90
+SPIT,Civil Engineering,OPEN,CET,85.99,1,120
+SPIT,Civil Engineering,OPEN,CET,85.64,2,120
+SPIT,Civil Engineering,OBC,CET,82.11,1,60
+SPIT,Civil Engineering,OBC,CET,81.79,2,30
+SPIT,Civil Engineering,SC,CET,71.22,1,120
+SPIT,Civil Engineering,SC,CET,70.56,2,60
+SPIT,Civil Engineering,ST,CET,65.86,1,60
+SPIT,Civil Engineering,ST,CET,65.26,2,60
+SPIT,Civil Engineering,EWS,CET,83.01,1,30
+SPIT,Civil Engineering,EWS,CET,82.63,2,30
+SPIT,Civil Engineering,TFWS,CET,84.29,1,120
+SPIT,Civil Engineering,TFWS,CET,83.97,2,60
+SPIT,Electrical Engineering,OPEN,CET,89.27,1,60
+SPIT,Electrical Engineering,OPEN,CET,88.71,2,30
+SPIT,Electrical Engineering,OBC,CET,85.13,1,60
+SPIT,Electrical Engineering,OBC,CET,84.75,2,30
+SPIT,Electrical Engineering,SC,CET,73.73,1,60
+SPIT,Electrical Engineering,SC,CET,73.31,2,30
+SPIT,Electrical Engineering,ST,CET,68.71,1,120
+SPIT,Electrical Engineering,ST,CET,68.18,2,120
+SPIT,Electrical Engineering,EWS,CET,85.77,1,120
+SPIT,Electrical Engineering,EWS,CET,85.11,2,30
+SPIT,Electrical Engineering,TFWS,CET,86.71,1,90
+SPIT,Electrical Engineering,TFWS,CET,86.32,2,120
+RAIT,Computer Engineering,OPEN,CET,90.68,1,60
+RAIT,Computer Engineering,OPEN,CET,89.93,2,90
+RAIT,Computer Engineering,OBC,CET,86.76,1,30
+RAIT,Computer Engineering,OBC,CET,86.17,2,30
+RAIT,Computer Engineering,SC,CET,75.67,1,60
+RAIT,Computer Engineering,SC,CET,75.27,2,90
+RAIT,Computer Engineering,ST,CET,70.45,1,90
+RAIT,Computer Engineering,ST,CET,69.73,2,30
+RAIT,Computer Engineering,EWS,CET,87.22,1,30
+RAIT,Computer Engineering,EWS,CET,86.69,2,120
+RAIT,Computer Engineering,TFWS,CET,88.75,1,90
+RAIT,Computer Engineering,TFWS,CET,87.98,2,120
+RAIT,Information Technology,OPEN,CET,89.46,1,30
+RAIT,Information Technology,OPEN,CET,88.71,2,30
+RAIT,Information Technology,OBC,CET,85.46,1,120
+RAIT,Information Technology,OBC,CET,84.95,2,30
+RAIT,Information Technology,SC,CET,74.24,1,120
+RAIT,Information Technology,SC,CET,73.48,2,90
+RAIT,Information Technology,ST,CET,69.72,1,60
+RAIT,Information Technology,ST,CET,68.93,2,30
+RAIT,Information Technology,EWS,CET,86.68,1,30
+RAIT,Information Technology,EWS,CET,86.18,2,90
+RAIT,Information Technology,TFWS,CET,87.66,1,30
+RAIT,Information Technology,TFWS,CET,87.18,2,60
+RAIT,Mechanical Engineering,OPEN,CET,80.96,1,90
+RAIT,Mechanical Engineering,OPEN,CET,80.38,2,120
+RAIT,Mechanical Engineering,OBC,CET,77.02,1,120
+RAIT,Mechanical Engineering,OBC,CET,76.64,2,120
+RAIT,Mechanical Engineering,SC,CET,66.17,1,120
+RAIT,Mechanical Engineering,SC,CET,65.59,2,30
+RAIT,Mechanical Engineering,ST,CET,60.98,1,120
+RAIT,Mechanical Engineering,ST,CET,60.29,2,30
+RAIT,Mechanical Engineering,EWS,CET,77.92,1,120
+RAIT,Mechanical Engineering,EWS,CET,77.53,2,120
+RAIT,Mechanical Engineering,TFWS,CET,79.21,1,120
+RAIT,Mechanical Engineering,TFWS,CET,78.9,2,60
+RAIT,Electronics & Telecommunication,OPEN,CET,83.28,1,60
+RAIT,Electronics & Telecommunication,OPEN,CET,82.76,2,90
+RAIT,Electronics & Telecommunication,OBC,CET,79.47,1,60
+RAIT,Electronics & Telecommunication,OBC,CET,78.98,2,90
+RAIT,Electronics & Telecommunication,SC,CET,68.79,1,30
+RAIT,Electronics & Telecommunication,SC,CET,68.11,2,90
+RAIT,Electronics & Telecommunication,ST,CET,63.76,1,120
+RAIT,Electronics & Telecommunication,ST,CET,63.28,2,90
+RAIT,Electronics & Telecommunication,EWS,CET,80.78,1,120
+RAIT,Electronics & Telecommunication,EWS,CET,80.25,2,30
+RAIT,Electronics & Telecommunication,TFWS,CET,81.6,1,90
+RAIT,Electronics & Telecommunication,TFWS,CET,81.11,2,60
+RAIT,Civil Engineering,OPEN,CET,77.17,1,60
+RAIT,Civil Engineering,OPEN,CET,76.73,2,120
+RAIT,Civil Engineering,OBC,CET,73.26,1,60
+RAIT,Civil Engineering,OBC,CET,72.88,2,120
+RAIT,Civil Engineering,SC,CET,61.9,1,120
+RAIT,Civil Engineering,SC,CET,61.57,2,90
+RAIT,Civil Engineering,ST,CET,57.13,1,60
+RAIT,Civil Engineering,ST,CET,56.78,2,90
+RAIT,Civil Engineering,EWS,CET,74.11,1,30
+RAIT,Civil Engineering,EWS,CET,73.65,2,60
+RAIT,Civil Engineering,TFWS,CET,74.7,1,60
+RAIT,Civil Engineering,TFWS,CET,73.98,2,90
+RAIT,Electrical Engineering,OPEN,CET,80.0,1,30
+RAIT,Electrical Engineering,OPEN,CET,79.23,2,30
+RAIT,Electrical Engineering,OBC,CET,75.74,1,90
+RAIT,Electrical Engineering,OBC,CET,75.23,2,30
+RAIT,Electrical Engineering,SC,CET,64.98,1,60
+RAIT,Electrical Engineering,SC,CET,64.54,2,120
+RAIT,Electrical Engineering,ST,CET,60.3,1,90
+RAIT,Electrical Engineering,ST,CET,59.56,2,90
+RAIT,Electrical Engineering,EWS,CET,76.7,1,60
+RAIT,Electrical Engineering,EWS,CET,76.32,2,90
+RAIT,Electrical Engineering,TFWS,CET,78.13,1,60
+RAIT,Electrical Engineering,TFWS,CET,77.33,2,30
+KJSCE,Computer Engineering,OPEN,CET,95.43,1,90
+KJSCE,Computer Engineering,OPEN,CET,95.13,2,30
+KJSCE,Computer Engineering,OBC,CET,91.24,1,30
+KJSCE,Computer Engineering,OBC,CET,90.89,2,90
+KJSCE,Computer Engineering,SC,CET,80.78,1,120
+KJSCE,Computer Engineering,SC,CET,80.04,2,30
+KJSCE,Computer Engineering,ST,CET,75.79,1,90
+KJSCE,Computer Engineering,ST,CET,75.4,2,30
+KJSCE,Computer Engineering,EWS,CET,92.65,1,90
+KJSCE,Computer Engineering,EWS,CET,92.24,2,120
+KJSCE,Computer Engineering,TFWS,CET,93.23,1,60
+KJSCE,Computer Engineering,TFWS,CET,92.91,2,120
+KJSCE,Information Technology,OPEN,CET,94.54,1,90
+KJSCE,Information Technology,OPEN,CET,93.9,2,30
+KJSCE,Information Technology,OBC,CET,91.07,1,30
+KJSCE,Information Technology,OBC,CET,90.33,2,90
+KJSCE,Information Technology,SC,CET,79.84,1,90
+KJSCE,Information Technology,SC,CET,79.43,2,60
+KJSCE,Information Technology,ST,CET,74.98,1,120
+KJSCE,Information Technology,ST,CET,74.38,2,60
+KJSCE,Information Technology,EWS,CET,92.02,1,60
+KJSCE,Information Technology,EWS,CET,91.42,2,90
+KJSCE,Information Technology,TFWS,CET,93.07,1,120
+KJSCE,Information Technology,TFWS,CET,92.35,2,30
+KJSCE,Mechanical Engineering,OPEN,CET,89.28,1,60
+KJSCE,Mechanical Engineering,OPEN,CET,88.49,2,60
+KJSCE,Mechanical Engineering,OBC,CET,85.18,1,30
+KJSCE,Mechanical Engineering,OBC,CET,84.77,2,30
+KJSCE,Mechanical Engineering,SC,CET,73.72,1,60
+KJSCE,Mechanical Engineering,SC,CET,73.24,2,120
+KJSCE,Mechanical Engineering,ST,CET,68.83,1,120
+KJSCE,Mechanical Engineering,ST,CET,68.08,2,60
+KJSCE,Mechanical Engineering,EWS,CET,86.28,1,90
+KJSCE,Mechanical Engineering,EWS,CET,85.76,2,60
+KJSCE,Mechanical Engineering,TFWS,CET,86.9,1,120
+KJSCE,Mechanical Engineering,TFWS,CET,86.34,2,120
+KJSCE,Electronics & Telecommunication,OPEN,CET,91.72,1,120
+KJSCE,Electronics & Telecommunication,OPEN,CET,91.4,2,120
+KJSCE,Electronics & Telecommunication,OBC,CET,87.47,1,60
+KJSCE,Electronics & Telecommunication,OBC,CET,86.68,2,90
+KJSCE,Electronics & Telecommunication,SC,CET,76.73,1,60
+KJSCE,Electronics & Telecommunication,SC,CET,76.16,2,60
+KJSCE,Electronics & Telecommunication,ST,CET,71.39,1,90
+KJSCE,Electronics & Telecommunication,ST,CET,70.89,2,60
+KJSCE,Electronics & Telecommunication,EWS,CET,88.52,1,30
+KJSCE,Electronics & Telecommunication,EWS,CET,88.0,2,120
+KJSCE,Electronics & Telecommunication,TFWS,CET,89.76,1,120
+KJSCE,Electronics & Telecommunication,TFWS,CET,89.28,2,90
+KJSCE,Civil Engineering,OPEN,CET,84.91,1,120
+KJSCE,Civil Engineering,OPEN,CET,84.53,2,60
+KJSCE,Civil Engineering,OBC,CET,81.14,1,30
+KJSCE,Civil Engineering,OBC,CET,80.57,2,90
+KJSCE,Civil Engineering,SC,CET,70.24,1,30
+KJSCE,Civil Engineering,SC,CET,69.69,2,90
+KJSCE,Civil Engineering,ST,CET,65.14,1,30
+KJSCE,Civil Engineering,ST,CET,64.4,2,30
+KJSCE,Civil Engineering,EWS,CET,82.27,1,120
+KJSCE,Civil Engineering,EWS,CET,81.58,2,120
+KJSCE,Civil Engineering,TFWS,CET,82.76,1,30
+KJSCE,Civil Engineering,TFWS,CET,82.39,2,90
+KJSCE,Electrical Engineering,OPEN,CET,88.12,1,120
+KJSCE,Electrical Engineering,OPEN,CET,87.79,2,60
+KJSCE,Electrical Engineering,OBC,CET,83.8,1,90
+KJSCE,Electrical Engineering,OBC,CET,83.04,2,90
+KJSCE,Electrical Engineering,SC,CET,73.19,1,30
+KJSCE,Electrical Engineering,SC,CET,72.55,2,30
+KJSCE,Electrical Engineering,ST,CET,68.24,1,60
+KJSCE,Electrical Engineering,ST,CET,67.72,2,90
+KJSCE,Electrical Engineering,EWS,CET,85.17,1,90
+KJSCE,Electrical Engineering,EWS,CET,84.43,2,30
+KJSCE,Electrical Engineering,TFWS,CET,85.71,1,30
+KJSCE,Electrical Engineering,TFWS,CET,85.37,2,30
+SIES,Computer Engineering,OPEN,CET,87.9,1,60
+SIES,Computer Engineering,OPEN,CET,87.15,2,90
+SIES,Computer Engineering,OBC,CET,84.28,1,90
+SIES,Computer Engineering,OBC,CET,83.76,2,90
+SIES,Computer Engineering,SC,CET,72.72,1,120
+SIES,Computer Engineering,SC,CET,72.37,2,120
+SIES,Computer Engineering,ST,CET,68.12,1,120
+SIES,Computer Engineering,ST,CET,67.52,2,30
+SIES,Computer Engineering,EWS,CET,85.26,1,90
+SIES,Computer Engineering,EWS,CET,84.64,2,60
+SIES,Computer Engineering,TFWS,CET,86.1,1,30
+SIES,Computer Engineering,TFWS,CET,85.8,2,120
+SIES,Information Technology,OPEN,CET,86.87,1,60
+SIES,Information Technology,OPEN,CET,86.09,2,30
+SIES,Information Technology,OBC,CET,82.82,1,30
+SIES,Information Technology,OBC,CET,82.52,2,90
+SIES,Information Technology,SC,CET,71.78,1,60
+SIES,Information Technology,SC,CET,71.27,2,90
+SIES,Information Technology,ST,CET,66.74,1,30
+SIES,Information Technology,ST,CET,65.96,2,90
+SIES,Information Technology,EWS,CET,84.23,1,60
+SIES,Information Technology,EWS,CET,83.45,2,90
+SIES,Information Technology,TFWS,CET,84.91,1,90
+SIES,Information Technology,TFWS,CET,84.27,2,90
+SIES,Mechanical Engineering,OPEN,CET,77.79,1,30
+SIES,Mechanical Engineering,OPEN,CET,77.47,2,120
+SIES,Mechanical Engineering,OBC,CET,74.28,1,30
+SIES,Mechanical Engineering,OBC,CET,73.66,2,120
+SIES,Mechanical Engineering,SC,CET,63.04,1,30
+SIES,Mechanical Engineering,SC,CET,62.7,2,120
+SIES,Mechanical Engineering,ST,CET,58.13,1,30
+SIES,Mechanical Engineering,ST,CET,57.44,2,60
+SIES,Mechanical Engineering,EWS,CET,75.3,1,60
+SIES,Mechanical Engineering,EWS,CET,74.64,2,60
+SIES,Mechanical Engineering,TFWS,CET,76.1,1,90
+SIES,Mechanical Engineering,TFWS,CET,75.65,2,90
+SIES,Electronics & Telecommunication,OPEN,CET,80.72,1,120
+SIES,Electronics & Telecommunication,OPEN,CET,80.17,2,120
+SIES,Electronics & Telecommunication,OBC,CET,76.66,1,90
+SIES,Electronics & Telecommunication,OBC,CET,76.2,2,60
+SIES,Electronics & Telecommunication,SC,CET,65.3,1,30
+SIES,Electronics & Telecommunication,SC,CET,64.96,2,60
+SIES,Electronics & Telecommunication,ST,CET,60.79,1,60
+SIES,Electronics & Telecommunication,ST,CET,60.04,2,60
+SIES,Electronics & Telecommunication,EWS,CET,77.37,1,90
+SIES,Electronics & Telecommunication,EWS,CET,76.98,2,30
+SIES,Electronics & Telecommunication,TFWS,CET,78.58,1,60
+SIES,Electronics & Telecommunication,TFWS,CET,78.17,2,60
+SIES,Civil Engineering,OPEN,CET,73.88,1,30
+SIES,Civil Engineering,OPEN,CET,73.57,2,30
+SIES,Civil Engineering,OBC,CET,70.04,1,120
+SIES,Civil Engineering,OBC,CET,69.32,2,30
+SIES,Civil Engineering,SC,CET,58.91,1,120
+SIES,Civil Engineering,SC,CET,58.35,2,60
+SIES,Civil Engineering,ST,CET,53.71,1,30
+SIES,Civil Engineering,ST,CET,53.37,2,120
+SIES,Civil Engineering,EWS,CET,70.97,1,30
+SIES,Civil Engineering,EWS,CET,70.53,2,90
+SIES,Civil Engineering,TFWS,CET,72.27,1,120
+SIES,Civil Engineering,TFWS,CET,71.8,2,120
+SIES,Electrical Engineering,OPEN,CET,76.89,1,60
+SIES,Electrical Engineering,OPEN,CET,76.55,2,120
+SIES,Electrical Engineering,OBC,CET,72.89,1,60
+SIES,Electrical Engineering,OBC,CET,72.11,2,60
+SIES,Electrical Engineering,SC,CET,61.95,1,60
+SIES,Electrical Engineering,SC,CET,61.25,2,60
+SIES,Electrical Engineering,ST,CET,56.97,1,60
+SIES,Electrical Engineering,ST,CET,56.63,2,120
+SIES,Electrical Engineering,EWS,CET,74.29,1,60
+SIES,Electrical Engineering,EWS,CET,73.99,2,120
+SIES,Electrical Engineering,TFWS,CET,74.77,1,60
+SIES,Electrical Engineering,TFWS,CET,74.36,2,30
+DYPIT,Computer Engineering,OPEN,CET,88.81,1,60
+DYPIT,Computer Engineering,OPEN,CET,88.46,2,60
+DYPIT,Computer Engineering,OBC,CET,84.74,1,30
+DYPIT,Computer Engineering,OBC,CET,84.18,2,120
+DYPIT,Computer Engineering,SC,CET,74.13,1,30
+DYPIT,Computer Engineering,SC,CET,73.61,2,30
+DYPIT,Computer Engineering,ST,CET,69.0,1,90
+DYPIT,Computer Engineering,ST,CET,68.53,2,30
+DYPIT,Computer Engineering,EWS,CET,86.14,1,120
+DYPIT,Computer Engineering,EWS,CET,85.49,2,120
+DYPIT,Computer Engineering,TFWS,CET,86.8,1,120
+DYPIT,Computer Engineering,TFWS,CET,86.22,2,30
+DYPIT,Information Technology,OPEN,CET,88.13,1,90
+DYPIT,Information Technology,OPEN,CET,87.37,2,120
+DYPIT,Information Technology,OBC,CET,84.02,1,60
+DYPIT,Information Technology,OBC,CET,83.69,2,120
+DYPIT,Information Technology,SC,CET,73.07,1,120
+DYPIT,Information Technology,SC,CET,72.32,2,90
+DYPIT,Information Technology,ST,CET,67.9,1,30
+DYPIT,Information Technology,ST,CET,67.27,2,60
+DYPIT,Information Technology,EWS,CET,84.8,1,60
+DYPIT,Information Technology,EWS,CET,84.5,2,60
+DYPIT,Information Technology,TFWS,CET,86.03,1,60
+DYPIT,Information Technology,TFWS,CET,85.42,2,60
+DYPIT,Mechanical Engineering,OPEN,CET,78.78,1,30
+DYPIT,Mechanical Engineering,OPEN,CET,78.35,2,90
+DYPIT,Mechanical Engineering,OBC,CET,74.87,1,60
+DYPIT,Mechanical Engineering,OBC,CET,74.2,2,30
+DYPIT,Mechanical Engineering,SC,CET,63.74,1,90
+DYPIT,Mechanical Engineering,SC,CET,63.15,2,60
+DYPIT,Mechanical Engineering,ST,CET,59.12,1,30
+DYPIT,Mechanical Engineering,ST,CET,58.76,2,60
+DYPIT,Mechanical Engineering,EWS,CET,76.29,1,60
+DYPIT,Mechanical Engineering,EWS,CET,75.88,2,60
+DYPIT,Mechanical Engineering,TFWS,CET,76.78,1,90
+DYPIT,Mechanical Engineering,TFWS,CET,76.05,2,60
+DYPIT,Electronics & Telecommunication,OPEN,CET,81.62,1,90
+DYPIT,Electronics & Telecommunication,OPEN,CET,80.96,2,30
+DYPIT,Electronics & Telecommunication,OBC,CET,77.74,1,30
+DYPIT,Electronics & Telecommunication,OBC,CET,77.23,2,30
+DYPIT,Electronics & Telecommunication,SC,CET,66.44,1,30
+DYPIT,Electronics & Telecommunication,SC,CET,65.8,2,30
+DYPIT,Electronics & Telecommunication,ST,CET,61.41,1,60
+DYPIT,Electronics & Telecommunication,ST,CET,60.64,2,120
+DYPIT,Electronics & Telecommunication,EWS,CET,78.47,1,30
+DYPIT,Electronics & Telecommunication,EWS,CET,77.86,2,60
+DYPIT,Electronics & Telecommunication,TFWS,CET,79.28,1,30
+DYPIT,Electronics & Telecommunication,TFWS,CET,78.65,2,30
+DYPIT,Civil Engineering,OPEN,CET,74.95,1,30
+DYPIT,Civil Engineering,OPEN,CET,74.42,2,120
+DYPIT,Civil Engineering,OBC,CET,71.22,1,60
+DYPIT,Civil Engineering,OBC,CET,70.63,2,60
+DYPIT,Civil Engineering,SC,CET,59.77,1,90
+DYPIT,Civil Engineering,SC,CET,59.35,2,90
+DYPIT,Civil Engineering,ST,CET,54.74,1,60
+DYPIT,Civil Engineering,ST,CET,54.36,2,30
+DYPIT,Civil Engineering,EWS,CET,72.18,1,30
+DYPIT,Civil Engineering,EWS,CET,71.67,2,30
+DYPIT,Civil Engineering,TFWS,CET,73.0,1,90
+DYPIT,Civil Engineering,TFWS,CET,72.22,2,120
+DYPIT,Electrical Engineering,OPEN,CET,78.2,1,120
+DYPIT,Electrical Engineering,OPEN,CET,77.42,2,30
+DYPIT,Electrical Engineering,OBC,CET,73.93,1,60
+DYPIT,Electrical Engineering,OBC,CET,73.59,2,120
+DYPIT,Electrical Engineering,SC,CET,62.92,1,90
+DYPIT,Electrical Engineering,SC,CET,62.23,2,90
+DYPIT,Electrical Engineering,ST,CET,57.88,1,120
+DYPIT,Electrical Engineering,ST,CET,57.38,2,60
+DYPIT,Electrical Engineering,EWS,CET,75.11,1,60
+DYPIT,Electrical Engineering,EWS,CET,74.45,2,120
+DYPIT,Electrical Engineering,TFWS,CET,75.91,1,120
+DYPIT,Electrical Engineering,TFWS,CET,75.53,2,60
+SKNCOE,Computer Engineering,OPEN,CET,90.78,1,60
+SKNCOE,Computer Engineering,OPEN,CET,90.26,2,30
+SKNCOE,Computer Engineering,OBC,CET,86.75,1,90
+SKNCOE,Computer Engineering,OBC,CET,86.34,2,120
+SKNCOE,Computer Engineering,SC,CET,76.1,1,90
+SKNCOE,Computer Engineering,SC,CET,75.33,2,90
+SKNCOE,Computer Engineering,ST,CET,70.86,1,30
+SKNCOE,Computer Engineering,ST,CET,70.29,2,120
+SKNCOE,Computer Engineering,EWS,CET,88.27,1,30
+SKNCOE,Computer Engineering,EWS,CET,87.6,2,120
+SKNCOE,Computer Engineering,TFWS,CET,88.79,1,90
+SKNCOE,Computer Engineering,TFWS,CET,88.04,2,30
+SKNCOE,Information Technology,OPEN,CET,90.09,1,120
+SKNCOE,Information Technology,OPEN,CET,89.66,2,60
+SKNCOE,Information Technology,OBC,CET,86.04,1,60
+SKNCOE,Information Technology,OBC,CET,85.38,2,90
+SKNCOE,Information Technology,SC,CET,75.27,1,60
+SKNCOE,Information Technology,SC,CET,74.53,2,30
+SKNCOE,Information Technology,ST,CET,69.92,1,60
+SKNCOE,Information Technology,ST,CET,69.49,2,60
+SKNCOE,Information Technology,EWS,CET,87.27,1,60
+SKNCOE,Information Technology,EWS,CET,86.93,2,90
+SKNCOE,Information Technology,TFWS,CET,88.21,1,120
+SKNCOE,Information Technology,TFWS,CET,87.9,2,90
+SKNCOE,Mechanical Engineering,OPEN,CET,81.92,1,120
+SKNCOE,Mechanical Engineering,OPEN,CET,81.16,2,90
+SKNCOE,Mechanical Engineering,OBC,CET,78.0,1,120
+SKNCOE,Mechanical Engineering,OBC,CET,77.41,2,90
+SKNCOE,Mechanical Engineering,SC,CET,67.13,1,90
+SKNCOE,Mechanical Engineering,SC,CET,66.36,2,90
+SKNCOE,Mechanical Engineering,ST,CET,62.28,1,120
+SKNCOE,Mechanical Engineering,ST,CET,61.48,2,90
+SKNCOE,Mechanical Engineering,EWS,CET,78.94,1,120
+SKNCOE,Mechanical Engineering,EWS,CET,78.16,2,30
+SKNCOE,Mechanical Engineering,TFWS,CET,79.96,1,60
+SKNCOE,Mechanical Engineering,TFWS,CET,79.62,2,90
+SKNCOE,Electronics & Telecommunication,OPEN,CET,84.37,1,30
+SKNCOE,Electronics & Telecommunication,OPEN,CET,83.78,2,90
+SKNCOE,Electronics & Telecommunication,OBC,CET,80.5,1,60
+SKNCOE,Electronics & Telecommunication,OBC,CET,79.82,2,60
+SKNCOE,Electronics & Telecommunication,SC,CET,69.39,1,120
+SKNCOE,Electronics & Telecommunication,SC,CET,68.89,2,120
+SKNCOE,Electronics & Telecommunication,ST,CET,64.31,1,60
+SKNCOE,Electronics & Telecommunication,ST,CET,64.0,2,90
+SKNCOE,Electronics & Telecommunication,EWS,CET,81.28,1,30
+SKNCOE,Electronics & Telecommunication,EWS,CET,80.85,2,120
+SKNCOE,Electronics & Telecommunication,TFWS,CET,82.27,1,30
+SKNCOE,Electronics & Telecommunication,TFWS,CET,81.47,2,90
+SKNCOE,Civil Engineering,OPEN,CET,78.09,1,60
+SKNCOE,Civil Engineering,OPEN,CET,77.39,2,60
+SKNCOE,Civil Engineering,OBC,CET,74.26,1,90
+SKNCOE,Civil Engineering,OBC,CET,73.57,2,90
+SKNCOE,Civil Engineering,SC,CET,62.83,1,120
+SKNCOE,Civil Engineering,SC,CET,62.25,2,60
+SKNCOE,Civil Engineering,ST,CET,58.09,1,30
+SKNCOE,Civil Engineering,ST,CET,57.31,2,30
+SKNCOE,Civil Engineering,EWS,CET,74.72,1,30
+SKNCOE,Civil Engineering,EWS,CET,74.17,2,90
+SKNCOE,Civil Engineering,TFWS,CET,76.25,1,30
+SKNCOE,Civil Engineering,TFWS,CET,75.91,2,120
+SKNCOE,Electrical Engineering,OPEN,CET,80.76,1,90
+SKNCOE,Electrical Engineering,OPEN,CET,80.3,2,60
+SKNCOE,Electrical Engineering,OBC,CET,76.92,1,90
+SKNCOE,Electrical Engineering,OBC,CET,76.25,2,60
+SKNCOE,Electrical Engineering,SC,CET,65.96,1,120
+SKNCOE,Electrical Engineering,SC,CET,65.53,2,120
+SKNCOE,Electrical Engineering,ST,CET,60.73,1,60
+SKNCOE,Electrical Engineering,ST,CET,60.0,2,30
+SKNCOE,Electrical Engineering,EWS,CET,78.11,1,90
+SKNCOE,Electrical Engineering,EWS,CET,77.37,2,60
+SKNCOE,Electrical Engineering,TFWS,CET,78.83,1,120
+SKNCOE,Electrical Engineering,TFWS,CET,78.46,2,120
+JSPM,Computer Engineering,OPEN,CET,85.94,1,60
+JSPM,Computer Engineering,OPEN,CET,85.54,2,30
+JSPM,Computer Engineering,OBC,CET,81.77,1,30
+JSPM,Computer Engineering,OBC,CET,81.01,2,90
+JSPM,Computer Engineering,SC,CET,71.19,1,30
+JSPM,Computer Engineering,SC,CET,70.88,2,90
+JSPM,Computer Engineering,ST,CET,65.9,1,30
+JSPM,Computer Engineering,ST,CET,65.58,2,60
+JSPM,Computer Engineering,EWS,CET,82.99,1,60
+JSPM,Computer Engineering,EWS,CET,82.66,2,60
+JSPM,Computer Engineering,TFWS,CET,83.89,1,60
+JSPM,Computer Engineering,TFWS,CET,83.53,2,30
+JSPM,Information Technology,OPEN,CET,85.06,1,30
+JSPM,Information Technology,OPEN,CET,84.38,2,60
+JSPM,Information Technology,OBC,CET,81.16,1,30
+JSPM,Information Technology,OBC,CET,80.61,2,60
+JSPM,Information Technology,SC,CET,70.25,1,60
+JSPM,Information Technology,SC,CET,69.76,2,90
+JSPM,Information Technology,ST,CET,64.91,1,120
+JSPM,Information Technology,ST,CET,64.52,2,30
+JSPM,Information Technology,EWS,CET,82.06,1,120
+JSPM,Information Technology,EWS,CET,81.37,2,90
+JSPM,Information Technology,TFWS,CET,82.78,1,90
+JSPM,Information Technology,TFWS,CET,82.07,2,60
+JSPM,Mechanical Engineering,OPEN,CET,76.25,1,60
+JSPM,Mechanical Engineering,OPEN,CET,75.63,2,120
+JSPM,Mechanical Engineering,OBC,CET,71.84,1,60
+JSPM,Mechanical Engineering,OBC,CET,71.54,2,90
+JSPM,Mechanical Engineering,SC,CET,61.21,1,60
+JSPM,Mechanical Engineering,SC,CET,60.52,2,60
+JSPM,Mechanical Engineering,ST,CET,55.78,1,30
+JSPM,Mechanical Engineering,ST,CET,55.23,2,30
+JSPM,Mechanical Engineering,EWS,CET,72.98,1,30
+JSPM,Mechanical Engineering,EWS,CET,72.4,2,120
+JSPM,Mechanical Engineering,TFWS,CET,73.73,1,120
+JSPM,Mechanical Engineering,TFWS,CET,73.04,2,30
+JSPM,Electronics & Telecommunication,OPEN,CET,78.66,1,60
+JSPM,Electronics & Telecommunication,OPEN,CET,78.17,2,30
+JSPM,Electronics & Telecommunication,OBC,CET,74.21,1,120
+JSPM,Electronics & Telecommunication,OBC,CET,73.86,2,60
+JSPM,Electronics & Telecommunication,SC,CET,63.74,1,60
+JSPM,Electronics & Telecommunication,SC,CET,63.09,2,120
+JSPM,Electronics & Telecommunication,ST,CET,58.6,1,120
+JSPM,Electronics & Telecommunication,ST,CET,57.84,2,90
+JSPM,Electronics & Telecommunication,EWS,CET,75.52,1,120
+JSPM,Electronics & Telecommunication,EWS,CET,74.98,2,90
+JSPM,Electronics & Telecommunication,TFWS,CET,76.47,1,60
+JSPM,Electronics & Telecommunication,TFWS,CET,76.07,2,60
+JSPM,Civil Engineering,OPEN,CET,72.29,1,60
+JSPM,Civil Engineering,OPEN,CET,71.51,2,30
+JSPM,Civil Engineering,OBC,CET,68.08,1,90
+JSPM,Civil Engineering,OBC,CET,67.65,2,60
+JSPM,Civil Engineering,SC,CET,56.91,1,60
+JSPM,Civil Engineering,SC,CET,56.25,2,60
+JSPM,Civil Engineering,ST,CET,51.81,1,120
+JSPM,Civil Engineering,ST,CET,51.48,2,60
+JSPM,Civil Engineering,EWS,CET,69.19,1,90
+JSPM,Civil Engineering,EWS,CET,68.78,2,30
+JSPM,Civil Engineering,TFWS,CET,70.24,1,120
+JSPM,Civil Engineering,TFWS,CET,69.51,2,60
+JSPM,Electrical Engineering,OPEN,CET,74.74,1,30
+JSPM,Electrical Engineering,OPEN,CET,74.3,2,120
+JSPM,Electrical Engineering,OBC,CET,70.87,1,30
+JSPM,Electrical Engineering,OBC,CET,70.33,2,90
+JSPM,Electrical Engineering,SC,CET,59.84,1,90
+JSPM,Electrical Engineering,SC,CET,59.15,2,90
+JSPM,Electrical Engineering,ST,CET,54.79,1,30
+JSPM,Electrical Engineering,ST,CET,54.38,2,120
+JSPM,Electrical Engineering,EWS,CET,71.8,1,90
+JSPM,Electrical Engineering,EWS,CET,71.17,2,60
+JSPM,Electrical Engineering,TFWS,CET,73.04,1,90
+JSPM,Electrical Engineering,TFWS,CET,72.55,2,90
+VIIT,Computer Engineering,OPEN,CET,93.14,1,30
+VIIT,Computer Engineering,OPEN,CET,92.66,2,90
+VIIT,Computer Engineering,OBC,CET,89.04,1,30
+VIIT,Computer Engineering,OBC,CET,88.56,2,120
+VIIT,Computer Engineering,SC,CET,78.29,1,30
+VIIT,Computer Engineering,SC,CET,77.71,2,90
+VIIT,Computer Engineering,ST,CET,72.9,1,30
+VIIT,Computer Engineering,ST,CET,72.31,2,120
+VIIT,Computer Engineering,EWS,CET,90.06,1,90
+VIIT,Computer Engineering,EWS,CET,89.53,2,120
+VIIT,Computer Engineering,TFWS,CET,90.91,1,120
+VIIT,Computer Engineering,TFWS,CET,90.21,2,60
+VIIT,Information Technology,OPEN,CET,91.71,1,60
+VIIT,Information Technology,OPEN,CET,91.08,2,30
+VIIT,Information Technology,OBC,CET,88.07,1,30
+VIIT,Information Technology,OBC,CET,87.7,2,30
+VIIT,Information Technology,SC,CET,76.79,1,60
+VIIT,Information Technology,SC,CET,76.2,2,120
+VIIT,Information Technology,ST,CET,72.24,1,120
+VIIT,Information Technology,ST,CET,71.67,2,120
+VIIT,Information Technology,EWS,CET,88.94,1,120
+VIIT,Information Technology,EWS,CET,88.53,2,60
+VIIT,Information Technology,TFWS,CET,89.96,1,60
+VIIT,Information Technology,TFWS,CET,89.62,2,60
+VIIT,Mechanical Engineering,OPEN,CET,84.78,1,30
+VIIT,Mechanical Engineering,OPEN,CET,84.25,2,90
+VIIT,Mechanical Engineering,OBC,CET,81.12,1,120
+VIIT,Mechanical Engineering,OBC,CET,80.5,2,120
+VIIT,Mechanical Engineering,SC,CET,69.91,1,60
+VIIT,Mechanical Engineering,SC,CET,69.14,2,90
+VIIT,Mechanical Engineering,ST,CET,64.82,1,120
+VIIT,Mechanical Engineering,ST,CET,64.36,2,60
+VIIT,Mechanical Engineering,EWS,CET,81.72,1,90
+VIIT,Mechanical Engineering,EWS,CET,81.33,2,30
+VIIT,Mechanical Engineering,TFWS,CET,82.79,1,30
+VIIT,Mechanical Engineering,TFWS,CET,82.31,2,30
+VIIT,Electronics & Telecommunication,OPEN,CET,87.66,1,120
+VIIT,Electronics & Telecommunication,OPEN,CET,87.22,2,90
+VIIT,Electronics & Telecommunication,OBC,CET,83.54,1,90
+VIIT,Electronics & Telecommunication,OBC,CET,83.0,2,30
+VIIT,Electronics & Telecommunication,SC,CET,72.2,1,120
+VIIT,Electronics & Telecommunication,SC,CET,71.7,2,90
+VIIT,Electronics & Telecommunication,ST,CET,67.53,1,120
+VIIT,Electronics & Telecommunication,ST,CET,67.03,2,120
+VIIT,Electronics & Telecommunication,EWS,CET,84.56,1,30
+VIIT,Electronics & Telecommunication,EWS,CET,84.05,2,60
+VIIT,Electronics & Telecommunication,TFWS,CET,85.43,1,30
+VIIT,Electronics & Telecommunication,TFWS,CET,85.0,2,90
+VIIT,Civil Engineering,OPEN,CET,80.72,1,90
+VIIT,Civil Engineering,OPEN,CET,80.26,2,60
+VIIT,Civil Engineering,OBC,CET,76.98,1,120
+VIIT,Civil Engineering,OBC,CET,76.19,2,120
+VIIT,Civil Engineering,SC,CET,66.07,1,120
+VIIT,Civil Engineering,SC,CET,65.73,2,90
+VIIT,Civil Engineering,ST,CET,60.78,1,60
+VIIT,Civil Engineering,ST,CET,60.32,2,30
+VIIT,Civil Engineering,EWS,CET,78.12,1,30
+VIIT,Civil Engineering,EWS,CET,77.73,2,90
+VIIT,Civil Engineering,TFWS,CET,78.77,1,120
+VIIT,Civil Engineering,TFWS,CET,78.26,2,60
+VIIT,Electrical Engineering,OPEN,CET,83.96,1,30
+VIIT,Electrical Engineering,OPEN,CET,83.23,2,90
+VIIT,Electrical Engineering,OBC,CET,80.25,1,90
+VIIT,Electrical Engineering,OBC,CET,79.64,2,90
+VIIT,Electrical Engineering,SC,CET,69.25,1,120
+VIIT,Electrical Engineering,SC,CET,68.83,2,90
+VIIT,Electrical Engineering,ST,CET,64.15,1,90
+VIIT,Electrical Engineering,ST,CET,63.48,2,90
+VIIT,Electrical Engineering,EWS,CET,81.13,1,90
+VIIT,Electrical Engineering,EWS,CET,80.52,2,120
+VIIT,Electrical Engineering,TFWS,CET,82.04,1,60
+VIIT,Electrical Engineering,TFWS,CET,81.36,2,60
+MAEER,Computer Engineering,OPEN,CET,84.2,1,90
+MAEER,Computer Engineering,OPEN,CET,83.76,2,120
+MAEER,Computer Engineering,OBC,CET,79.87,1,90
+MAEER,Computer Engineering,OBC,CET,79.13,2,90
+MAEER,Computer Engineering,SC,CET,68.71,1,60
+MAEER,Computer Engineering,SC,CET,68.34,2,30
+MAEER,Computer Engineering,ST,CET,64.06,1,60
+MAEER,Computer Engineering,ST,CET,63.46,2,120
+MAEER,Computer Engineering,EWS,CET,81.13,1,90
+MAEER,Computer Engineering,EWS,CET,80.78,2,60
+MAEER,Computer Engineering,TFWS,CET,81.76,1,120
+MAEER,Computer Engineering,TFWS,CET,81.4,2,60
+MAEER,Information Technology,OPEN,CET,82.77,1,30
+MAEER,Information Technology,OPEN,CET,82.23,2,90
+MAEER,Information Technology,OBC,CET,79.24,1,60
+MAEER,Information Technology,OBC,CET,78.8,2,120
+MAEER,Information Technology,SC,CET,67.92,1,60
+MAEER,Information Technology,SC,CET,67.19,2,60
+MAEER,Information Technology,ST,CET,62.72,1,90
+MAEER,Information Technology,ST,CET,62.28,2,120
+MAEER,Information Technology,EWS,CET,80.21,1,30
+MAEER,Information Technology,EWS,CET,79.84,2,60
+MAEER,Information Technology,TFWS,CET,81.04,1,60
+MAEER,Information Technology,TFWS,CET,80.29,2,90
+MAEER,Mechanical Engineering,OPEN,CET,73.76,1,60
+MAEER,Mechanical Engineering,OPEN,CET,73.09,2,120
+MAEER,Mechanical Engineering,OBC,CET,69.9,1,90
+MAEER,Mechanical Engineering,OBC,CET,69.34,2,120
+MAEER,Mechanical Engineering,SC,CET,58.81,1,120
+MAEER,Mechanical Engineering,SC,CET,58.03,2,120
+MAEER,Mechanical Engineering,ST,CET,54.28,1,60
+MAEER,Mechanical Engineering,ST,CET,53.51,2,90
+MAEER,Mechanical Engineering,EWS,CET,71.12,1,60
+MAEER,Mechanical Engineering,EWS,CET,70.69,2,90
+MAEER,Mechanical Engineering,TFWS,CET,71.94,1,30
+MAEER,Mechanical Engineering,TFWS,CET,71.53,2,90
+MAEER,Electronics & Telecommunication,OPEN,CET,76.23,1,60
+MAEER,Electronics & Telecommunication,OPEN,CET,75.83,2,120
+MAEER,Electronics & Telecommunication,OBC,CET,72.29,1,60
+MAEER,Electronics & Telecommunication,OBC,CET,71.97,2,60
+MAEER,Electronics & Telecommunication,SC,CET,61.32,1,60
+MAEER,Electronics & Telecommunication,SC,CET,60.89,2,60
+MAEER,Electronics & Telecommunication,ST,CET,56.59,1,60
+MAEER,Electronics & Telecommunication,ST,CET,55.96,2,120
+MAEER,Electronics & Telecommunication,EWS,CET,73.5,1,120
+MAEER,Electronics & Telecommunication,EWS,CET,72.81,2,30
+MAEER,Electronics & Telecommunication,TFWS,CET,74.22,1,90
+MAEER,Electronics & Telecommunication,TFWS,CET,73.56,2,60
+MAEER,Civil Engineering,OPEN,CET,70.04,1,30
+MAEER,Civil Engineering,OPEN,CET,69.66,2,30
+MAEER,Civil Engineering,OBC,CET,66.09,1,120
+MAEER,Civil Engineering,OBC,CET,65.35,2,30
+MAEER,Civil Engineering,SC,CET,54.98,1,30
+MAEER,Civil Engineering,SC,CET,54.53,2,90
+MAEER,Civil Engineering,ST,CET,49.74,1,90
+MAEER,Civil Engineering,ST,CET,48.97,2,60
+MAEER,Civil Engineering,EWS,CET,66.8,1,90
+MAEER,Civil Engineering,EWS,CET,66.29,2,90
+MAEER,Civil Engineering,TFWS,CET,67.81,1,60
+MAEER,Civil Engineering,TFWS,CET,67.41,2,60
+MAEER,Electrical Engineering,OPEN,CET,73.01,1,60
+MAEER,Electrical Engineering,OPEN,CET,72.71,2,30
+MAEER,Electrical Engineering,OBC,CET,68.78,1,30
+MAEER,Electrical Engineering,OBC,CET,68.37,2,30
+MAEER,Electrical Engineering,SC,CET,57.84,1,90
+MAEER,Electrical Engineering,SC,CET,57.34,2,120
+MAEER,Electrical Engineering,ST,CET,52.74,1,120
+MAEER,Electrical Engineering,ST,CET,52.05,2,90
+MAEER,Electrical Engineering,EWS,CET,70.26,1,120
+MAEER,Electrical Engineering,EWS,CET,69.89,2,120
+MAEER,Electrical Engineering,TFWS,CET,71.07,1,90
+MAEER,Electrical Engineering,TFWS,CET,70.65,2,30
+COEP,Computer Engineering,OPEN,JEE,91.58,1,30
+COEP,Mechanical Engineering,OPEN,JEE,88.14,1,30
+VJTI,Computer Engineering,OPEN,JEE,90.53,1,30
+VJTI,Mechanical Engineering,OPEN,JEE,87.45,1,30
+ICT,Computer Engineering,OPEN,JEE,90.56,1,30
+ICT,Mechanical Engineering,OPEN,JEE,86.07,1,30
+VIT,Computer Engineering,OPEN,JEE,89.89,1,30
+VIT,Mechanical Engineering,OPEN,JEE,85.17,1,30
+PICT,Computer Engineering,OPEN,JEE,89.08,1,30
+PICT,Mechanical Engineering,OPEN,JEE,83.96,1,30

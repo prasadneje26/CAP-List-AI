@@ -25,6 +25,9 @@ const pdfRoutes            = require('./routes/pdfRoutes');
 
 const app = express();
 
+// ── Trust Replit's proxy ──────────────────────────────────────
+app.set('trust proxy', 1);
+
 // ── Security middleware ──────────────────────────────────────
 app.use(helmetConfig);
 app.use(corsConfig);
