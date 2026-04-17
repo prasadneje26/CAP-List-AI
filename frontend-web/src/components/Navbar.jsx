@@ -11,8 +11,9 @@ export default function Navbar() {
   const navLinks = user
     ? [
         { to: '/dashboard',  label: 'Dashboard' },
-        { to: '/input',      label: 'My Profile' },
-        { to: '/results',    label: 'Results' },
+        { to: '/input',      label: 'Academic' },
+        { to: '/results',    label: 'CAP List' },
+        { to: '/compare',    label: 'Compare' },
         { to: '/mentorship', label: 'Mentorship' },
         { to: '/documents',  label: 'Documents' },
       ]
@@ -52,9 +53,14 @@ export default function Navbar() {
         <div style={styles.auth}>
           {user ? (
             <>
-              <span style={styles.greeting}>Hi, {user.name?.split(' ')[0]}</span>
-              <Link to="/feedback" className="btn btn-ghost btn-sm" style={{ color: 'var(--navy)' }}>Feedback</Link>
-              <button onClick={handleLogout} className="btn btn-outline btn-sm" style={{ borderColor: 'var(--gray-300)' }}>Logout</button>
+              <Link to="/profile" style={styles.greeting}>
+                <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: 'var(--navy)', color: 'var(--white)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '13px', fontWeight: 700 }}>
+                  {user.name?.charAt(0).toUpperCase()}
+                </div>
+                <span style={{ fontSize: '14px', fontWeight: 600, color: 'var(--navy)' }}>{user.name?.split(' ')[0]}</span>
+              </Link>
+              <Link to="/feedback" className="btn btn-ghost btn-sm" style={{ color: 'var(--gray-600)' }}>Feedback</Link>
+              <button onClick={handleLogout} className="btn btn-outline btn-sm" style={{ borderColor: 'var(--gray-300)' }}>Sign Out</button>
             </>
           ) : (
             <>
@@ -78,17 +84,17 @@ const styles = {
   },
   inner: {
     maxWidth:   '1200px', margin: '0 auto', padding: '0 24px',
-    height:     '100%', display: 'flex', alignItems: 'center', gap: '32px',
+    height:     '100%', display: 'flex', alignItems: 'center', gap: '24px',
   },
   logo: { display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0 },
   logoMark: { color: 'var(--navy)', display: 'flex', alignItems: 'center' },
   logoText:  { fontFamily: 'var(--font-display)', fontSize: '24px', fontWeight: '700', color: 'var(--navy)', letterSpacing: '-0.5px' },
-  links: { display: 'flex', gap: '8px', flex: 1 },
+  links: { display: 'flex', gap: '4px', flex: 1 },
   link: {
-    padding: '8px 16px', borderRadius: 'var(--radius-full)', fontSize: '14px', fontWeight: '500',
+    padding: '7px 13px', borderRadius: 'var(--radius-full)', fontSize: '14px', fontWeight: '500',
     color: 'var(--gray-600)', transition: 'var(--transition)',
   },
   linkActive: { color: 'var(--navy)', background: 'var(--gray-200)', fontWeight: '600' },
-  auth: { display: 'flex', alignItems: 'center', gap: '12px', marginLeft: 'auto' },
-  greeting: { fontSize: '14px', fontWeight: '500', color: 'var(--gray-600)', marginRight: '8px' },
+  auth: { display: 'flex', alignItems: 'center', gap: '10px', marginLeft: 'auto', flexShrink: 0 },
+  greeting: { display: 'flex', alignItems: 'center', gap: '8px', textDecoration: 'none' },
 }

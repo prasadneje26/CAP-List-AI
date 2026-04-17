@@ -1,30 +1,57 @@
 # AI College CAP Counseling Platform
 
 ## Overview
-- Imported GitHub project for an AI-powered Maharashtra engineering admission counseling platform.
-- Main runnable web app is a React + Vite frontend in `frontend-web` with an Express API in `backend`.
-- A FastAPI AI engine exists in `ai-engine`, but the current Replit development workflow runs the frontend and backend only.
+AI-powered Maharashtra engineering admission counseling platform with ML-based cutoff prediction, Dream/Target/Safe college classification, CAP preference list optimization, AI chatbot, PDF reports, and mentorship booking.
 
-## Replit setup
-- Frontend runs on `0.0.0.0:5000` for the Replit web preview.
-- Backend runs on `localhost:3001` to avoid conflicting with the frontend preview port.
-- `frontend-web/vite.config.js` allows all dev hosts and proxies `/api` plus `/health` to the backend.
-- The backend supports Replit PostgreSQL environment variables (`DATABASE_URL` or `PG*` variables).
-- Development database was initialized from `database/schema.sql` and `database/seed.sql`.
-- For production, the backend can serve the built frontend when `SERVE_FRONTEND=true` or `NODE_ENV=production`.
-- Backend CORS allows all origins in development so the Replit preview proxy can call local APIs; production remains controlled by `ALLOWED_ORIGINS`.
+## Architecture
+- **Frontend**: React + Vite on `0.0.0.0:5000` (port 5000 for Replit preview)
+- **Backend**: Node.js/Express on `127.0.0.1:3001`, proxied via `/api` by Vite
+- **AI Engine**: Python FastAPI on `127.0.0.1:8000`, called by the backend for ML predictions
+- **Database**: PostgreSQL (Replit-managed) with `DATABASE_URL` env var
 
-## Frontend design
-- The React frontend now uses a professional navy/amber admissions-focused design system in `frontend-web/src/assets/styles/index.css`.
-- Primary UI surfaces updated: landing page, navigation, auth screens, dashboard, profile/input form, results, documents, mentorship, feedback, college cards, and chatbot widget.
-- UI is still React component-based; no separate static HTML/CSS frontend was introduced.
+## Replit Setup
+- Frontend proxies `/api` and `/health` to backend at port 3001 (see `frontend-web/vite.config.js`)
+- Backend uses `DATABASE_URL` or `PG*` env vars for PostgreSQL
+- Backend CORS allows all origins in development; production controlled by `ALLOWED_ORIGINS`
+- ML models: `ai-engine/cutoff_predictor/model.pkl` and `ai-engine/admission_predictor/classifier.pkl` (trained on 5,800 rows, R²=0.9959 / AUC=0.9961)
+
+## Key Features
+- **Auth**: JWT access tokens (1d) + refresh tokens (7d), bcrypt password hashing, change password endpoint
+- **ML Predictions**: Cutoff prediction + admission probability via scikit-learn models
+- **CAP List**: Optimized preference ordering with Dream/Target/Safe classification
+- **College Comparison**: Side-by-side comparison of up to 3 colleges (`/compare`)
+- **AI Chatbot**: Context-aware admission assistant (rule-based fallback if AI engine unavailable)
+- **PDF Reports**: Downloadable CAP preference report via PDFKit
+- **Mentorship**: Book 1:1 sessions with alumni mentors
+- **Document Checklist**: Interactive checklist with progress tracking
+
+## Pages & Routes
+- `/` — Home / landing page
+- `/login`, `/register` — Auth
+- `/dashboard` — Main dashboard with prediction results and college cards
+- `/input` — Academic profile form (pre-fills existing data on edit)
+- `/results` — Full CAP sequence with PDF download
+- `/compare` — Side-by-side college comparison (new)
+- `/profile` — User account + academic summary + change password
+- `/documents` — Interactive document checklist
+- `/mentorship` — Book and view mentor sessions
+- `/feedback` — Feedback form
+
+## Important Files
+- `backend/controllers/authController.js` — Full auth implementation (register, login, getMe, refreshToken, logout, changePassword)
+- `backend/controllers/predictionController.js` — ML prediction pipeline
+- `backend/services/capOrderEngine.js` — CAP preference list optimizer
+- `backend/controllers/chatbotController.js` — AI chatbot (calls FastAPI or rule-based)
+- `frontend-web/src/context/AuthContext.jsx` — Auth state management
+- `frontend-web/src/services/api.js` — Axios with JWT interceptor + auto-refresh
+- `frontend-web/src/pages/ComparePage.jsx` — College comparison feature
+
+## Database Seed Data
+- 20 colleges seeded with 5,760 cutoff records across 3 years
+- 3 mentor users pre-seeded
 
 ## Commands
-- Frontend dependencies: `frontend-web/package.json`
-- Backend dependencies: `backend/package.json`
-- Workflow command starts backend first, then starts Vite on port 5000.
-- Deployment builds `frontend-web/dist` and runs the Express backend on `0.0.0.0:5000`.
-
-## Notes
-- Docker files are kept for the original deployment model but are not used in Replit.
-- The frontend uses a relative `/api` base URL so requests work through the preview proxy.
+- Start: workflow starts ai-engine + backend + frontend in parallel
+- Frontend deps: `frontend-web/package.json`
+- Backend deps: `backend/package.json`
+- Python deps: `ai-engine/requirements.txt`

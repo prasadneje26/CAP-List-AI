@@ -16,6 +16,7 @@ import ProfilePage    from '../pages/ProfilePage.jsx'
 import DocumentsPage  from '../pages/DocumentsPage.jsx'
 import MentorshipPage from '../pages/MentorshipPage.jsx'
 import FeedbackPage   from '../pages/FeedbackPage.jsx'
+import ComparePage    from '../pages/ComparePage.jsx'
 import Navbar         from '../components/Navbar.jsx'
 import Footer         from '../components/Footer.jsx'
 
@@ -48,6 +49,7 @@ export default function AppRoutes() {
           <Route path="/documents" element={<ProtectedRoute><DocumentsPage /></ProtectedRoute>} />
           <Route path="/mentorship"element={<ProtectedRoute><MentorshipPage /></ProtectedRoute>} />
           <Route path="/feedback"  element={<ProtectedRoute><FeedbackPage /></ProtectedRoute>} />
+          <Route path="/compare"   element={<ProtectedRoute><ComparePage /></ProtectedRoute>} />
           <Route path="*"          element={<Navigate to="/" replace />} />
         </Routes>
       </main>

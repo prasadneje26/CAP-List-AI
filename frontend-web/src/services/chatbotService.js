@@ -2,5 +2,5 @@
 import api from './api'
 export const chatbotService = {
   ask: (message, history = []) =>
-    api.post('/chatbot/ask', { message, history }).then(r => r.data),
+    api.post('/chatbot/ask', { message, history }).then(r => r.data.data),
 }
