@@ -6,7 +6,10 @@
 import re
 import logging
 from typing import Optional
-from .llm_connector import get_llm_response
+try:
+    from .llm_connector import get_llm_response
+except ImportError:
+    from llm_connector import get_llm_response
 
 logger = logging.getLogger(__name__)
 
