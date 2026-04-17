@@ -1,0 +1,227 @@
+
+> cap-counseling-backend@1.0.0 start
+> node server.js
+
+[1G[0K
+> cap-counseling-frontend@1.0.0 dev
+> vite --host 0.0.0.0 --port 5000
+
+[1G[0K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v7.3.2[39m  [2mready in [0m[1m390[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5000[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.31.108.226:[1m5000[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[32minfo[39m: DB connected at: Fri Apr 17 2026 10:15:36 GMT+0000 (Coordinated Universal Time) {"timestamp":"2026-04-17 10:15:36"}
+[32minfo[39m: PostgreSQL connected successfully {"timestamp":"2026-04-17 10:15:36"}
+[32minfo[39m: Server running on http://127.0.0.1:3001 {"timestamp":"2026-04-17 10:15:36"}
+[32minfo[39m: Environment: development {"timestamp":"2026-04-17 10:15:36"}
+Recommender model not found — using rule-based fallback
+[32mINFO[0m:     Started server process [[36m3277[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:8000[0m (Press CTRL+C to quit)
+[32minfo[39m: POST /api/auth/login — 127.0.0.1 {"timestamp":"2026-04-17 10:15:56"}
+[31merror[39m: POST /api/auth/login — Invalid email or password. {"timestamp":"2026-04-17 10:15:56"}
+[32minfo[39m: POST /api/auth/register — 127.0.0.1 {"timestamp":"2026-04-17 10:16:11"}
+[32minfo[39m: New user registered: test@example.com {"timestamp":"2026-04-17 10:16:12"}
+[32minfo[39m: GET /api/auth/me — 127.0.0.1 {"timestamp":"2026-04-17 10:16:17"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:16:31"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 10:16:31"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:16:32"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 10:16:32"}
+[32minfo[39m: POST /api/student/ — 127.0.0.1 {"timestamp":"2026-04-17 10:16:50"}
+[32minfo[39m: POST /api/student/ — 127.0.0.1 {"timestamp":"2026-04-17 10:16:52"}
+[32minfo[39m: POST /api/student/ — 127.0.0.1 {"timestamp":"2026-04-17 10:16:54"}
+[32minfo[39m: POST /api/student/ — 127.0.0.1 {"timestamp":"2026-04-17 10:16:56"}
+[32minfo[39m: POST /api/student/ — 127.0.0.1 {"timestamp":"2026-04-17 10:17:02"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 10:17:07"}
+[31merror[39m: POST /api/predict/full — Student profile not found. Please create your profile first. {"timestamp":"2026-04-17 10:17:07"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:18:16 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/InputPage.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:18:37 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/InputPage.jsx[22m [33m(x2)[39m
+[32minfo[39m: POST /api/auth/login — 127.0.0.1 {"timestamp":"2026-04-17 10:18:48"}
+[32minfo[39m: User logged in: test@example.com {"timestamp":"2026-04-17 10:18:49"}
+[32minfo[39m: POST /api/student/create — 127.0.0.1 {"timestamp":"2026-04-17 10:18:49"}
+[32minfo[39m: Student profile created for user: test@example.com {"timestamp":"2026-04-17 10:18:49"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:18:58"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 10:18:58"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:18:58"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 10:18:58"}
+[32minfo[39m: POST /api/student/create — 127.0.0.1 {"timestamp":"2026-04-17 10:19:19"}
+[32minfo[39m: Student profile created for user: prasadvneje2604@gmail.com {"timestamp":"2026-04-17 10:19:19"}
+[32minfo[39m: PUT /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:19:20"}
+[32minfo[39m: Student profile updated for user: prasadvneje2604@gmail.com {"timestamp":"2026-04-17 10:19:20"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 10:19:29"}
+[32minfo[39m: Running full prediction for student: 592e23d0-0f71-4f3b-a1e0-cea8ab7ecd68 {"timestamp":"2026-04-17 10:19:29"}
+2026-04-17 10:19:29,172 | INFO | POST /admission/predict — 34.38ms
+[32mINFO[0m:     127.0.0.1:55748 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,173 | INFO | POST /admission/predict — 33.09ms
+[32mINFO[0m:     127.0.0.1:55760 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,173 | INFO | POST /admission/predict — 33.34ms
+[32mINFO[0m:     127.0.0.1:55764 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,174 | INFO | POST /admission/predict — 33.66ms
+[32mINFO[0m:     127.0.0.1:55776 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,174 | INFO | POST /admission/predict — 33.85ms
+[32mINFO[0m:     127.0.0.1:55786 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,174 | INFO | POST /admission/predict — 34.11ms
+[32mINFO[0m:     127.0.0.1:55794 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,174 | INFO | POST /admission/predict — 34.39ms
+[32mINFO[0m:     127.0.0.1:55802 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,175 | INFO | POST /admission/predict — 34.65ms
+[32mINFO[0m:     127.0.0.1:55810 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,175 | INFO | POST /admission/predict — 34.89ms
+[32mINFO[0m:     127.0.0.1:55826 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,175 | INFO | POST /admission/predict — 35.18ms
+[32mINFO[0m:     127.0.0.1:55832 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,176 | INFO | POST /admission/predict — 35.44ms
+[32mINFO[0m:     127.0.0.1:55838 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,177 | INFO | POST /admission/predict — 36.76ms
+[32mINFO[0m:     127.0.0.1:55842 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,177 | INFO | POST /admission/predict — 33.11ms
+[32mINFO[0m:     127.0.0.1:55858 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,177 | INFO | POST /admission/predict — 33.23ms
+[32mINFO[0m:     127.0.0.1:55876 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,178 | INFO | POST /admission/predict — 33.31ms
+[32mINFO[0m:     127.0.0.1:55892 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,178 | INFO | POST /admission/predict — 33.44ms
+[32mINFO[0m:     127.0.0.1:55918 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,178 | INFO | POST /admission/predict — 33.98ms
+[32mINFO[0m:     127.0.0.1:55862 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,178 | INFO | POST /admission/predict — 34.06ms
+[32mINFO[0m:     127.0.0.1:55886 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,179 | INFO | POST /admission/predict — 34.55ms
+[32mINFO[0m:     127.0.0.1:55852 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,179 | INFO | POST /admission/predict — 34.49ms
+[32mINFO[0m:     127.0.0.1:55902 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,179 | INFO | POST /admission/predict — 34.99ms
+[32mINFO[0m:     127.0.0.1:55870 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,179 | INFO | POST /admission/predict — 35.39ms
+[32mINFO[0m:     127.0.0.1:55848 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,180 | INFO | POST /admission/predict — 35.24ms
+[32mINFO[0m:     127.0.0.1:55914 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,180 | INFO | POST /admission/predict — 35.38ms
+[32mINFO[0m:     127.0.0.1:55930 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,180 | INFO | POST /admission/predict — 35.6ms
+[32mINFO[0m:     127.0.0.1:55932 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,180 | INFO | POST /admission/predict — 35.82ms
+[32mINFO[0m:     127.0.0.1:55942 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,181 | INFO | POST /admission/predict — 36.01ms
+[32mINFO[0m:     127.0.0.1:55944 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,181 | INFO | POST /admission/predict — 36.11ms
+[32mINFO[0m:     127.0.0.1:55952 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,181 | INFO | POST /admission/predict — 36.25ms
+[32mINFO[0m:     127.0.0.1:55968 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,181 | INFO | POST /admission/predict — 36.45ms
+[32mINFO[0m:     127.0.0.1:55972 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,181 | INFO | POST /admission/predict — 36.65ms
+[32mINFO[0m:     127.0.0.1:55976 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,182 | INFO | POST /admission/predict — 36.77ms
+[32mINFO[0m:     127.0.0.1:55990 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,182 | INFO | POST /admission/predict — 36.88ms
+[32mINFO[0m:     127.0.0.1:55998 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 10:19:29,182 | INFO | POST /admission/predict — 37.05ms
+[32mINFO[0m:     127.0.0.1:56004 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32minfo[39m: Prediction complete in 150ms — 11 colleges {"timestamp":"2026-04-17 10:19:29"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 10:19:54"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 10:19:54"}
+[32minfo[39m: GET /api/pdf/download — 127.0.0.1 {"timestamp":"2026-04-17 10:20:11"}
+[32minfo[39m: Generating PDF report for user: fb768ef6-7994-4ce8-abdb-1d76de4fd259 {"timestamp":"2026-04-17 10:20:11"}
+[32minfo[39m: GET /api/mentorship/mentors — 127.0.0.1 {"timestamp":"2026-04-17 10:21:19"}
+[32minfo[39m: GET /api/mentorship/my — 127.0.0.1 {"timestamp":"2026-04-17 10:21:19"}
+[32minfo[39m: GET /api/mentorship/mentors — 127.0.0.1 {"timestamp":"2026-04-17 10:21:20"}
+[32minfo[39m: GET /api/mentorship/my — 127.0.0.1 {"timestamp":"2026-04-17 10:21:20"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-17 10:21:22"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-17 10:21:22"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 10:21:34"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 10:21:35"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 10:21:45"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 10:21:46"}
+[32minfo[39m: POST /api/chatbot/ask — 127.0.0.1 {"timestamp":"2026-04-17 10:25:33"}
+2026-04-17 10:25:34,705 | ERROR | LLM error: No LLM configured. Set LLM_PROVIDER and the corresponding API key.
+2026-04-17 10:25:34,709 | INFO | POST /chatbot/ask — 337.43ms
+[32mINFO[0m:     127.0.0.1:44168 - "[1mPOST /chatbot/ask HTTP/1.1[0m" [32m200 OK[0m
+[32minfo[39m: POST /api/chatbot/ask — 127.0.0.1 {"timestamp":"2026-04-17 10:25:37"}
+2026-04-17 10:25:37,229 | ERROR | LLM error: No LLM configured. Set LLM_PROVIDER and the corresponding API key.
+2026-04-17 10:25:37,229 | INFO | POST /chatbot/ask — 0.81ms
+[32mINFO[0m:     127.0.0.1:44168 - "[1mPOST /chatbot/ask HTTP/1.1[0m" [32m200 OK[0m
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:26:00"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:26:00"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 10:26:02"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 10:26:02"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-17 10:26:05"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-17 10:26:05"}
+[32minfo[39m: GET /api/auth/me — 127.0.0.1 {"timestamp":"2026-04-17 10:26:38"}
+[32minfo[39m: GET /api/auth/me — 127.0.0.1 {"timestamp":"2026-04-17 10:26:38"}
+[32minfo[39m: POST /api/feedback/submit — 127.0.0.1 {"timestamp":"2026-04-17 10:27:13"}
+[32minfo[39m: Feedback submitted by user: fb768ef6-7994-4ce8-abdb-1d76de4fd259 {"timestamp":"2026-04-17 10:27:13"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-17 10:34:31"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-17 10:34:31"}

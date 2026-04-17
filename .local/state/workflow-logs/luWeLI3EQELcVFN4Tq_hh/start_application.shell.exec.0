@@ -1,0 +1,327 @@
+
+> cap-counseling-backend@1.0.0 start
+> node server.js
+
+[1G[0K
+> cap-counseling-frontend@1.0.0 dev
+> vite --host 0.0.0.0 --port 5000
+
+[1G[0K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v7.3.2[39m  [2mready in [0m[1m193[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5000[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.31.108.226:[1m5000[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[32minfo[39m: DB connected at: Fri Apr 17 2026 10:04:43 GMT+0000 (Coordinated Universal Time) {"timestamp":"2026-04-17 10:04:43"}
+[32minfo[39m: PostgreSQL connected successfully {"timestamp":"2026-04-17 10:04:43"}
+[32minfo[39m: Server running on http://127.0.0.1:3001 {"timestamp":"2026-04-17 10:04:43"}
+[32minfo[39m: Environment: development {"timestamp":"2026-04-17 10:04:43"}
+Recommender model not found — using rule-based fallback
+[32mINFO[0m:     Started server process [[36m2203[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:8000[0m (Press CTRL+C to quit)
+2026-04-17 10:04:54,172 | INFO | GET /health — 1.39ms
+[32mINFO[0m:     127.0.0.1:35638 - "[1mGET /health HTTP/1.1[0m" [32m200 OK[0m
+[32minfo[39m: POST /api/chatbot/ask — 127.0.0.1 {"timestamp":"2026-04-17 10:04:54"}
+2026-04-17 10:04:54,230 | ERROR | LLM error: No LLM configured. Set LLM_PROVIDER and the corresponding API key.
+2026-04-17 10:04:54,230 | INFO | POST /chatbot/ask — 1.68ms
+[32mINFO[0m:     127.0.0.1:35646 - "[1mPOST /chatbot/ask HTTP/1.1[0m" [32m200 OK[0m
+[32minfo[39m: GET /api/colleges — 127.0.0.1 {"timestamp":"2026-04-17 10:04:54"}
+[31merror[39m: GET /api/colleges — Access token required {"timestamp":"2026-04-17 10:04:54"}
+[32minfo[39m: POST /api/auth/login — 127.0.0.1 {"timestamp":"2026-04-17 10:04:58"}
+[32minfo[39m: GET /api/colleges — 127.0.0.1 {"timestamp":"2026-04-17 10:05:00"}
+[31merror[39m: GET /api/colleges — Access token required {"timestamp":"2026-04-17 10:05:00"}
+[32minfo[39m: GET /api/colleges — 127.0.0.1 {"timestamp":"2026-04-17 10:05:05"}
+[31merror[39m: GET /api/colleges — Access token required {"timestamp":"2026-04-17 10:05:05"}
+[32minfo[39m: GET /api/colleges?limit=5 — 127.0.0.1 {"timestamp":"2026-04-17 10:05:05"}
+[31merror[39m: GET /api/colleges?limit=5 — Access token required {"timestamp":"2026-04-17 10:05:05"}
+[32minfo[39m: POST /api/auth/login — 127.0.0.1 {"timestamp":"2026-04-17 10:05:16"}
+[32minfo[39m: POST /api/auth/login — 127.0.0.1 {"timestamp":"2026-04-17 10:05:20"}
+[32minfo[39m: POST /api/auth/register — 127.0.0.1 {"timestamp":"2026-04-17 10:05:38"}
+[32minfo[39m: POST /api/student/ — 127.0.0.1 {"timestamp":"2026-04-17 10:05:56"}
+[32minfo[39m: POST /api/student/ — 127.0.0.1 {"timestamp":"2026-04-17 10:05:58"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:09:32 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/ChatbotWidget.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:10:23 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/InputPage.jsx[22m
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:10:25"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 10:10:25"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:10:25"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 10:10:25"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:10:48 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ProfilePage.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:11:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/DocumentsPage.jsx[22m
+[32minfo[39m: POST /api/student/ — 127.0.0.1 {"timestamp":"2026-04-17 10:11:33"}
+[32minfo[39m: POST /api/student/ — 127.0.0.1 {"timestamp":"2026-04-17 10:11:37"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 10:11:41"}
+[31merror[39m: POST /api/predict/full — Student profile not found. Please create your profile first. {"timestamp":"2026-04-17 10:11:41"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:11:46"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 10:11:46"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:11:46"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 10:11:46"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 10:11:48"}
+[31merror[39m: GET /api/predict/history — Student profile not found {"timestamp":"2026-04-17 10:11:48"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 10:11:48"}
+[31merror[39m: GET /api/predict/history — Student profile not found {"timestamp":"2026-04-17 10:11:48"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 10:12:00"}
+[31merror[39m: GET /api/predict/history — Student profile not found {"timestamp":"2026-04-17 10:12:00"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 10:12:01"}
+[31merror[39m: GET /api/predict/history — Student profile not found {"timestamp":"2026-04-17 10:12:01"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:12:13 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/routes/AppRoutes.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:12:29 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx[22m
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:12:43"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 10:12:43"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:12:43"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 10:12:43"}
+[32minfo[39m: POST /api/student/ — 127.0.0.1 {"timestamp":"2026-04-17 10:13:03"}
+[32minfo[39m: POST /api/student/ — 127.0.0.1 {"timestamp":"2026-04-17 10:13:05"}
+[32minfo[39m: POST /api/student/ — 127.0.0.1 {"timestamp":"2026-04-17 10:13:06"}
+[32minfo[39m: POST /api/student/ — 127.0.0.1 {"timestamp":"2026-04-17 10:13:07"}
+[32minfo[39m: POST /api/student/ — 127.0.0.1 {"timestamp":"2026-04-17 10:13:10"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:13:16"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 10:13:16"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:13:16"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 10:13:16"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 10:13:19"}
+[31merror[39m: POST /api/predict/full — Student profile not found. Please create your profile first. {"timestamp":"2026-04-17 10:13:19"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 10:13:22"}
+[31merror[39m: GET /api/predict/history — Student profile not found {"timestamp":"2026-04-17 10:13:22"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 10:13:22"}
+[31merror[39m: GET /api/predict/history — Student profile not found {"timestamp":"2026-04-17 10:13:22"}
+[32minfo[39m: GET /api/colleges/list — 127.0.0.1 {"timestamp":"2026-04-17 10:13:23"}
+[31merror[39m: GET /api/colleges/list — invalid input syntax for type uuid: "list" {"timestamp":"2026-04-17 10:13:23"}
+[32minfo[39m: GET /api/colleges/list — 127.0.0.1 {"timestamp":"2026-04-17 10:13:23"}
+[31merror[39m: GET /api/colleges/list — invalid input syntax for type uuid: "list" {"timestamp":"2026-04-17 10:13:23"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:13:27"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 10:13:27"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:13:27"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 10:13:27"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:14:06 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ComparePage.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:14:31 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx[22m
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:14:32"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 10:14:32"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:14:33"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 10:14:33"}
+[32minfo[39m: POST /api/student/ — 127.0.0.1 {"timestamp":"2026-04-17 10:14:52"}
+[32minfo[39m: POST /api/student/ — 127.0.0.1 {"timestamp":"2026-04-17 10:14:54"}
+[32minfo[39m: POST /api/student/ — 127.0.0.1 {"timestamp":"2026-04-17 10:14:57"}
+[32minfo[39m: POST /api/student/ — 127.0.0.1 {"timestamp":"2026-04-17 10:14:58"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 10:15:01"}
+[31merror[39m: POST /api/predict/full — Student profile not found. Please create your profile first. {"timestamp":"2026-04-17 10:15:01"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 10:15:06"}
+[31merror[39m: GET /api/predict/history — Student profile not found {"timestamp":"2026-04-17 10:15:06"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 10:15:06"}
+[31merror[39m: GET /api/predict/history — Student profile not found {"timestamp":"2026-04-17 10:15:06"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:15:08"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 10:15:08"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 10:15:08"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 10:15:08"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-17 10:15:09"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-17 10:15:09"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-17 10:15:22"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-17 10:15:22"}
