@@ -53,12 +53,18 @@ export default function InputPage() {
 
   const submit = async e => {
     e.preventDefault(); setError(''); setLoading(true)
-    const payload = { ...form, percentile: parseFloat(form.percentile), budget_max: form.budget_max ? parseInt(form.budget_max) : null }
+    const payload = {
+      ...form,
+      percentile:  parseFloat(form.percentile),
+      budget_max:  form.budget_max ? parseInt(form.budget_max) : null,
+      gender:      form.gender || undefined,
+      home_university: form.home_university || undefined,
+    }
     try {
       if (hasProfile) {
         await api.put('/student/profile', payload)
       } else {
-        await api.post('/student/', payload)
+        await api.post('/student/create', payload)
         setHasProfile(true)
       }
       setSuccess('Profile saved. Redirecting to dashboard...')
