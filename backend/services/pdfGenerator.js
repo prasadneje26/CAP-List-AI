@@ -11,7 +11,7 @@ const PDFDocument = require('pdfkit');
  */
 const generatePDF = (reportData) => {
   return new Promise((resolve, reject) => {
-    const doc    = new PDFDocument({ margin: 50, size: 'A4' });
+    const doc    = new PDFDocument({ margin: 50, size: 'A4', bufferPages: true });
     const chunks = [];
 
     doc.on('data', (chunk) => chunks.push(chunk));

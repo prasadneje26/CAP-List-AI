@@ -69,7 +69,7 @@ const filterColleges = async ({
   const whereClause = conditions.join(' AND ');
 
   const result = await query(
-    `SELECT
+    `SELECT DISTINCT ON (c.id, cu.branch)
        c.id,
        c.name,
        c.code,
@@ -90,7 +90,7 @@ const filterColleges = async ({
      FROM colleges c
      JOIN cutoffs cu ON cu.college_id = c.id
      WHERE ${whereClause}
-     ORDER BY cu.cutoff_percentile DESC, c.rating DESC`,
+     ORDER BY c.id, cu.branch, cu.round_number ASC, cu.cutoff_percentile DESC, c.rating DESC`,
     params
   );
 

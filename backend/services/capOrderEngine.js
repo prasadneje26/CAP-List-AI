@@ -48,19 +48,20 @@ const generateCAPOrder = (
   const ordered = [...dreams, ...targets, ...safes].slice(0, maxEntries);
 
   return ordered.map((college, index) => ({
-    cap_order:      index + 1,
-    college_id:     college.id,
-    college_name:   college.name,
-    college_code:   college.code,
-    branch:         college.branch,
-    classification: college.classification,
-    ranking_score:  college.ranking_score,
-    cutoff_percentile: college.cutoff_percentile,
-    confidence:     college.confidence,
-    gap:            college.gap,
-    annual_fees:    college.annual_fees,
-    district:       college.district,
-    strategy_note:  getStrategyNote(college.classification, college.gap),
+    cap_order:            index + 1,
+    college_id:           college.id,
+    college_name:         college.name,
+    college_code:         college.code,
+    branch:               college.branch,
+    classification:       college.classification,
+    ranking_score:        college.ranking_score,
+    cutoff_percentile:    college.cutoff_percentile,
+    admission_probability: college.admission_probability || null,
+    confidence:           college.confidence,
+    gap:                  college.gap,
+    annual_fees:          college.annual_fees,
+    district:             college.district,
+    strategy_note:        getStrategyNote(college.classification, college.gap),
   }));
 };
 
