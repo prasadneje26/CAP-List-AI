@@ -23,6 +23,7 @@ const feedbackRoutes       = require('./routes/feedbackRoutes');
 const mentorshipRoutes     = require('./routes/mentorshipRoutes');
 const pdfRoutes            = require('./routes/pdfRoutes');
 const chatbotRoutes        = require('./routes/chatbotRoutes');
+const paymentRoutes        = require('./routes/paymentRoutes');
 
 const app = express();
 
@@ -69,6 +70,7 @@ app.use('/api/feedback',        feedbackRoutes);
 app.use('/api/mentorship',      mentorshipRoutes);
 app.use('/api/pdf',             pdfRoutes);
 app.use('/api/chatbot',         chatbotRoutes);
+app.use('/api/payment',         paymentRoutes);
 
 if (process.env.SERVE_FRONTEND === 'true' || process.env.NODE_ENV === 'production') {
   const frontendDist = path.resolve(__dirname, '../frontend-web/dist');

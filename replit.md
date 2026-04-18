@@ -46,6 +46,30 @@ AI-powered Maharashtra engineering admission counseling platform with ML-based c
 - `frontend-web/src/services/api.js` — Axios with JWT interceptor + auto-refresh
 - `frontend-web/src/pages/ComparePage.jsx` — College comparison feature
 
+## Client-Server Architecture
+- **Dev**: Vite dev server (port 5000) proxies `/api` to Express backend (port 3001)
+- **Prod**: `SERVE_FRONTEND=true` or `NODE_ENV=production` → backend serves `frontend-web/dist` as static files
+- **API URL**: Frontend uses `VITE_API_URL` env var or falls back to relative `/api` (Vite proxy)
+- **CORS**: Dev allows all origins; prod controlled by `ALLOWED_ORIGINS` env var
+- **Payment API**: `GET /api/payment/plans` (public) + `POST /api/payment/create-intent` + `POST /api/payment/confirm` (authenticated)
+- **Stripe**: If `STRIPE_SECRET_KEY` env var is set, uses real Stripe; otherwise simulates payment (demo mode)
+
+## Responsive / Mobile Design
+- **Navbar**: Hamburger menu works on mobile (< 768px), shows full menu in dropdown with user info
+- **Layout breakpoints**: `layout-two-col` collapses at 900px; `hide-mobile` at 768px; `hide-desktop` at 1024px
+- **Grids**: `grid-2/3/4` use `auto-fit` and collapse on mobile; `grid-4` → 2-col on tablet
+- **Login/Register**: Dark feature panel hidden on mobile (`hide-mobile`), form takes full width
+- **MentorshipPage**: Two-col layout on desktop, tab switcher + single-col on mobile (< 900px)
+- **ChatbotWidget**: Repositioned to full-width on mobile
+
+## Mentorship Payment Plans
+- **Explorer (Free)**: ₹0 — 1 complimentary session/month
+- **Standard**: ₹299/session — Video call, priority booking, session notes
+- **Pro**: ₹999/month — Unlimited sessions, WhatsApp support, dedicated mentor
+- **Flow**: Plan selection → Payment modal (card form) → Payment confirmation → Book session
+- **DB**: `mentorship.plan_type` column added automatically on first booking
+- **Files**: `frontend-web/src/components/PaymentModal.jsx`, `backend/controllers/paymentController.js`, `backend/routes/paymentRoutes.js`
+
 ## UI Design System (Updated)
 - **Fonts**: Plus Jakarta Sans (sans-serif) + Playfair Display (display/headings)
 - **Palette**: Navy `#0A192F` + Amber `#FFB703` accent

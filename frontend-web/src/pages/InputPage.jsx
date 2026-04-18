@@ -257,7 +257,7 @@ export default function InputPage() {
                 <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: 16, padding: '10px 12px', background: 'var(--gray-50)', borderRadius: 'var(--radius-sm)', border: '1px solid var(--gray-200)' }}>
                   <span style={{ fontSize: 12, fontWeight: 600, color: 'var(--gray-500)', marginRight: 4 }}>Order:</span>
                   {form.branch_preferences.map((b, i) => (
-                    <span key={b} style={{ fontSize: 12, fontWeight: 700, color: 'var(--navy)' }}>
+                    <span key={`sel-${i}`} style={{ fontSize: 12, fontWeight: 700, color: 'var(--navy)' }}>
                       {i + 1}. {b.split(' ').slice(0, 3).join(' ')}
                     </span>
                   ))}

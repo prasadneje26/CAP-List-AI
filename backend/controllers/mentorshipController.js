@@ -16,6 +16,8 @@ const bookSession = async (req, res, next) => {
       session_date,
       duration_minutes = 30,
       topic,
+      plan_type = 'free',
+      payment_intent_id = null,
     } = req.body;
 
     // Validate mentor exists and has mentor role
@@ -40,12 +42,15 @@ const bookSession = async (req, res, next) => {
       throw new AppError('This time slot is already booked. Please choose another.', 409);
     }
 
+    // Ensure plan_type column exists (graceful migration)
+    await query(`ALTER TABLE mentorship ADD COLUMN IF NOT EXISTS plan_type VARCHAR(20) DEFAULT 'free'`).catch(() => {});
+
     const result = await query(
       `INSERT INTO mentorship
-         (id, student_id, mentor_id, session_date, duration_minutes, topic, status)
-       VALUES ($1,$2,$3,$4,$5,$6,'pending')
+         (id, student_id, mentor_id, session_date, duration_minutes, topic, status, plan_type)
+       VALUES ($1,$2,$3,$4,$5,$6,'pending',$7)
        RETURNING *`,
-      [uuidv4(), req.user.id, mentor_id, session_date, duration_minutes, topic]
+      [uuidv4(), req.user.id, mentor_id, session_date, duration_minutes, topic, plan_type]
     );
 
     logger.info(`Mentorship session booked: ${result.rows[0].id}`);
