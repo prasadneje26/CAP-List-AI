@@ -4,12 +4,16 @@
 # ============================================================
 
 import os
+import sys
 import numpy as np
 import pandas as pd
 import joblib
 from sklearn.ensemble import GradientBoostingRegressor, RandomForestRegressor
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import mean_absolute_error, r2_score
+
+# Ensure relative imports work
+sys.path.insert(0, os.path.dirname(__file__))
 from preprocess import load_raw_cutoffs, clean, build_features
 
 MODEL_DIR = os.path.dirname(__file__)

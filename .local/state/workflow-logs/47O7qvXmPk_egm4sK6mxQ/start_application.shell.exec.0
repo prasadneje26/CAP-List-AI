@@ -1,0 +1,53 @@
+[1G[0K⠙[1G[0K⠙[1G[0K
+> cap-counseling-backend@1.0.0 start
+> node server.js
+
+[1G[0K⠙[1G[0K[1G[0K
+> cap-counseling-frontend@1.0.0 dev
+> vite --host 0.0.0.0 --port 5000
+
+[1G[0K⠙[1G[0K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v7.3.2[39m  [2mready in [0m[1m1013[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5000[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.24.0.2:[1m5000[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[32minfo[39m: DB connected at: Sat Apr 18 2026 06:35:25 GMT+0000 (Coordinated Universal Time) {"timestamp":"2026-04-18 06:35:25"}
+[32minfo[39m: PostgreSQL connected successfully {"timestamp":"2026-04-18 06:35:25"}
+[32minfo[39m: Server running on http://127.0.0.1:3001 {"timestamp":"2026-04-18 06:35:25"}
+[32minfo[39m: Environment: development {"timestamp":"2026-04-18 06:35:25"}
+Recommender model not found — using rule-based fallback
+[32mINFO[0m:     Started server process [[36m127[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:8000[0m (Press CTRL+C to quit)
+[32minfo[39m: GET /api/mentorship/mentors — 127.0.0.1 {"timestamp":"2026-04-18 06:35:50"}
+[32minfo[39m: GET /api/mentorship/my — 127.0.0.1 {"timestamp":"2026-04-18 06:35:50"}
+[32minfo[39m: GET /api/mentorship/my — 127.0.0.1 {"timestamp":"2026-04-18 06:35:50"}
+[32minfo[39m: GET /api/mentorship/mentors — 127.0.0.1 {"timestamp":"2026-04-18 06:35:50"}
+[32minfo[39m: POST /api/mentorship/book — 127.0.0.1 {"timestamp":"2026-04-18 06:36:32"}
+[32minfo[39m: Mentorship session booked: a97d6634-968a-482f-ad21-860a8a2e9982 {"timestamp":"2026-04-18 06:36:32"}
+[32minfo[39m: GET /api/mentorship/my — 127.0.0.1 {"timestamp":"2026-04-18 06:36:33"}

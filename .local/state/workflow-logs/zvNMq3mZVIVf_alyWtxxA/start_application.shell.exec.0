@@ -1,0 +1,342 @@
+
+> cap-counseling-frontend@1.0.0 dev
+> vite --host 0.0.0.0 --port 5000
+
+[1G[0K
+> cap-counseling-backend@1.0.0 start
+> node server.js
+
+[1G[0K[2m7:00:04 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because lockfile has changed
+
+  [32m[1mVITE[22m v7.3.2[39m  [2mready in [0m[1m209[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5000[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.24.0.2:[1m5000[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[32minfo[39m: DB connected at: Sat Apr 18 2026 07:00:04 GMT+0000 (Coordinated Universal Time) {"timestamp":"2026-04-18 07:00:04"}
+[32minfo[39m: PostgreSQL connected successfully {"timestamp":"2026-04-18 07:00:04"}
+[32minfo[39m: Server running on http://127.0.0.1:3001 {"timestamp":"2026-04-18 07:00:04"}
+[32minfo[39m: Environment: development {"timestamp":"2026-04-18 07:00:04"}
+Recommender model not found — using rule-based fallback
+[32mINFO[0m:     Started server process [[36m720[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:8000[0m (Press CTRL+C to quit)
+[32minfo[39m: GET /api/mentorship/my — 127.0.0.1 {"timestamp":"2026-04-18 07:00:18"}
+[32minfo[39m: GET /api/mentorship/mentors — 127.0.0.1 {"timestamp":"2026-04-18 07:00:18"}
+[32minfo[39m: GET /api/payment/plans — 127.0.0.1 {"timestamp":"2026-04-18 07:00:18"}
+[32minfo[39m: GET /api/mentorship/mentors — 127.0.0.1 {"timestamp":"2026-04-18 07:00:18"}
+[32minfo[39m: GET /api/mentorship/my — 127.0.0.1 {"timestamp":"2026-04-18 07:00:18"}
+[32minfo[39m: GET /api/payment/plans — 127.0.0.1 {"timestamp":"2026-04-18 07:00:18"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:01:02 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/InputPage.jsx[22m
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-18 07:01:04"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-18 07:01:05"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-18 07:01:07"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-18 07:01:08"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-18 07:01:21"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-18 07:01:22"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:01:26 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/assets/styles/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:01:31 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/MentorshipPage.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:01:32 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/MentorshipPage.jsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:01:40 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/MentorshipPage.jsx[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:01:40 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /home/runner/workspace/frontend-web/src/pages/MentorshipPage.jsx: Unterminated JSX contents. (397:10)
+
+[0m [90m 395 |[31m         [33m/[31m[33m>[31m
+ [90m 396 |[31m       )}
+[31m[1m>[22m[31m[90m 397 |[31m     [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m     |[31m           [31m[1m^[22m[31m
+ [90m 398 |[31m   )
+ [90m 399 |[31m }
+ [90m 400 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/runner/workspace/frontend-web/src/pages/MentorshipPage.jsx[39m:397:10
+[33m  395 |          />
+  396 |        )}
+  397 |      </div>
+      |            ^
+  398 |    )
+  399 |  }[39m
+      at constructor (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.jsxReadToken (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:4448:20)
+      at JSXParserMixin.getTokenFromCode (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:4774:12)
+      at JSXParserMixin.nextToken (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:5782:10)
+      at JSXParserMixin.next (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:5692:10)
+      at JSXParserMixin.eat (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:5696:12)
+      at JSXParserMixin.expect (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:6898:15)
+      at JSXParserMixin.jsxParseClosingElementAt (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:4680:10)
+      at JSXParserMixin.jsxParseElementAt (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:4695:37)
+      at JSXParserMixin.jsxParseElementAt (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElement (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseReturnStatement (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:13142:28)
+      at JSXParserMixin.parseStatementContent (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:12798:21)
+      at JSXParserMixin.parseStatementLike (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseFunctionBody (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:12100:24)
+      at JSXParserMixin.parseFunctionBodyAndFinish (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:12086:10)
+      at /home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:13445:12
+      at JSXParserMixin.withSmartMixTopicForbiddingContext (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:12403:14)
+      at JSXParserMixin.parseFunction (/home/runner/workspace/frontend-web/node_modules/@babel/parser/lib/index.js:13444:10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:01:43 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/MentorshipPage.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:01:50 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/MentorshipPage.jsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:02:10 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/MentorshipPage.jsx[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:02:12 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/assets/styles/index.css[22m

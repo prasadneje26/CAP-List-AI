@@ -1,0 +1,245 @@
+[1G[0K⠙[1G[0K
+> cap-counseling-frontend@1.0.0 dev
+> vite --host 0.0.0.0 --port 5000
+
+[1G[0K⠙[1G[0K[1G[0K⠙[1G[0K
+> cap-counseling-backend@1.0.0 start
+> node server.js
+
+[1G[0K⠙[1G[0K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v7.3.2[39m  [2mready in [0m[1m1066[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5000[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.24.0.2:[1m5000[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[32minfo[39m: DB connected at: Sat Apr 18 2026 06:42:58 GMT+0000 (Coordinated Universal Time) {"timestamp":"2026-04-18 06:42:58"}
+[32minfo[39m: PostgreSQL connected successfully {"timestamp":"2026-04-18 06:42:58"}
+[32minfo[39m: Server running on http://127.0.0.1:3001 {"timestamp":"2026-04-18 06:42:58"}
+[32minfo[39m: Environment: development {"timestamp":"2026-04-18 06:42:58"}
+Recommender model not found — using rule-based fallback
+[32mINFO[0m:     Started server process [[36m72[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:8000[0m (Press CTRL+C to quit)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:54:21 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx[22m
+[32minfo[39m: POST /api/chatbot/ask — 127.0.0.1 {"timestamp":"2026-04-18 06:55:00"}
+2026-04-18 06:55:00,587 | ERROR | LLM error: No LLM configured. Set LLM_PROVIDER and the corresponding API key.
+2026-04-18 06:55:00,588 | INFO | POST /chatbot/ask — 1.32ms
+[32mINFO[0m:     127.0.0.1:56586 - "[1mPOST /chatbot/ask HTTP/1.1[0m" [32m200 OK[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:55:39 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/assets/styles/index.css[22m
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-18 06:56:08"}
+[32minfo[39m: Running full prediction for student: 2aa729ed-2c01-45c5-803f-9f0e63b6e969 {"timestamp":"2026-04-18 06:56:08"}
+[31merror[39m: POST /api/predict/full — No colleges found matching your profile. Try broadening your filters. {"timestamp":"2026-04-18 06:56:08"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-18 06:56:10"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-18 06:56:11"}
+[32minfo[39m: PUT /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-18 06:56:33"}
+[32minfo[39m: Student profile updated for user: prasadvitthalneje26@gmail.com {"timestamp":"2026-04-18 06:56:33"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-18 06:56:37"}
+[32minfo[39m: Running full prediction for student: 2aa729ed-2c01-45c5-803f-9f0e63b6e969 {"timestamp":"2026-04-18 06:56:37"}
+[31merror[39m: POST /api/predict/full — No colleges found matching your profile. Try broadening your filters. {"timestamp":"2026-04-18 06:56:37"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-18 06:56:40"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-18 06:56:40"}
+[32minfo[39m: PUT /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-18 06:56:51"}
+[32minfo[39m: Student profile updated for user: prasadvitthalneje26@gmail.com {"timestamp":"2026-04-18 06:56:51"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-18 06:56:54"}
+[32minfo[39m: Running full prediction for student: 2aa729ed-2c01-45c5-803f-9f0e63b6e969 {"timestamp":"2026-04-18 06:56:54"}
+2026-04-18 06:56:54,880 | INFO | POST /admission/predict — 19.81ms
+2026-04-18 06:56:54,881 | INFO | POST /admission/predict — 20.55ms
+2026-04-18 06:56:54,882 | INFO | POST /admission/predict — 21.28ms
+[32mINFO[0m:     127.0.0.1:34030 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:34050 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:34040 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-18 06:56:54,883 | INFO | POST /admission/predict — 22.39ms
+2026-04-18 06:56:54,883 | INFO | POST /admission/predict — 21.78ms
+2026-04-18 06:56:54,883 | INFO | POST /admission/predict — 22.63ms
+2026-04-18 06:56:54,883 | INFO | POST /admission/predict — 22.05ms
+2026-04-18 06:56:54,884 | INFO | POST /admission/predict — 22.1ms
+2026-04-18 06:56:54,884 | INFO | POST /admission/predict — 22.25ms
+2026-04-18 06:56:54,884 | INFO | POST /admission/predict — 22.32ms
+2026-04-18 06:56:54,884 | INFO | POST /admission/predict — 22.42ms
+2026-04-18 06:56:54,884 | INFO | POST /admission/predict — 22.48ms
+2026-04-18 06:56:54,884 | INFO | POST /admission/predict — 22.58ms
+2026-04-18 06:56:54,884 | INFO | POST /admission/predict — 22.87ms
+[32mINFO[0m:     127.0.0.1:34054 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:34076 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:34062 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:34070 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:34094 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:34080 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:34100 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:34110 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:34114 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:34120 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:34128 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-18 06:56:54,888 | INFO | POST /admission/predict — 25.12ms
+2026-04-18 06:56:54,888 | INFO | POST /admission/predict — 25.39ms
+2026-04-18 06:56:54,888 | INFO | POST /admission/predict — 25.42ms
+2026-04-18 06:56:54,888 | INFO | POST /admission/predict — 25.59ms
+[32mINFO[0m:     127.0.0.1:34170 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:34142 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:34166 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:34150 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32minfo[39m: Prediction complete in 101ms — 13 colleges {"timestamp":"2026-04-18 06:56:54"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-18 06:58:04"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-18 06:58:04"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-18 06:58:06"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-18 06:58:06"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-18 06:58:13"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-18 06:58:13"}
+[32minfo[39m: GET /api/mentorship/mentors — 127.0.0.1 {"timestamp":"2026-04-18 06:58:19"}
+[32minfo[39m: GET /api/mentorship/my — 127.0.0.1 {"timestamp":"2026-04-18 06:58:19"}
+[32minfo[39m: GET /api/mentorship/my — 127.0.0.1 {"timestamp":"2026-04-18 06:58:19"}
+[32minfo[39m: GET /api/mentorship/mentors — 127.0.0.1 {"timestamp":"2026-04-18 06:58:19"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:58:43 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/MentorshipPage.jsx[22m
+[32minfo[39m: GET /api/mentorship/my — 127.0.0.1 {"timestamp":"2026-04-18 06:58:45"}
+[32minfo[39m: GET /api/payment/plans — 127.0.0.1 {"timestamp":"2026-04-18 06:58:45"}
+[32minfo[39m: GET /api/mentorship/mentors — 127.0.0.1 {"timestamp":"2026-04-18 06:58:45"}
+[32minfo[39m: GET /api/payment/plans — 127.0.0.1 {"timestamp":"2026-04-18 06:58:45"}
+[32minfo[39m: GET /api/mentorship/mentors — 127.0.0.1 {"timestamp":"2026-04-18 06:58:45"}
+[32minfo[39m: GET /api/mentorship/my — 127.0.0.1 {"timestamp":"2026-04-18 06:58:45"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:59:45 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/assets/styles/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:59:53 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/MentorshipPage.jsx[22m
+[32minfo[39m: GET /api/mentorship/mentors — 127.0.0.1 {"timestamp":"2026-04-18 06:59:58"}
+[32minfo[39m: GET /api/payment/plans — 127.0.0.1 {"timestamp":"2026-04-18 06:59:58"}
+[32minfo[39m: GET /api/mentorship/my — 127.0.0.1 {"timestamp":"2026-04-18 06:59:58"}
+[32minfo[39m: GET /api/payment/plans — 127.0.0.1 {"timestamp":"2026-04-18 06:59:58"}
+[32minfo[39m: GET /api/mentorship/my — 127.0.0.1 {"timestamp":"2026-04-18 06:59:58"}
+[32minfo[39m: GET /api/mentorship/mentors — 127.0.0.1 {"timestamp":"2026-04-18 06:59:58"}

@@ -1,0 +1,593 @@
+
+> cap-counseling-backend@1.0.0 start
+> node server.js
+
+[1G[0K
+> cap-counseling-frontend@1.0.0 dev
+> vite --host 0.0.0.0 --port 5000
+
+[1G[0K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v7.3.2[39m  [2mready in [0m[1m209[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5000[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.24.0.2:[1m5000[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[32minfo[39m: DB connected at: Fri Apr 17 2026 13:06:19 GMT+0000 (Coordinated Universal Time) {"timestamp":"2026-04-17 13:06:19"}
+[32minfo[39m: PostgreSQL connected successfully {"timestamp":"2026-04-17 13:06:19"}
+[32minfo[39m: Server running on http://127.0.0.1:3001 {"timestamp":"2026-04-17 13:06:19"}
+[32minfo[39m: Environment: development {"timestamp":"2026-04-17 13:06:19"}
+Recommender model not found — using rule-based fallback
+[32mINFO[0m:     Started server process [[36m1675[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:8000[0m (Press CTRL+C to quit)
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 13:06:29"}
+[32minfo[39m: Running full prediction for student: 2aa729ed-2c01-45c5-803f-9f0e63b6e969 {"timestamp":"2026-04-17 13:06:29"}
+[31merror[39m: POST /api/predict/full — No colleges found matching your profile. Try broadening your filters. {"timestamp":"2026-04-17 13:06:29"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:06:31"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:06:31"}
+[32minfo[39m: PUT /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:06:34"}
+[32minfo[39m: Student profile updated for user: prasadvitthalneje26@gmail.com {"timestamp":"2026-04-17 13:06:34"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 13:06:38"}
+[32minfo[39m: Running full prediction for student: 2aa729ed-2c01-45c5-803f-9f0e63b6e969 {"timestamp":"2026-04-17 13:06:38"}
+[31merror[39m: POST /api/predict/full — No colleges found matching your profile. Try broadening your filters. {"timestamp":"2026-04-17 13:06:38"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 13:06:53"}
+[32minfo[39m: Running full prediction for student: 2aa729ed-2c01-45c5-803f-9f0e63b6e969 {"timestamp":"2026-04-17 13:06:53"}
+[31merror[39m: POST /api/predict/full — No colleges found matching your profile. Try broadening your filters. {"timestamp":"2026-04-17 13:06:53"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:06:58"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:06:59"}
+[32minfo[39m: PUT /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:07:03"}
+[32minfo[39m: Student profile updated for user: prasadvitthalneje26@gmail.com {"timestamp":"2026-04-17 13:07:03"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 13:07:07"}
+[32minfo[39m: Running full prediction for student: 2aa729ed-2c01-45c5-803f-9f0e63b6e969 {"timestamp":"2026-04-17 13:07:07"}
+[31merror[39m: POST /api/predict/full — No colleges found matching your profile. Try broadening your filters. {"timestamp":"2026-04-17 13:07:07"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:07:21"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:07:21"}
+[32minfo[39m: PUT /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:07:24"}
+[32minfo[39m: Student profile updated for user: prasadvitthalneje26@gmail.com {"timestamp":"2026-04-17 13:07:24"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 13:07:42"}
+[32minfo[39m: Running full prediction for student: 2aa729ed-2c01-45c5-803f-9f0e63b6e969 {"timestamp":"2026-04-17 13:07:42"}
+[31merror[39m: POST /api/predict/full — No colleges found matching your profile. Try broadening your filters. {"timestamp":"2026-04-17 13:07:42"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 13:09:01"}
+[32minfo[39m: Running full prediction for student: 2aa729ed-2c01-45c5-803f-9f0e63b6e969 {"timestamp":"2026-04-17 13:09:01"}
+[31merror[39m: POST /api/predict/full — No colleges found matching your profile. Try broadening your filters. {"timestamp":"2026-04-17 13:09:01"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:09:04"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:09:04"}
+[32minfo[39m: PUT /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:09:06"}
+[32minfo[39m: Student profile updated for user: prasadvitthalneje26@gmail.com {"timestamp":"2026-04-17 13:09:06"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 13:09:08"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 13:09:08"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-17 13:09:10"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-17 13:09:10"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 13:09:19"}
+[32minfo[39m: Running full prediction for student: 2aa729ed-2c01-45c5-803f-9f0e63b6e969 {"timestamp":"2026-04-17 13:09:19"}
+[31merror[39m: POST /api/predict/full — No colleges found matching your profile. Try broadening your filters. {"timestamp":"2026-04-17 13:09:19"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 13:10:18"}
+[32minfo[39m: Running full prediction for student: 2aa729ed-2c01-45c5-803f-9f0e63b6e969 {"timestamp":"2026-04-17 13:10:18"}
+[31merror[39m: POST /api/predict/full — No colleges found matching your profile. Try broadening your filters. {"timestamp":"2026-04-17 13:10:18"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:10:22"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:10:23"}
+[32minfo[39m: PUT /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:10:25"}
+[32minfo[39m: Student profile updated for user: prasadvitthalneje26@gmail.com {"timestamp":"2026-04-17 13:10:25"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 13:10:28"}
+[32minfo[39m: Running full prediction for student: 2aa729ed-2c01-45c5-803f-9f0e63b6e969 {"timestamp":"2026-04-17 13:10:28"}
+[31merror[39m: POST /api/predict/full — No colleges found matching your profile. Try broadening your filters. {"timestamp":"2026-04-17 13:10:28"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 13:12:43"}
+[32minfo[39m: Running full prediction for student: 2aa729ed-2c01-45c5-803f-9f0e63b6e969 {"timestamp":"2026-04-17 13:12:43"}
+[31merror[39m: POST /api/predict/full — No colleges found matching your profile. Try broadening your filters. {"timestamp":"2026-04-17 13:12:43"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:12:45"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:12:46"}
+[32minfo[39m: PUT /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:12:48"}
+[32minfo[39m: Student profile updated for user: prasadvitthalneje26@gmail.com {"timestamp":"2026-04-17 13:12:48"}
+[32minfo[39m: PUT /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:12:48"}
+[32minfo[39m: Student profile updated for user: prasadvitthalneje26@gmail.com {"timestamp":"2026-04-17 13:12:48"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 13:12:52"}
+[32minfo[39m: Running full prediction for student: 2aa729ed-2c01-45c5-803f-9f0e63b6e969 {"timestamp":"2026-04-17 13:12:52"}
+[31merror[39m: POST /api/predict/full — No colleges found matching your profile. Try broadening your filters. {"timestamp":"2026-04-17 13:12:52"}
+[32minfo[39m: GET /api/mentorship/mentors — 127.0.0.1 {"timestamp":"2026-04-17 13:12:58"}
+[32minfo[39m: GET /api/mentorship/my — 127.0.0.1 {"timestamp":"2026-04-17 13:12:58"}
+[32minfo[39m: GET /api/mentorship/mentors — 127.0.0.1 {"timestamp":"2026-04-17 13:12:58"}
+[32minfo[39m: GET /api/mentorship/my — 127.0.0.1 {"timestamp":"2026-04-17 13:12:58"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-17 13:12:59"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-17 13:12:59"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 13:13:13"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 13:13:13"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:13:14"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:13:14"}
+[32minfo[39m: PUT /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:13:26"}
+[32minfo[39m: Student profile updated for user: prasadvitthalneje26@gmail.com {"timestamp":"2026-04-17 13:13:26"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 13:13:30"}
+[32minfo[39m: Running full prediction for student: 2aa729ed-2c01-45c5-803f-9f0e63b6e969 {"timestamp":"2026-04-17 13:13:30"}
+2026-04-17 13:13:30,885 | INFO | POST /admission/predict — 21.55ms
+2026-04-17 13:13:30,885 | INFO | POST /admission/predict — 20.37ms
+2026-04-17 13:13:30,886 | INFO | POST /admission/predict — 20.45ms
+2026-04-17 13:13:30,886 | INFO | POST /admission/predict — 20.52ms
+2026-04-17 13:13:30,886 | INFO | POST /admission/predict — 20.5ms
+2026-04-17 13:13:30,886 | INFO | POST /admission/predict — 20.56ms
+2026-04-17 13:13:30,886 | INFO | POST /admission/predict — 20.62ms
+2026-04-17 13:13:30,886 | INFO | POST /admission/predict — 20.69ms
+2026-04-17 13:13:30,886 | INFO | POST /admission/predict — 20.85ms
+2026-04-17 13:13:30,886 | INFO | POST /admission/predict — 20.92ms
+2026-04-17 13:13:30,886 | INFO | POST /admission/predict — 20.95ms
+2026-04-17 13:13:30,887 | INFO | POST /admission/predict — 21.06ms
+2026-04-17 13:13:30,887 | INFO | POST /admission/predict — 21.07ms
+2026-04-17 13:13:30,887 | INFO | POST /admission/predict — 21.15ms
+2026-04-17 13:13:30,887 | INFO | POST /admission/predict — 21.19ms
+2026-04-17 13:13:30,887 | INFO | POST /admission/predict — 21.27ms
+2026-04-17 13:13:30,887 | INFO | POST /admission/predict — 21.33ms
+2026-04-17 13:13:30,887 | INFO | POST /admission/predict — 21.48ms
+[32mINFO[0m:     127.0.0.1:43404 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43412 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43418 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43434 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43444 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43460 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43476 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43490 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43506 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43514 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43522 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43528 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43532 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43546 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43552 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43568 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43576 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43588 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32minfo[39m: Prediction complete in 97ms — 11 colleges {"timestamp":"2026-04-17 13:13:30"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 13:13:33"}
+[32minfo[39m: Running full prediction for student: 2aa729ed-2c01-45c5-803f-9f0e63b6e969 {"timestamp":"2026-04-17 13:13:33"}
+2026-04-17 13:13:33,028 | INFO | POST /admission/predict — 14.36ms
+[32mINFO[0m:     127.0.0.1:43522 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 13:13:33,035 | INFO | POST /admission/predict — 20.0ms
+2026-04-17 13:13:33,035 | INFO | POST /admission/predict — 21.98ms
+2026-04-17 13:13:33,036 | INFO | POST /admission/predict — 18.55ms
+2026-04-17 13:13:33,036 | INFO | POST /admission/predict — 18.6ms
+2026-04-17 13:13:33,036 | INFO | POST /admission/predict — 18.66ms
+2026-04-17 13:13:33,036 | INFO | POST /admission/predict — 18.6ms
+2026-04-17 13:13:33,036 | INFO | POST /admission/predict — 18.29ms
+[32mINFO[0m:     127.0.0.1:43476 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43444 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43404 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43528 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43546 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43568 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43588 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 13:13:33,038 | INFO | POST /admission/predict — 21.09ms
+2026-04-17 13:13:33,038 | INFO | POST /admission/predict — 21.01ms
+2026-04-17 13:13:33,038 | INFO | POST /admission/predict — 20.87ms
+2026-04-17 13:13:33,038 | INFO | POST /admission/predict — 25.74ms
+2026-04-17 13:13:33,038 | INFO | POST /admission/predict — 24.02ms
+[32mINFO[0m:     127.0.0.1:43506 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43532 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43576 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43418 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43460 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 13:13:33,039 | INFO | POST /admission/predict — 25.68ms
+2026-04-17 13:13:33,039 | INFO | POST /admission/predict — 25.93ms
+2026-04-17 13:13:33,039 | INFO | POST /admission/predict — 22.03ms
+2026-04-17 13:13:33,039 | INFO | POST /admission/predict — 24.79ms
+2026-04-17 13:13:33,039 | INFO | POST /admission/predict — 22.37ms
+[32mINFO[0m:     127.0.0.1:43514 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43434 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43552 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43490 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:43412 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32minfo[39m: Prediction complete in 86ms — 11 colleges {"timestamp":"2026-04-17 13:13:33"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 13:21:23"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 13:21:24"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:23:31"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:23:32"}
+[32minfo[39m: PUT /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:23:43"}
+[32minfo[39m: Student profile updated for user: prasadvitthalneje26@gmail.com {"timestamp":"2026-04-17 13:23:43"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:29:24"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:29:24"}
+[32minfo[39m: PUT /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:29:27"}
+[32minfo[39m: Student profile updated for user: prasadvitthalneje26@gmail.com {"timestamp":"2026-04-17 13:29:27"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 13:29:32"}
+[32minfo[39m: Running full prediction for student: 2aa729ed-2c01-45c5-803f-9f0e63b6e969 {"timestamp":"2026-04-17 13:29:32"}
+2026-04-17 13:29:32,267 | INFO | POST /admission/predict — 22.05ms
+[32mINFO[0m:     127.0.0.1:44496 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 13:29:32,268 | INFO | POST /admission/predict — 21.0ms
+2026-04-17 13:29:32,268 | INFO | POST /admission/predict — 21.1ms
+2026-04-17 13:29:32,268 | INFO | POST /admission/predict — 22.65ms
+2026-04-17 13:29:32,268 | INFO | POST /admission/predict — 21.27ms
+2026-04-17 13:29:32,268 | INFO | POST /admission/predict — 21.33ms
+2026-04-17 13:29:32,268 | INFO | POST /admission/predict — 21.35ms
+2026-04-17 13:29:32,268 | INFO | POST /admission/predict — 21.42ms
+2026-04-17 13:29:32,268 | INFO | POST /admission/predict — 21.44ms
+2026-04-17 13:29:32,268 | INFO | POST /admission/predict — 21.47ms
+2026-04-17 13:29:32,268 | INFO | POST /admission/predict — 21.43ms
+2026-04-17 13:29:32,269 | INFO | POST /admission/predict — 21.45ms
+2026-04-17 13:29:32,269 | INFO | POST /admission/predict — 21.48ms
+2026-04-17 13:29:32,269 | INFO | POST /admission/predict — 21.51ms
+2026-04-17 13:29:32,269 | INFO | POST /admission/predict — 21.57ms
+2026-04-17 13:29:32,269 | INFO | POST /admission/predict — 21.65ms
+2026-04-17 13:29:32,269 | INFO | POST /admission/predict — 21.64ms
+2026-04-17 13:29:32,269 | INFO | POST /admission/predict — 21.7ms
+[32mINFO[0m:     127.0.0.1:44520 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:44526 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:44510 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:44532 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:44534 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:44544 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:44552 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:44554 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:44562 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:44570 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:44586 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:44590 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:44602 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:44604 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:44608 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:44624 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:44634 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32minfo[39m: Prediction complete in 81ms — 11 colleges {"timestamp":"2026-04-17 13:29:32"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:38:09"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:38:09"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:38:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/assets/styles/index.css[22m
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 13:38:38"}
+[32minfo[39m: Running full prediction for student: 2aa729ed-2c01-45c5-803f-9f0e63b6e969 {"timestamp":"2026-04-17 13:38:38"}
+2026-04-17 13:38:38,720 | INFO | POST /admission/predict — 21.84ms
+2026-04-17 13:38:38,721 | INFO | POST /admission/predict — 22.26ms
+2026-04-17 13:38:38,721 | INFO | POST /admission/predict — 22.4ms
+2026-04-17 13:38:38,721 | INFO | POST /admission/predict — 22.44ms
+[32mINFO[0m:     127.0.0.1:56814 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:56826 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:56842 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:56856 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 13:38:38,724 | INFO | POST /admission/predict — 23.76ms
+2026-04-17 13:38:38,727 | INFO | POST /admission/predict — 25.86ms
+2026-04-17 13:38:38,727 | INFO | POST /admission/predict — 27.24ms
+2026-04-17 13:38:38,727 | INFO | POST /admission/predict — 26.85ms
+2026-04-17 13:38:38,728 | INFO | POST /admission/predict — 27.46ms
+2026-04-17 13:38:38,729 | INFO | POST /admission/predict — 28.28ms
+2026-04-17 13:38:38,730 | INFO | POST /admission/predict — 28.34ms
+2026-04-17 13:38:38,730 | INFO | POST /admission/predict — 29.34ms
+2026-04-17 13:38:38,732 | INFO | POST /admission/predict — 30.71ms
+2026-04-17 13:38:38,732 | INFO | POST /admission/predict — 30.9ms
+2026-04-17 13:38:38,732 | INFO | POST /admission/predict — 31.0ms
+2026-04-17 13:38:38,732 | INFO | POST /admission/predict — 31.05ms
+2026-04-17 13:38:38,732 | INFO | POST /admission/predict — 31.08ms
+[32mINFO[0m:     127.0.0.1:56860 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:56874 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:56858 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:56868 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:56892 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:56902 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:56904 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:56880 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:56910 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:56922 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:56936 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:56944 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:56956 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+2026-04-17 13:38:38,737 | INFO | POST /admission/predict — 35.99ms
+[32mINFO[0m:     127.0.0.1:56964 - "[1mPOST /admission/predict HTTP/1.1[0m" [32m200 OK[0m
+[32minfo[39m: Prediction complete in 129ms — 11 colleges {"timestamp":"2026-04-17 13:38:38"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:38:52 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/CollegeCard.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:39:28 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx[22m
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 13:40:30"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 13:40:31"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:40:52 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Home.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:42:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.jsx[22m
+[2m1:42:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ new dependencies optimized: [33mrecharts[32m[39m
+[2m1:42:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 13:42:11"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 13:42:11"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:42:50 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/ChatbotWidget.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:43:28 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Login.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:44:52 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/MentorshipPage.jsx[22m
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 13:45:06"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 13:45:07"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:45:29 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ResultsPage.jsx[22m
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 13:45:31"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 13:45:31"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:45:38"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:45:38"}
+[32minfo[39m: PUT /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 13:45:54"}
+[32minfo[39m: Student profile updated for user: prasadvitthalneje26@gmail.com {"timestamp":"2026-04-17 13:45:54"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 13:46:10"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 13:46:11"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:46:14 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Register.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:47:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/InputPage.jsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:48:12 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ProfilePage.jsx[22m

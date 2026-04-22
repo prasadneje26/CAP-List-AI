@@ -1,0 +1,11 @@
+/nix/store/sj74dzrygwdxpb54fv7zc6ry75ay4f3n-python-wrapped-0.1.0/bin/python3: No module named uvicorn
+[1G[0K⠙[1G[0K⠙[1G[0K
+> cap-counseling-backend@1.0.0 start
+> node server.js
+
+[1G[0K⠙[1G[0K
+> cap-counseling-frontend@1.0.0 dev
+> vite --host 0.0.0.0 --port 5000
+
+[1G[0K⠙[1G[0K[1G[0Ksh: 1: vite: not found
+[1G[0K⠙[1G[0K

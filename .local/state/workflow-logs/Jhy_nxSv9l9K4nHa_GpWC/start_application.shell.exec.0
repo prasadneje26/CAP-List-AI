@@ -1,0 +1,25 @@
+
+> cap-counseling-frontend@1.0.0 dev
+> vite --host 0.0.0.0 --port 5000
+
+[1G[0K
+> cap-counseling-backend@1.0.0 start
+> node server.js
+
+[1G[0KPort 5000 is in use, trying another one...
+
+  [32m[1mVITE[22m v7.3.2[39m  [2mready in [0m[1m256[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5001[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.24.0.2:[1m5001[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[32minfo[39m: DB connected at: Fri Apr 17 2026 13:48:13 GMT+0000 (Coordinated Universal Time) {"timestamp":"2026-04-17 13:48:13"}
+[32minfo[39m: PostgreSQL connected successfully {"timestamp":"2026-04-17 13:48:13"}
+[31merror[39m: Uncaught Exception: listen EADDRINUSE: address already in use 127.0.0.1:3001 {"address":"127.0.0.1","code":"EADDRINUSE","errno":-98,"port":3001,"stack":"Error: listen EADDRINUSE: address already in use 127.0.0.1:3001\n    at Server.setupListenHandle [as _listen2] (node:net:1908:16)\n    at listenInCluster (node:net:1965:12)\n    at doListen (node:net:2139:7)\n    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)","syscall":"listen","timestamp":"2026-04-17 13:48:13"}
+[1G[0K⠙[1G[0KRecommender model not found — using rule-based fallback
+[32mINFO[0m:     Started server process [[36m3405[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[31mERROR[0m:    [Errno 98] error while attempting to bind on address ('127.0.0.1', 8000): address already in use
+[32mINFO[0m:     Waiting for application shutdown.
+[32mINFO[0m:     Application shutdown complete.

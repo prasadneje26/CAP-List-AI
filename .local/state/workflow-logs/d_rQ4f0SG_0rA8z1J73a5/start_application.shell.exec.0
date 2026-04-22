@@ -1,0 +1,92 @@
+
+> cap-counseling-frontend@1.0.0 dev
+> vite --host 0.0.0.0 --port 5000
+
+[1G[0K
+> cap-counseling-backend@1.0.0 start
+> node server.js
+
+[1G[0K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v7.3.2[39m  [2mready in [0m[1m206[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5000[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.24.0.2:[1m5000[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[32minfo[39m: DB connected at: Fri Apr 17 2026 12:44:35 GMT+0000 (Coordinated Universal Time) {"timestamp":"2026-04-17 12:44:35"}
+[32minfo[39m: PostgreSQL connected successfully {"timestamp":"2026-04-17 12:44:35"}
+[32minfo[39m: Server running on http://127.0.0.1:3001 {"timestamp":"2026-04-17 12:44:35"}
+[32minfo[39m: Environment: development {"timestamp":"2026-04-17 12:44:35"}
+Model artifact not found: /home/runner/workspace/ai-engine/api/routes/../../cutoff_predictor/model.pkl. Run train_model.py first.
+Classifier not loaded: [Errno 2] No such file or directory: '/home/runner/workspace/ai-engine/api/routes/../../admission_predictor/classifier.pkl'. Using sigmoid fallback.
+Recommender model not found — using rule-based fallback
+[32mINFO[0m:     Started server process [[36m1121[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:8000[0m (Press CTRL+C to quit)
+[32minfo[39m: POST /api/auth/login — 127.0.0.1 {"timestamp":"2026-04-17 12:45:50"}
+[31merror[39m: POST /api/auth/login — Invalid email or password. {"timestamp":"2026-04-17 12:45:50"}
+[32minfo[39m: POST /api/auth/login — 127.0.0.1 {"timestamp":"2026-04-17 12:46:00"}
+[31merror[39m: POST /api/auth/login — Invalid email or password. {"timestamp":"2026-04-17 12:46:00"}
+[32minfo[39m: POST /api/auth/register — 127.0.0.1 {"timestamp":"2026-04-17 12:46:19"}
+[32minfo[39m: New user registered: prasadvitthalneje26@gmail.com {"timestamp":"2026-04-17 12:46:19"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 12:46:20"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 12:46:20"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 12:46:20"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 12:46:20"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 12:53:23"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 12:53:23"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 12:53:23"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 12:53:23"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 12:56:14"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 12:56:14"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 12:56:14"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 12:56:14"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 12:56:15"}
+[31merror[39m: GET /api/predict/history — Student profile not found {"timestamp":"2026-04-17 12:56:15"}
+[32minfo[39m: GET /api/predict/history — 127.0.0.1 {"timestamp":"2026-04-17 12:56:16"}
+[31merror[39m: GET /api/predict/history — Student profile not found {"timestamp":"2026-04-17 12:56:16"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-17 12:56:16"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-17 12:56:17"}
+[32minfo[39m: GET /api/mentorship/mentors — 127.0.0.1 {"timestamp":"2026-04-17 12:56:18"}
+[32minfo[39m: GET /api/mentorship/my — 127.0.0.1 {"timestamp":"2026-04-17 12:56:18"}
+[32minfo[39m: GET /api/mentorship/mentors — 127.0.0.1 {"timestamp":"2026-04-17 12:56:18"}
+[32minfo[39m: GET /api/mentorship/my — 127.0.0.1 {"timestamp":"2026-04-17 12:56:18"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 12:56:44"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 12:56:44"}
+[32minfo[39m: GET /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 12:56:44"}
+[31merror[39m: GET /api/student/profile — Student profile not found. Please create one first. {"timestamp":"2026-04-17 12:56:44"}
+[32minfo[39m: POST /api/student/create — 127.0.0.1 {"timestamp":"2026-04-17 12:57:04"}
+[32minfo[39m: Student profile created for user: prasadvitthalneje26@gmail.com {"timestamp":"2026-04-17 12:57:04"}
+[32minfo[39m: PUT /api/student/profile — 127.0.0.1 {"timestamp":"2026-04-17 12:57:05"}
+[32minfo[39m: Student profile updated for user: prasadvitthalneje26@gmail.com {"timestamp":"2026-04-17 12:57:05"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 12:57:08"}
+[32minfo[39m: Running full prediction for student: 2aa729ed-2c01-45c5-803f-9f0e63b6e969 {"timestamp":"2026-04-17 12:57:08"}
+[31merror[39m: POST /api/predict/full — No colleges found matching your profile. Try broadening your filters. {"timestamp":"2026-04-17 12:57:08"}
+[32minfo[39m: POST /api/predict/full — 127.0.0.1 {"timestamp":"2026-04-17 13:03:13"}
+[32minfo[39m: Running full prediction for student: 2aa729ed-2c01-45c5-803f-9f0e63b6e969 {"timestamp":"2026-04-17 13:03:13"}
+[31merror[39m: POST /api/predict/full — No colleges found matching your profile. Try broadening your filters. {"timestamp":"2026-04-17 13:03:13"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-17 13:03:21"}
+[32minfo[39m: GET /api/colleges/ — 127.0.0.1 {"timestamp":"2026-04-17 13:03:22"}
